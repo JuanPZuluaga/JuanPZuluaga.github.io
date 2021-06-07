@@ -85,7 +85,7 @@ author:
   bio              : "PhD Student | École polytechnique fédérale de Lausanne ‐ EPFL"
   location         : "Lausanne, Switzerland"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.ru/citations?user=_9_Ja2MAAAAJ&hl=en"
   email            :
   researchgate     :  "https://www.researchgate.net/profile/Juan-Pablo-Zuluaga"
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/juan-pablo-zuluaga-gomez-co/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-6947-2706"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
