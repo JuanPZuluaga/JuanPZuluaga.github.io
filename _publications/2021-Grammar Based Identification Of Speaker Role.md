@@ -13,7 +13,7 @@ Assistant Based Speech Recognition (ABSR) for air traffic control is generally t
 
 
 
-[Download paper here](https://arxiv.org/abs/2108.12175)
+[Download paper here](https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/files/pdf/2021_Grammar%20Based%20Identification%20Of%20Speaker%20Role%20For%20Im%202021.pdf)
 
 Recommended citation: 
 
