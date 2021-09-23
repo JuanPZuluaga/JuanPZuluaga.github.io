@@ -3,7 +3,7 @@ title: "Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveil
 collection: publications
 permalink: /publication/2021-Contextual Semi-Supervised Learning: An Approach to Leverage
 excerpt: 'This paper is about the Automatic Speech Recognition for Air-traffic Control Communications'
-date: 2021-09-01
+date: 2021-08-28
 venue: 'Interspeech 2021'
 paperurl: 'https://isca-speech.org/archive/interspeech_2021/zuluagagomez21_interspeech.html'
 citation: 'Zuluaga-Gomez, J., Nigmatulina, I., Prasad, A., Motlicek, P., Veselý, K., Kocour, M., Szöke, I. (2021) Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems. Proc. Interspeech 2021, 3296-3300, doi: 10.21437/Interspeech.2021-1373.'

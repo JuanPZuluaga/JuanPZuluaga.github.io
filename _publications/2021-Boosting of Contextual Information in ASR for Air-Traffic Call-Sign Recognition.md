@@ -3,7 +3,7 @@ title: "Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Reco
 collection: publications
 permalink: /publication/2021-Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition
 excerpt: 'This paper is about the Automatic Speech Recognition for Air-traffic Control Communications'
-date: 2021-09-01
+date: 2021-08-28
 venue: 'Interspeech 2021'
 paperurl: 'https://isca-speech.org/archive/interspeech_2021/kocour21_interspeech.html'
 citation: 'Kocour, M., Veselý, K., Blatt, A., Gomez, J.Z., Szöke, I., Černocký, J., Klakow, D., Motlicek, P. (2021) Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition. Proc. Interspeech 2021, 3301-3305, doi: 10.21437/Interspeech.2021-1619.'
