@@ -16,6 +16,8 @@ Abstract: Automatic Speech Recognition (ASR) can be used as the assistance of sp
 
 Recommended citation: 
 
+- Cite as: Nigmatulina, I., Braun, R., Zuluaga-Gomez, J. and Motlicek, P., 2021. Improving callsign recognition with air-surveillance data in air-traffic communication. arXiv preprint arXiv:2108.12156.
+
 - BibTeX
 @article{nigmatulina2021improving,
   title={Improving callsign recognition with air-surveillance data in air-traffic communication},
