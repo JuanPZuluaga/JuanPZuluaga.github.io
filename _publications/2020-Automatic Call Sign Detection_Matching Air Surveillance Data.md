@@ -1,7 +1,7 @@
 ---
 title: "Automatic Call Sign Detection: Matching Air Surveillance Data with Air Traffic Spoken Communications"
 collection: publications
-permalink: /publication/2020-Automatic Call Sign Detection: Matching Air Surveillance Data
+permalink: /publication/2020-Automatic Call Sign Detection_Matching Air Surveillance Data
 excerpt: 'This paper is about the Automatic Speech Recognition for Air-traffic Control Communications'
 date: 2020-12-03
 venue: 'Proceedings of 8th OpenSky Symposium 2020'
