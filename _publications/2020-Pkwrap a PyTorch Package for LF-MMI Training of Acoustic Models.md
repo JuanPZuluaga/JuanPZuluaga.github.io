@@ -14,9 +14,10 @@ We present a simple wrapper that is useful to train acoustic models in PyTorch u
 
 [Download paper here](https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/files/pdf/2020_Pkwrap:%20a%20PyTorch%20Package%20for%20LF-MMI_2020.pdf)
 
-Recommended citation: 
+**Recommended citation**: 
 
-- Cite as: Madikeri, S., Tong, S., Zuluaga-Gomez, J., Vyas, A., Motlicek, P. and Bourlard, H., 2020. Pkwrap: a pytorch package for lf-mmi training of acoustic models. arXiv preprint arXiv:2010.03466.
+Madikeri, S., Tong, S., Zuluaga-Gomez, J., Vyas, A., Motlicek, P. and Bourlard, H., 2020. Pkwrap: a pytorch package for lf-mmi training of acoustic models. arXiv preprint arXiv:2010.03466.
+{: .notice}
 
 <pre>
 - BibTeX:

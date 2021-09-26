@@ -13,9 +13,10 @@ A recent study from GLOBOCAN disclosed that during 2018 two million women worldw
 
 [Download paper here](https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/files/pdf/2020_A%20CNN-BASED%20METHODOLOGY%20FOR%20BREAST_2020.pdf)
 
-Recommended citation: 
+**Recommended citation**: 
 
-- Cite as: Zuluaga-Gomez, J., Al Masry, Z., Benaggoune, K., Meraghni, S. and Zerhouni, N., 2021. A CNN-based methodology for breast cancer diagnosis using thermal images. Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, 9(2), pp.131-145.
+Zuluaga-Gomez, J., Al Masry, Z., Benaggoune, K., Meraghni, S. and Zerhouni, N., 2021. A CNN-based methodology for breast cancer diagnosis using thermal images. Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, 9(2), pp.131-145.
+{: .notice}
 
 
 - BibTeX:

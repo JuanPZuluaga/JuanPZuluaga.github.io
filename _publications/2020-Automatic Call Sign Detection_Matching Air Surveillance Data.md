@@ -13,9 +13,10 @@ Voice communication is the main channel to exchange information between pilots a
 
 [Download paper here](https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/files/pdf/2020_Automatic%20Call%20Sign%20Detection:%20Matching%20Air%20Surveillance_2020.pdf)
 
-Recommended citation: 
+**Recommended citation**: 
 
-- Cite as: Zuluaga-Gomez, J.; Veselý, K.; Blatt, A.; Motlicek, P.; Klakow, D.; Tart, A.; Szöke, I.; Prasad, A.; Sarfjoo, S.; Kolčárek, P.; Kocour, M.; Černocký, H.; Cevenini, C.; Choukri, K.; Rigault, M.; Landis, F. Automatic Call Sign Detection: Matching Air Surveillance Data with Air Traffic Spoken Communications. Proceedings 2020, 59, 14. https://doi.org/10.3390/proceedings2020059014
+Zuluaga-Gomez, J.; Veselý, K.; Blatt, A.; Motlicek, P.; Klakow, D.; Tart, A.; Szöke, I.; Prasad, A.; Sarfjoo, S.; Kolčárek, P.; Kocour, M.; Černocký, H.; Cevenini, C.; Choukri, K.; Rigault, M.; Landis, F. Automatic Call Sign Detection: Matching Air Surveillance Data with Air Traffic Spoken Communications. Proceedings 2020, 59, 14. https://doi.org/10.3390/proceedings2020059014
+{: .notice}
 
 
 - BibTeX:

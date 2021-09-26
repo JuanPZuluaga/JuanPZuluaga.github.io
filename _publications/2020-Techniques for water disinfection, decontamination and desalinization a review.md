@@ -13,9 +13,10 @@ Freshwater is a critical component for social and economic sustainability, but a
 
 [Download paper here](https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/files/pdf/2019_Techniques%20for%20water%20disinfection_2019.pdf)
 
-Recommended citation: 
+**Recommended citation**: 
 
-- Cite as: Zuluaga-Gomez, J., Bonaveri, P., Zuluaga, D., Álvarez-Peña, C. and Ramirez-Ortiz, N., 2020. Techniques for water disinfection, decontamination and desalinization: A review. Desalin. WATER Treat, 181, pp.47-63.
+Zuluaga-Gomez, J., Bonaveri, P., Zuluaga, D., Álvarez-Peña, C. and Ramirez-Ortiz, N., 2020. Techniques for water disinfection, decontamination and desalinization: A review. Desalin. WATER Treat, 181, pp.47-63.
+{: .notice}
 
 - BibTeX:
 

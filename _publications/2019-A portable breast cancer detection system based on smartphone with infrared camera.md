@@ -16,7 +16,10 @@ The traditional detection methods have the disadvantages of radiation exposure, 
 
 Recommended citation: 
 
-- Cite as: Ma, J., Shang, P., Lu, C., Meraghni, S., Benaggoune, K., Zuluaga, J., Zerhouni, N., Devalland, C. and Al Masry, Z., 2019. A portable breast cancer detection system based on smartphone with infrared camera. Vibroengineering PROCEDIA, 26, pp.57-63.
+**Cite as**: 
+
+Ma, J., Shang, P., Lu, C., Meraghni, S., Benaggoune, K., Zuluaga, J., Zerhouni, N., Devalland, C. and Al Masry, Z., 2019. A portable breast cancer detection system based on smartphone with infrared camera. Vibroengineering PROCEDIA, 26, pp.57-63.
+{: .notice}
 
 
 - BibTeX:

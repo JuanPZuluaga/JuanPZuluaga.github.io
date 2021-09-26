@@ -14,9 +14,10 @@ Advances in Automatic Speech Recognition (ASR) over the last decade opened new a
 
 [Download paper here](https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/files/pdf/2020_Automatic%20Speech%20Recognition%20Benchmark_2020.pdf)
 
-Recommended citation: 
+**Recommended citation**: 
 
-- Cite as: Zuluaga-Gomez, J., Motlicek, P., Zhan, Q., Veselý, K., Braun, R. (2020) Automatic Speech Recognition Benchmark for Air-Traffic Communications. Proc. Interspeech 2020, 2297-2301, doi: 10.21437/Interspeech.2020-2173
+Zuluaga-Gomez, J., Motlicek, P., Zhan, Q., Veselý, K., Braun, R. (2020) Automatic Speech Recognition Benchmark for Air-Traffic Communications. Proc. Interspeech 2020, 2297-2301, doi: 10.21437/Interspeech.2020-2173
+{: .notice}
 
 <pre>
 - BibTeX:

@@ -14,9 +14,7 @@ Breast cancer is a disease that threat many women’s life, thus, the early and 
 
 [Download paper here](https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/files/pdf/2019_A%20survey%20of%20breast%20cancer_2019.pdf)
 
-Recommended citation: 
-
-**Cite as**: 
+**Recommended citation**: 
 
 Zuluaga-Gomez, J., Zerhouni, N., Al Masry, Z., Devalland, C. and Varnier, C., 2019. A survey of breast cancer screening techniques: thermography and electrical impedance tomography. Journal of medical engineering & technology, 43(5), pp.305-322.
 {: .notice}

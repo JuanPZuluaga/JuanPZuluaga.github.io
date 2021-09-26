@@ -14,9 +14,10 @@ Contextual adaptation of ASR can be very beneficial for multi-accent and often n
 
 [Download paper here](https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/files/pdf/2021_Boosting%20of%20contextual%20information%20in%20ASR%20for_2021.pdf)
 
-Recommended citation: 
+**Recommended citation**: 
 
-- Cite as: Kocour, M., Veselý, K., Blatt, A., Gomez, J.Z., Szöke, I., Černocký, J., Klakow, D., Motlicek, P. (2021) Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition. Proc. Interspeech 2021, 3301-3305, doi: 10.21437/Interspeech.2021-1619
+Kocour, M., Veselý, K., Blatt, A., Gomez, J.Z., Szöke, I., Černocký, J., Klakow, D., Motlicek, P. (2021) Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition. Proc. Interspeech 2021, 3301-3305, doi: 10.21437/Interspeech.2021-1619
+{: .notice}
 
 - BibTeX:
 
