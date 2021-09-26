@@ -16,7 +16,10 @@ Air traffic management and specifically air-traffic control (ATC) rely mostly on
 Recommended citation: 
 
 - Cite as: Zuluaga-Gomez, J., Nigmatulina, I., Prasad, A., Motlicek, P., Veselý, K., Kocour, M., Szöke, I. (2021) Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems. Proc. Interspeech 2021, 3296-3300, doi: 10.21437/Interspeech.2021-1373
+
 - BibTeX:
+
+<pre>
 @inproceedings{zuluagagomez21_interspeech,
   author={Juan Zuluaga-Gomez and Iuliia Nigmatulina and Amrutha Prasad and Petr Motlicek and Karel Veselý and Martin Kocour and Igor Szöke},
   title={{Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems}},
@@ -25,3 +28,4 @@ Recommended citation:
   pages={3296--3300},
   doi={10.21437/Interspeech.2021-1373}
 }
+</pre>

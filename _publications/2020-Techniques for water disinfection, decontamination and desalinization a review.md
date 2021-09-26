@@ -17,12 +17,13 @@ Recommended citation:
 
 - Cite as: Zuluaga-Gomez, J., Bonaveri, P., Zuluaga, D., Álvarez-Peña, C. and Ramirez-Ortiz, N., 2020. Techniques for water disinfection, decontamination and desalinization: A review. Desalin. WATER Treat, 181, pp.47-63.
 
-
 - BibTeX:
 
+<pre>
 @article{zuluaga2020techniques,
   title={Techniques for water disinfection, decontamination and desalinization: a review},
   author={Zuluaga G{\'o}mez, J and Bonaveri, P and Zuluaga, D and {\'A}lvarez Pe{\~n}a, Constantina and Ram{\'\i}rez Ortiz, Nicol{\'a}s and others},
   journal={Desalination And Water Treatment},
   year={2020}
 }
+</pre>

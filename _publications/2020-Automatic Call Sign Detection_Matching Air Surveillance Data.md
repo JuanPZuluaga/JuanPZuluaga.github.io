@@ -19,6 +19,8 @@ Recommended citation:
 
 
 - BibTeX:
+
+<pre>
 @inproceedings{zuluaga2020automatic_callsign,
   title={Automatic call sign detection: Matching air surveillance data with air traffic spoken communications},
   author={Zuluaga-Gomez, Juan and Vesel{\`y}, Karel and Blatt, Alexander and Motlicek, Petr and Klakow, Dietrich and Tart, Allan and Sz{\"o}ke, Igor and Prasad, Amrutha and Sarfjoo, Saeed and Kol{\v{c}}{\'a}rek, Pavel and others},
@@ -28,3 +30,4 @@ Recommended citation:
   pages={14},
   year={2020}
 }
+</pre>

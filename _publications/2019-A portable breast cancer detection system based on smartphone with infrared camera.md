@@ -21,6 +21,7 @@ Recommended citation:
 
 - BibTeX:
 
+<pre>
 @article{ma2019portable,
   title={A portable breast cancer detection system based on smartphone with infrared camera},
   author={Ma, Jian and Shang, Pengchao and Lu, Chen and Meraghni, Safa and Benaggoune, Khaled and Zuluaga, Juan and Zerhouni, Noureddine and Devalland, Christine and Al Masry, Zeina},
@@ -30,3 +31,4 @@ Recommended citation:
   year={2019},
   publisher={JVE International Ltd.}
 }
+</pre>

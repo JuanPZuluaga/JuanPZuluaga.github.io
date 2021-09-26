@@ -18,9 +18,9 @@ Recommended citation:
 
 - Cite as: Zuluaga-Gomez, J., Zerhouni, N., Al Masry, Z., Devalland, C. and Varnier, C., 2019. A survey of breast cancer screening techniques: thermography and electrical impedance tomography. Journal of medical engineering & technology, 43(5), pp.305-322.
 
-
 - BibTeX:
 
+<pre>
 @article{zuluaga2019survey,
   title={A survey of breast cancer screening techniques: thermography and electrical impedance tomography},
   author={Zuluaga-Gomez, J and Zerhouni, Noureddine and Al Masry, Zeina and Devalland, C and Varnier, Christophe},
@@ -31,3 +31,4 @@ Recommended citation:
   year={2019},
   publisher={Taylor \& Francis}
 }
+</pre>

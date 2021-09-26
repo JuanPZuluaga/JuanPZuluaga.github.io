@@ -19,6 +19,8 @@ Recommended citation:
 
 
 - BibTeX:
+
+<pre>
 @article{zuluaga2021cnn,
   title={A CNN-based methodology for breast cancer diagnosis using thermal images},
   author={Zuluaga-Gomez, Juan and Al Masry, Zeina and Benaggoune, Khaled and Meraghni, Safa and Zerhouni, Nourredine},
@@ -29,3 +31,4 @@ Recommended citation:
   year={2021},
   publisher={Taylor \& Francis}
 }
+</pre>

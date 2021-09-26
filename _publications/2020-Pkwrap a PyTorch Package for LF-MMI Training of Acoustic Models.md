@@ -18,7 +18,7 @@ Recommended citation:
 
 - Cite as: Madikeri, S., Tong, S., Zuluaga-Gomez, J., Vyas, A., Motlicek, P. and Bourlard, H., 2020. Pkwrap: a pytorch package for lf-mmi training of acoustic models. arXiv preprint arXiv:2010.03466.
 
-
+<pre>
 - BibTeX:
 @article{madikeri2020pkwrap,
   title={Pkwrap: a pytorch package for lf-mmi training of acoustic models},
@@ -26,3 +26,4 @@ Recommended citation:
   journal={arXiv preprint arXiv:2010.03466},
   year={2020}
 }
+</pre>

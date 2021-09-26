@@ -18,7 +18,7 @@ Recommended citation:
 
 - Cite as: Zuluaga-Gomez, J., Motlicek, P., Zhan, Q., Veselý, K., Braun, R. (2020) Automatic Speech Recognition Benchmark for Air-Traffic Communications. Proc. Interspeech 2020, 2297-2301, doi: 10.21437/Interspeech.2020-2173
 
-
+<pre>
 - BibTeX:
 @inproceedings{zuluagagomez20_interspeech,
   author={Juan Zuluaga-Gomez and Petr Motlicek and Qingran Zhan and Karel Veselý and Rudolf Braun},
@@ -28,3 +28,4 @@ Recommended citation:
   pages={2297--2301},
   doi={10.21437/Interspeech.2020-2173}
 }
+</pre>
