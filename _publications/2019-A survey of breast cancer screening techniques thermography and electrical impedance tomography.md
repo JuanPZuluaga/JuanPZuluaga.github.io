@@ -16,8 +16,11 @@ Breast cancer is a disease that threat many women’s life, thus, the early and 
 
 Recommended citation: 
 
-**Cite as**: Zuluaga-Gomez, J., Zerhouni, N., Al Masry, Z., Devalland, C. and Varnier, C., 2019. A survey of breast cancer screening techniques: thermography and electrical impedance tomography. Journal of medical engineering & technology, 43(5), pp.305-322.
-{: .notice}
+**Cite as**: 
+
+```
+Zuluaga-Gomez, J., Zerhouni, N., Al Masry, Z., Devalland, C. and Varnier, C., 2019. A survey of breast cancer screening techniques: thermography and electrical impedance tomography. Journal of medical engineering & technology, 43(5), pp.305-322.
+```
 
 - BibTeX:
 
