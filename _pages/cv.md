@@ -54,9 +54,9 @@ Skills
 Hobbies
 ======
 * Cooking
+* Reading (currently: The Expanse - novel series)
 * Coffee Roasting
 * Traveling and Hiking
-
 
 Publications
 ======
@@ -64,6 +64,24 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Achievements
+======
+* Winner Hackaton, 2020
+  * International Create Challenge Winner (1st place - 10k)
+  * Special HealthTech Award by Groupe Mutuel
+* Erasmus Mundus Scholarship, 2017
+  * Awarded by European Union, EACEA
+  * Program: Joint Master Degree in Mechatronic Engineering - EU4M
+* Research Scholarship: visits in Germany, 2014
+  * Awarded by: German Academic Exchange Service (DAAD)
+  * Program: visits in several research labs in Germany
+* Scholarship:, 2015 and 217
+  * Awarded by: Universidad Autonoma del Caribe
+  * Reason: to attend XV and XVI World Summit of Nobel Peace Laureates in Spain (2015) and Colombia (2017)
+* Honor Roll:, 2012 - 2015
+  * Awarded by: Universidad Autonoma del Caribe
+  * Reason: 6 times Honor Roll (4.5/5.0) - grade score distinction
+
 Talks
 ======
   <ul>{% for post in site.talks %}
