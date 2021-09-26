@@ -17,9 +17,9 @@ Education
 
 Work experience
 ======
-* January 2020 - Actual: Computer Science Student
+* January 2020 - Actual: Ph.D. Student in Computer Science
   * Idiap Research Institute and EPFL (Martigny, Switzerland)
-  * Duties included: Automatic Speech Recognition and Processing 
+  * Topics: Automatic Speech Recognition and Natural Language Processing 
   * Current Projects: ATCO2, HAAWAII, Skysoft, Eurocontrol
   * Supervisor: Petr Motlicek
 
