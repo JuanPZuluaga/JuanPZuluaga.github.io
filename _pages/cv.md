@@ -26,7 +26,8 @@ Work experience
 * January-December, 2019: Master Thesis, Research Assitant
   * Research Institute Femto-ST (Besancon, France)
   * Duties included: Computer Science & Mechatronics Engineer
-  * Supervisor: EU-Project: SBRA-"Smart BRA"
+  * Supervisor: Noureddine Zerhouni
+  * EU-Project: SBRA-"Smart BRA"
 
 * January 2014 - Actual: Mechatronics Research Group Member
   * Universidad Autonoma del Caribe (Barranquilla, Colombia)
