@@ -43,13 +43,14 @@ Skills
 * Technical (IT) Skills:
   * Automatic Speech Recognition (ASR)
   * Natural Language Processing (NLP)
-  * Languages: Python, Matlab, Bash Scripting
+  * Languages: Python and Matlab 
+  * Others: Jupyter, Google Colab, Bash, LaTeX
+  * Softwares: Matlab, Solidworks, Proteus, Eagle, LabView
 * Soft Skills:
-  * Communication and Teamwork
-  * Self-management and problem solving
+  * Teamwork
   * Communication
-  * Communication
-  * Communication
+  * Self-management
+  * Problem Solving
 
 Hobbies
 ======
@@ -64,7 +65,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Achievements
+Scholarships, Awards, Distinctions
 ======
 * Winner Hackaton, 2020
   * International Create Challenge Winner (1st place - 10k)
