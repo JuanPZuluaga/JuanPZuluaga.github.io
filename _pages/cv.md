@@ -11,30 +11,52 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mechatronic Engineering, Universidad Autonoma del Caribe, 2016
+* M.S. in Mechatronic Engineering, Universidad de Oviedo, 2019
+* Ph.D in Computer Science, École Polytechnique Fédérale de Lausanne, 2024 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January 2020 - Actual: Computer Science Student
+  * Idiap Research Institute and EPFL (Martigny, Switzerland)
+  * Duties included: Automatic Speech Recognition and Processing 
+  * Current Projects: ATCO2, HAAWAII, Skysoft, Eurocontrol
+  * Supervisor: Petr Motlicek
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* January-December, 2019: Master Thesis, Research Assitant
+  * Research Institute Femto-ST (Besancon, France)
+  * Duties included: Computer Science & Mechatronics Engineer
+  * Supervisor: EU-Project: SBRA-"Smart BRA"
+
+* January 2014 - Actual: Mechatronics Research Group Member
+  * Universidad Autonoma del Caribe (Barranquilla, Colombia)
+  * Duties included: B.Sc superviser, active member
+  * Supervisor: Pablo Bonaveri
+
+* January 2016 - August 2017: Research and Innovation Deparment: Assistant
+  * Universidad Autonoma del Caribe (Barranquilla, Colombia)
+  * Duties included: Research groups and metrics tracking, (2 patents holder)
+  * Supervisor: Liney Manjarrez and Pablo Bonaveri
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Technical (IT) Skills:
+  * Automatic Speech Recognition (ASR)
+  * Natural Language Processing (NLP)
+  * Languages: Python, Matlab, Bash Scripting
+* Soft Skills:
+  * Communication and Teamwork
+  * Self-management and problem solving
+  * Communication
+  * Communication
+  * Communication
+
+Hobbies
+======
+* Cooking
+* Coffee Roasting
+* Traveling and Hiking
+
 
 Publications
 ======
@@ -54,6 +76,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
