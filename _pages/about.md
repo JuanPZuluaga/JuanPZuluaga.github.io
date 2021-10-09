@@ -29,8 +29,8 @@ CV --> [`here`](/cv/)
 - We submitted 3 papers to [ICASSP 2022](https://2022.ieeeicassp.org/) with Yulia, Amrutha and Saeed from our lab ([Idiap](https://www.idiap.ch/en)). 
 
 - The two papers presented at [Interspeech 2021](https://www.interspeech2021.org/) are:
-  - Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems. [abstract](https://isca-speech.org/archive/interspeech_2021/zuluagagomez21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/zuluagagomez21_interspeech.pdf)
-  - Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition. [abstract](https://isca-speech.org/archive/interspeech_2021/kocour21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/kocour21_interspeech.pdf)
+  - Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems. [abstract](https://isca-speech.org/archive/interspeech_2021/zuluagagomez21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/zuluagagomez21_interspeech.pdf){: .notice}
+  - Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition. [abstract](https://isca-speech.org/archive/interspeech_2021/kocour21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/kocour21_interspeech.pdf){: .notice}
 
 - We are releasing in ArXiv the two papers that were rejected:
   - Improving callsign recognition with air-surveillance data in air-traffic communication. [abstract](https://arxiv.org/abs/2108.12156), [PDF](https://arxiv.org/pdf/2108.12156.pdf) 
