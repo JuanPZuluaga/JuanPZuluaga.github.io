@@ -18,6 +18,17 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 Some useful links
 ======
 
-My latest research --> [here](site.publications)
 My latest research --> [here](/publications/)
-My latest research --> [here](https://juanpzuluaga.github.io//publications/)
+CV --> [here](/cv/)
+
+## News
+
+### 2021
+
+### 2020
+
+### 2019
+
+### 2017
+
+### 2010-2015
