@@ -5,6 +5,7 @@ type: "Talk"
 permalink: /talks/2021-06-03-An introduction to speech-based technologies for Natural Language Processing applications
 venue: "Mexican NLP Summer School 2021"
 date: 2021-06-03
+layout: single
 location: "Ciudad de Mexico, Mexico"
 header :
     image: "https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/_talks/files/mexican_nlp/mexican_nlp.png"
