@@ -28,16 +28,18 @@ CV --> [`here`](/cv/)
 
 - We submitted 3 papers to [ICASSP 2022](https://2022.ieeeicassp.org/) with Yulia, Amrutha and Saeed from our lab ([Idiap](https://www.idiap.ch/en)). 
 
+- Exciting news! our paper submitted [**The 9th OpenSky Symposium**](https://symposium.opensky-network.org/) was accepted! (Automatic processing pipeline for collecting and annotating air-traffic voice communication data)
+
 - The two papers presented at [Interspeech 2021](https://www.interspeech2021.org/) are:
   - Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems. [abstract](https://isca-speech.org/archive/interspeech_2021/zuluagagomez21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/zuluagagomez21_interspeech.pdf){: .notice}
-  - Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition. [abstract](https://isca-speech.org/archive/interspeech_2021/kocour21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/kocour21_interspeech.pdf){: .notice}
+  - Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition.{: .notice} [abstract](https://isca-speech.org/archive/interspeech_2021/kocour21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/kocour21_interspeech.pdf){: .notice}
 
 - We are releasing in ArXiv the two papers that were rejected:
   - Improving callsign recognition with air-surveillance data in air-traffic communication. [abstract](https://arxiv.org/abs/2108.12156), [PDF](https://arxiv.org/pdf/2108.12156.pdf) 
   - Grammar Based Identification Of Speaker Role For Improving ATCO And Pilot ASR. [abstract](https://arxiv.org/abs/2108.12175), [PDF](https://arxiv.org/pdf/2108.12175.pdf)  
 
 
-- Exciting news! two of the four papers submitted to [Interspeech 2021](https://www.interspeech2021.org/) were accepted at interspeech. 
+- Exciting news! two of the four papers submitted to [Interspeech 2021](https://www.interspeech2021.org/) were accepted. 
 
 - We submitted 4 papers to [Interspeech 2021](https://www.interspeech2021.org/) with Yulia and Amrutha from our lab ([Idiap](https://www.idiap.ch/en)) and [Brno University of Technology](https://www.vut.cz/EN/).
 
