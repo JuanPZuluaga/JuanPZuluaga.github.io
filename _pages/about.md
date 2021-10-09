@@ -18,9 +18,9 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 Some useful links
 ======
 
-My latest research --> `[here]`(/publications/)
+My latest research --> [`here`](/publications/)
 
-CV --> `[here]`(/cv/)
+CV --> [`here`](/cv/)
 
 ## Latest news
 
