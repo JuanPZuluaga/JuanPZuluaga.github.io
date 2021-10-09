@@ -19,3 +19,5 @@ Some useful links
 ======
 
 My latest research --> [here](site.publications)
+My latest research --> [here](/publications/)
+My latest research --> [here](https://juanpzuluaga.github.io//publications/)
