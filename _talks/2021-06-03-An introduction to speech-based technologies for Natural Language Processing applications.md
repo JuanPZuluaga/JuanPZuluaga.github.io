@@ -8,7 +8,7 @@ date: 2021-06-03
 layout: single
 location: "Ciudad de Mexico, Mexico"
 header :
-    image: "https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/_talks/files/mexican_nlp/mexican_nlp.png"
+    image: "/_talks/files/mexican_nlp/mexican_nlp.png"
 sidebar:
     nav: sidebar-sample
 ---
