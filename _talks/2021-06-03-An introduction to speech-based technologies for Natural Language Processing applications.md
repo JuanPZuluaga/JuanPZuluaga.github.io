@@ -7,7 +7,7 @@ venue: "Mexican NLP Summer School 2021"
 date: 2021-06-03
 location: "Ciudad de Mexico, Mexico"
 header :
-    image: "https://JuanPZuluaga.github.io/_talks/files/mexican_nlp/mexican_nlp.png"
+    image: "https://github.com/JuanPZuluaga/JuanPZuluaga.github.io/blob/master/_talks/files/mexican_nlp/mexican_nlp.png"
 sidebar:
     nav: sidebar-sample
 ---
