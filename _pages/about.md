@@ -15,3 +15,7 @@ I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de 
 Originally from Baranoa, Colombia. A tiny village in the North of Colombia (around 30 minutes from the Caribbean coast). I received a B.S. in Mechatronics Engineering from [Universidad Autonoma del Caribe](https://www.uac.edu.co/) and an M.Sc. also in Mechatronics Engineering, but this time from [University of Oviedo](https://www.uniovi.es/en) in Spain. 
 
 
+Some useful links
+======
+
+My latest research --> [here](site.publications)
