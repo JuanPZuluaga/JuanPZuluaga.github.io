@@ -2,10 +2,14 @@
 title: "An introduction to speech-based technologies for Natural Language Processing applications"
 collection: talks
 type: "Talk"
-permalink: /talks/2021-06-03-talk
+permalink: /talks/2021-06-03-An introduction to speech-based technologies for Natural Language Processing applications
 venue: "Mexican NLP Summer School 2021"
 date: 2021-06-03
 location: "Ciudad de Mexico, Mexico"
+header :
+    image: "https://maelfabien.github.io/_talks/files/mexican_nlp/mexican_nlp.png"
+sidebar:
+    nav: sidebar-sample
 ---
 
 Since the last two decades, the amount of data generated and collected has grown exponentially, and especially through the rise of unstructured data such as images, videos or text. More recently, audio and speech data have gained a large interest, for example through voice assistants. Companies like Google, Facebook, Apple, and Amazon have shown an increasing interest in professionals with skills and tools for 'understanding' and 'transforming' the massive flow of speech data in relevant information. Some of the most important speech-based technologies are voice activity detection, speaker diarization and identification, and automatic speech recognition. These techologies are often used as an input to various NLP applications afterwards. This brief workshop will give you a set of basic tools for grasping the main aspects of speech-based technologies and how they can be implemented in real-life cases.
