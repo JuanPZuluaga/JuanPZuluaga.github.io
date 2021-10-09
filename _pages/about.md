@@ -26,7 +26,11 @@ CV --> `[here]`(/cv/)
 
 ### 2021
 
-- We submitted 3 papers to [ICASSP 2022](https://2022.ieeeicassp.org/) with Yulia, Amrutha and Saeed from our lab at ([Idiap](https://www.idiap.ch/en)). 
+- We submitted 3 papers to [ICASSP 2022](https://2022.ieeeicassp.org/) with Yulia, Amrutha and Saeed from our lab ([Idiap](https://www.idiap.ch/en)). 
+
+- The two papers presented at [Interspeech 2021](https://www.interspeech2021.org/) are:
+  - Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems. [abstract](https://isca-speech.org/archive/interspeech_2021/zuluagagomez21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/zuluagagomez21_interspeech.pdf)
+  - Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition. [abstract](https://isca-speech.org/archive/interspeech_2021/kocour21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/kocour21_interspeech.pdf)
 
 - Exciting news! two of the four papers submitted to [Interspeech 2021](https://www.interspeech2021.org/) were accepted at interspeech. 
 
