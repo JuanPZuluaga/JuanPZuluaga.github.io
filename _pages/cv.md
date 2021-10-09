@@ -21,23 +21,19 @@ Work experience
   * Idiap Research Institute and EPFL (Martigny, Switzerland)
   * Topics: Automatic Speech Recognition and Natural Language Processing 
   * Current Projects: ATCO2, HAAWAII, Skysoft, Eurocontrol
-  * Supervisor: Petr Motlicek
 
 * January-December, 2019: Master Thesis, Research Assitant
   * Research Institute Femto-ST (Besancon, France)
-  * Duties included: Computer Science & Mechatronics Engineer
-  * Supervisor: Noureddine Zerhouni
-  * EU-Project: SBRA-"Smart BRA"
+  * Duties included: Computer Vision & Mechatronics Engineer
+  * Project: SBRA-"Smart BRA" EU project
 
 * January 2014 - Actual: Mechatronics Research Group Member
   * Universidad Autonoma del Caribe (Barranquilla, Colombia)
-  * Duties included: B.Sc superviser, active member
-  * Supervisor: Pablo Bonaveri
+  * Duties included: B.Sc supervisor, active member
 
 * January 2016 - August 2017: Research and Innovation Deparment: Assistant
   * Universidad Autonoma del Caribe (Barranquilla, Colombia)
   * Duties included: Research groups and metrics tracking, (2 patents holder)
-  * Supervisor: Liney Manjarrez and Pablo Bonaveri
 
 Skills
 ======

@@ -1,7 +1,7 @@
 ---
 title: "Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems"
 collection: publications
-permalink: /publication/2021-Contextual Semi-Supervised Learning: An Approach to Leverage
+permalink: /publication/2021-Contextual Semi-Supervised Learning An Approach to Leverage
 excerpt: 'This paper is about the Automatic Speech Recognition for Air-traffic Control Communications'
 date: 2021-08-28
 venue: 'Interspeech 2021'
