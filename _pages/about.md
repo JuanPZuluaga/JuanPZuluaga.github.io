@@ -64,27 +64,29 @@ Resume / CV: [`click here`](/cv/)
 
 - Exciting news! one paper submitted at [**Interspeech 2020**](http://www.interspeech2020.org/) was accepted for on-site presentation! (Automatic speech recognition benchmark for air-traffic communications)
 
-- Really excited about my first paper about ASR for air-traffic control communications (low-resource task)! It was submitted at [Interspeech 2020](http://www.interspeech2020.org/). Addittionally, we submitted another work with Qingran Zhan from our lab ([Idiap](https://www.idiap.ch/en)) about Articularatory features for ASR.
+- Really excited about my first paper about ASR for air traffic control communications (a low-resource task)! It was submitted at [Interspeech 2020](http://www.interspeech2020.org/). Additionally, we submitted another work with Qingran Zhan from our lab ([Idiap](https://www.idiap.ch/en)) about Articularatory features for ASR.
 
 
 ### 2019
 
 - Another paper from our team (led by Jian Ma) got published in the **Vibroengineering PROCEDIA**:
-  - A portable breast cancer detection system based on smartphone with infrared camera. [abstract](https://www.jvejournals.com/article/20978)[PDF](https://www.jvejournals.com/article/20978/pdf){: .notice}
+  - A portable breast cancer detection system based on a smartphone with an infrared camera. [abstract](https://www.jvejournals.com/article/20978)[PDF](https://www.jvejournals.com/article/20978/pdf){: .notice}
 
-- Time goes so fast! We just published a second Journal paper related to breast cancer diganosis with infrared techniques and maching learning (computer vision)! The paper was accepted for publication in the **Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization**. 
+- Time goes so fast! We just published a second Journal paper related to breast cancer diagnosis with infrared techniques and machine learning (computer vision)! The paper was accepted for publication in the **Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization**. 
 [Journal](https://www.tandfonline.com/doi/abs/10.1080/21681163.2020.1824685) and [pre-print](https://arxiv.org/abs/1910.13757)
 
-- Excited about my first Journal survey paper related to breast cancer diganosis techniques! The survey paper was published in the **Journal of Medical Engineering & Technology**. 
+- Excited about my first Journal survey paper related to breast cancer diagnosis techniques! The survey paper was published in the **Journal of Medical Engineering & Technology**. 
 [Journal](https://www.tandfonline.com/doi/abs/10.1080/03091902.2019.1664672) and [pre-print](https://hal.archives-ouvertes.fr/hal-02387519/document)
 
 - January: Started my Master Thesis at the École nationale supérieure de mécanique et des microtechniques in Besançon, France! I will work on computer vision for breast cancer diagnosis! 
 
 ### 2017
 
-- January: I got the exciting news that I was accepted at the [**The Joint Master Degree in Mechatronic Engineering, EU4M**](https://www.eu4m.eu/inicio)
+- September: Arrived in Gijon, Spain to start a Master's degree in Mechatronics Engineering
+
+- January: I got the exciting news that I was accepted at the [**The Joint Master Degree in Mechatronic Engineering, EU4M**](https://www.eu4m.eu/inicio). This program allows students to select from 2 to 3 (out of 5) universities where to go for studies. I will start at the University of Oviedo in Spain, then I will go to ISPU (Ivanovo, Russia) and finally to ENSMM in France!
 
 ### 2010-2015
 
-- Started and finished a Bachelor's degree in Mechatronics Engineering! I learnt tons of things abour electronics, mechanical engineering, robotics and programming languages (C, Python and Matlab)!
+- Started and finished a Bachelor's degree in Mechatronics Engineering! I learned tons of things about electronics, mechanical engineering, robotics, and programming languages (C, Python, and Matlab)!
 
