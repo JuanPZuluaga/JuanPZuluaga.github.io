@@ -69,9 +69,11 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2019
 
+- Time goes so fast! We just published a second Journal paper related to breast cancer diganosis with infrared techniques and maching learning (computer vision)! The paper was accepted for publication in the **Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization**. 
+[Journal](https://www.tandfonline.com/doi/abs/10.1080/21681163.2020.1824685) and [pre-print](https://arxiv.org/abs/1910.13757)
+
 - Excited about my first Journal survey paper related to breast cancer diganosis techniques! The survey paper was published in the **Journal of Medical Engineering & Technology**. 
 [Journal](https://www.tandfonline.com/doi/abs/10.1080/03091902.2019.1664672) and [pre-print](https://hal.archives-ouvertes.fr/hal-02387519/document)
-
 
 - January: Started my Master Thesis at the École nationale supérieure de mécanique et des microtechniques in Besançon, France! I will work on computer vision for breast cancer diagnosis! 
 
