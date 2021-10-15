@@ -27,7 +27,6 @@ Resume / CV: [`click here`](/cv/)
 
 
 ### 2021
-======
 
 - Out first paper submitted to [ICASSP 2022](https://2022.ieeeicassp.org/) is released in ArXiV:
   - BERTraffic: A Robust BERT-Based Approach for Speaker Change Detection and Role Identification of Air-Traffic Communications. 
@@ -54,7 +53,6 @@ Resume / CV: [`click here`](/cv/)
 
 
 ### 2020
-======
 
 - Exciting news! our paper submitted [**The 8th OpenSky Symposium**](https://symposium.opensky-network.org/) was accepted for virtual presentation! (Automatic Call Sign Detection: Matching Air Surveillance Data with Air Traffic Spoken Communications)
 
@@ -69,7 +67,6 @@ Resume / CV: [`click here`](/cv/)
 
 
 ### 2019
-======
 
 - Another paper from our team (led by Jian Ma) got published in the **Vibroengineering PROCEDIA**:
   - A portable breast cancer detection system based on a smartphone with an infrared camera. [abstract](https://www.jvejournals.com/article/20978)[PDF](https://www.jvejournals.com/article/20978/pdf){: .notice}
@@ -83,14 +80,12 @@ Resume / CV: [`click here`](/cv/)
 - January: Started my Master Thesis at the École nationale supérieure de mécanique et des microtechniques in Besançon, France! I will work on computer vision for breast cancer diagnosis! 
 
 ### 2017
-======
 
 - September: Arrived in Gijon, Spain to start a Master's degree in Mechatronics Engineering! Gijon is such a nice coastal town! 
 
 - January: I got the exciting news that I was accepted at the [**The Joint Master Degree in Mechatronic Engineering, EU4M**](https://www.eu4m.eu/inicio). This program allows students to select from 2 to 3 (out of 5) universities where to go for studies. I will start at the University of Oviedo in Spain, then I will go to ISPU (Ivanovo, Russia) and finally to ENSMM in France!
 
 ### 2010-2015
-======
 
 - Started and finished a Bachelor's degree in Mechatronics Engineering! I learned tons of things about electronics, mechanical engineering, robotics, and programming languages (C, Python, and Matlab)!
 
