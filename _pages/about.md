@@ -69,6 +69,9 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2019
 
+- Another paper from our team (led by Jian Ma) got published in the **Vibroengineering PROCEDIA**:
+  - A portable breast cancer detection system based on smartphone with infrared camera. [abstract](https://www.jvejournals.com/article/20978)[PDF](https://www.jvejournals.com/article/20978/pdf){: .notice}
+
 - Time goes so fast! We just published a second Journal paper related to breast cancer diganosis with infrared techniques and maching learning (computer vision)! The paper was accepted for publication in the **Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization**. 
 [Journal](https://www.tandfonline.com/doi/abs/10.1080/21681163.2020.1824685) and [pre-print](https://arxiv.org/abs/1910.13757)
 
