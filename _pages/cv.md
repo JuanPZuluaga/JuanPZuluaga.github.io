@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+
+One-line CV: [`click here`](/files/cv/Resume_Juan_Pablo_Zuluaga.pdf)
+
+
 Education
 ======
 * B.S. in Mechatronic Engineering, Universidad Autonoma del Caribe, 2016

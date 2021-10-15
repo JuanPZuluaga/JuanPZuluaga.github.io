@@ -18,14 +18,21 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 Some useful links
 ======
 
-My latest research --> [`here`](/publications/)
+My latest research: [`click here`](/publications/)
 
-CV --> [`here`](/cv/)
+Resume / CV: [`click here`](/cv/)
+
 
 ## Latest news
 
 
 ### 2021
+
+
+- Out first paper submitted to [ICASSP 2022](https://2022.ieeeicassp.org/) is released in ArXiV:
+  - BERTraffic: A Robust BERT-Based Approach for Speaker Change Detection and Role Identification of Air-Traffic Communications. 
+  [abstract](https://arxiv.org/abs/2110.05781), [PDF](https://arxiv.org/pdf/2110.05781.pdf){: .notice}
+
 
 - We submitted 3 papers to [ICASSP 2022](https://2022.ieeeicassp.org/) with Yulia, Amrutha and Saeed from our lab ([Idiap](https://www.idiap.ch/en)). 
 
@@ -37,8 +44,8 @@ CV --> [`here`](/cv/)
   - Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition. [abstract](https://isca-speech.org/archive/interspeech_2021/kocour21_interspeech.html), [PDF](https://isca-speech.org/archive/pdfs/interspeech_2021/kocour21_interspeech.pdf){: .notice}
 
 - We are releasing in ArXiv the two papers that were rejected:
-  - Improving callsign recognition with air-surveillance data in air-traffic communication. [abstract](https://arxiv.org/abs/2108.12156), [PDF](https://arxiv.org/pdf/2108.12156.pdf) 
-  - Grammar Based Identification Of Speaker Role For Improving ATCO And Pilot ASR. [abstract](https://arxiv.org/abs/2108.12175), [PDF](https://arxiv.org/pdf/2108.12175.pdf)  
+  - Improving callsign recognition with air-surveillance data in air-traffic communication. [abstract](https://arxiv.org/abs/2108.12156), [PDF](https://arxiv.org/pdf/2108.12156.pdf){: .notice}
+  - Grammar Based Identification Of Speaker Role For Improving ATCO And Pilot ASR. [abstract](https://arxiv.org/abs/2108.12175), [PDF](https://arxiv.org/pdf/2108.12175.pdf){: .notice}
 
 
 - Exciting news! two of the four papers submitted to [Interspeech 2021](https://www.interspeech2021.org/) were accepted. 
