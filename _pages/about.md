@@ -82,9 +82,9 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2017
 
-- loading
+- January: I got the exciting news that I was accepted at the [**The Joint Master Degree in Mechatronic Engineering, EU4M**](https://www.eu4m.eu/inicio)
 
 ### 2010-2015
 
-- loading
+- Started and finished a Bachelor's degree in Mechatronics Engineering! I learnt tons of things abour electronics, mechanical engineering, robotics and programming languages (C, Python and Matlab)!
 
