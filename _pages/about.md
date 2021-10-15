@@ -69,7 +69,11 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2019
 
-- loading
+- Excited about my first Journal survey paper related to breast cancer diganosis techniques! The survey paper was published in the **Journal of Medical Engineering & Technology**. 
+[Journal](https://www.tandfonline.com/doi/abs/10.1080/03091902.2019.1664672) and [pre-print](https://hal.archives-ouvertes.fr/hal-02387519/document)
+
+
+- January: Started my Master Thesis at the École nationale supérieure de mécanique et des microtechniques in Besançon, France! I will work on computer vision for breast cancer diagnosis! 
 
 ### 2017
 
