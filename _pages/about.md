@@ -57,6 +57,16 @@ Resume / CV: [`click here`](/cv/)
 
 - Exciting news! our paper submitted [**The 8th OpenSky Symposium**](https://symposium.opensky-network.org/) was accepted for virtual presentation! (Automatic Call Sign Detection: Matching Air Surveillance Data with Air Traffic Spoken Communications)
 
+- The full paper presented at [Interspeech 2020](https://www.interspeech2020.org/):
+  - Automatic speech recognition benchmark for air-traffic communications.
+  [abstract](https://isca-speech.org/archive/interspeech_2020/zuluagagomez20_interspeech.html)[PDF](https://isca-speech.org/archive/pdfs/interspeech_2020/zuluagagomez20_interspeech.pdf){: .notice}
+
+
+- Exciting news! our paper submitted at [**Interspeech 2020**](http://www.interspeech2020.org/) was accepted for on-site presentation! (Automatic speech recognition benchmark for air-traffic communications)
+
+
+- We submitted 2 papers to [Interspeech 2020](http://www.interspeech2020.org/) with Qingran Zhan from our lab ([Idiap](https://www.idiap.ch/en)).
+
 
 ### 2019
 
