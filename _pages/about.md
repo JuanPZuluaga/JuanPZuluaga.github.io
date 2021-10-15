@@ -85,7 +85,7 @@ Resume / CV: [`click here`](/cv/)
 ### 2017
 ======
 
-- September: Arrived in Gijon, Spain to start a Master's degree in Mechatronics Engineering
+- September: Arrived in Gijon, Spain to start a Master's degree in Mechatronics Engineering! Gijon is such a nice coastal town! 
 
 - January: I got the exciting news that I was accepted at the [**The Joint Master Degree in Mechatronic Engineering, EU4M**](https://www.eu4m.eu/inicio). This program allows students to select from 2 to 3 (out of 5) universities where to go for studies. I will start at the University of Oviedo in Spain, then I will go to ISPU (Ivanovo, Russia) and finally to ENSMM in France!
 
