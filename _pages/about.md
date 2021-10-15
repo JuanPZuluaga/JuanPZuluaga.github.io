@@ -62,10 +62,9 @@ Resume / CV: [`click here`](/cv/)
   [abstract](https://isca-speech.org/archive/interspeech_2020/zuluagagomez20_interspeech.html)[PDF](https://isca-speech.org/archive/pdfs/interspeech_2020/zuluagagomez20_interspeech.pdf){: .notice}
 
 
-- Exciting news! our paper submitted at [**Interspeech 2020**](http://www.interspeech2020.org/) was accepted for on-site presentation! (Automatic speech recognition benchmark for air-traffic communications)
+- Exciting news! one paper submitted at [**Interspeech 2020**](http://www.interspeech2020.org/) was accepted for on-site presentation! (Automatic speech recognition benchmark for air-traffic communications)
 
-
-- We submitted 2 papers to [Interspeech 2020](http://www.interspeech2020.org/) with Qingran Zhan from our lab ([Idiap](https://www.idiap.ch/en)).
+- Really excited about my first paper about ASR for air-traffic control communications (low-resource task)! It was submitted at [Interspeech 2020](http://www.interspeech2020.org/). Addittionally, we submitted another work with Qingran Zhan from our lab ([Idiap](https://www.idiap.ch/en)) about Articularatory features for ASR.
 
 
 ### 2019
