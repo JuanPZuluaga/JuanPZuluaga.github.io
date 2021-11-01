@@ -28,7 +28,7 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2021
 
-- Our team from [Idiap](https://www.idiap.ch/en) and is traveling to Brussels, Belgium to present our paper at [**The 9th OpenSky Symposium**](https://symposium.opensky-network.org/)
+- Our team from [Idiap](https://www.idiap.ch/en) and [BUT](https://www.vut.cz/EN/) is traveling to Brussels, Belgium to present our paper at [**The 9th OpenSky Symposium**](https://symposium.opensky-network.org/)
 
 - Out first paper submitted to [ICASSP 2022](https://2022.ieeeicassp.org/) was just released in ArXiV:
   - BERTraffic: A Robust BERT-Based Approach for Speaker Change Detection and Role Identification of Air-Traffic Communications. 
