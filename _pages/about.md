@@ -28,14 +28,16 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2021
 
-- Out first paper submitted to [ICASSP 2022](https://2022.ieeeicassp.org/) was just released at ArXiV:
+- Our team from [Idiap](https://www.idiap.ch/en) and is traveling to Brussels, Belgium to present our paper at [**The 9th OpenSky Symposium**](https://symposium.opensky-network.org/)
+
+- Out first paper submitted to [ICASSP 2022](https://2022.ieeeicassp.org/) was just released in ArXiV:
   - BERTraffic: A Robust BERT-Based Approach for Speaker Change Detection and Role Identification of Air-Traffic Communications. 
   [abstract](https://arxiv.org/abs/2110.05781), [PDF](https://arxiv.org/pdf/2110.05781.pdf){: .notice}
 
 
 - We submitted 3 papers to [ICASSP 2022](https://2022.ieeeicassp.org/) with Yulia, Amrutha and Saeed from our lab ([Idiap](https://www.idiap.ch/en)). 
 
-- Exciting news! our paper submitted [**The 9th OpenSky Symposium**](https://symposium.opensky-network.org/) was accepted for on-site presentation! (Automatic processing pipeline for collecting and annotating air-traffic voice communication data)
+- Exciting news! Our paper submitted to [**The 9th OpenSky Symposium**](https://symposium.opensky-network.org/) was accepted for on-site presentation! (Automatic processing pipeline for collecting and annotating air-traffic voice communication data)
 
 - The two papers presented at [Interspeech 2021](https://www.interspeech2021.org/) are:
   - Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems.
@@ -54,7 +56,7 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2020
 
-- Exciting news! our paper submitted [**The 8th OpenSky Symposium**](https://symposium.opensky-network.org/) was accepted for virtual presentation! (Automatic Call Sign Detection: Matching Air Surveillance Data with Air Traffic Spoken Communications)
+- Exciting news! our paper submitted to [**The 8th OpenSky Symposium**](https://symposium.opensky-network.org/) was accepted for virtual presentation! (Automatic Call Sign Detection: Matching Air Surveillance Data with Air Traffic Spoken Communications)
 
 - The full paper presented at [Interspeech 2020](https://www.interspeech2020.org/):
   - Automatic speech recognition benchmark for air-traffic communications.
