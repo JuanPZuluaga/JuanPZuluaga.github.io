@@ -11,6 +11,7 @@ redirect_from:
 
 Here are some books I deeply recommend. During my Ph.D. studies, I went from reading barely one book per year, to read around 12 books over the last 9 months. You will find books from literary fiction to economics and even futuristic fiction!  
 
+These are my personal picks. Feel free to recommend one book to my personal email (juan.zuluaga@eu4m.eu)
 
 History, Social Philosophy and Debate
 ======
