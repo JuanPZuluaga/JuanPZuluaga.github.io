@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Here are some books I deeply recommend. During my Ph.D. studies, I went from reading barely one book per year, to reading around 15 during the last 9 months. You will find books from literary fiction to economics and even futuristic fiction!  
+Here are some books I deeply recommend. During my Ph.D. studies, I went from reading barely one book per year, to read around 12 books over the last 9 months. You will find books from literary fiction to economics and even futuristic fiction!  
 
 
 History, Social Philosophy and Debate
