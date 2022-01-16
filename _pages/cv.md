@@ -44,7 +44,7 @@ Skills
 * Technical (IT) Skills:
   * Automatic Speech Recognition (ASR)
   * Natural Language Processing (NLP)
-  * Languages: Python and Matlab 
+  * Languages: Python
   * Others: Jupyter, Google Colab, Bash, LaTeX
   * Softwares: Matlab, Solidworks, Proteus, Eagle, LabView
 * Soft Skills:
@@ -57,7 +57,7 @@ Hobbies
 ======
 * Cooking
 * Reading (currently: The Expanse - novel series)
-* Coffee Roasting
+* Coffee Brewing
 * Traveling and Hiking
 
 Publications
