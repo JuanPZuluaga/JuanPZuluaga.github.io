@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). I am working on a European Union Horizon 2020 project called [ATCO2](https://www.atco2.org/). It is dedicated to the development of an Automatic Air Traffic Speech Recognition system. Also, we aim at developing a unique platform allowing to collect, organize and pre-process air-traffic control (voice communication) data from air space (and yes! air traffic communications are a challenging task!).
+I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). I am working on a European Union Horizon 2020 project called [ATCO2](https://www.atco2.org/). It is dedicated to the development of an Automatic Air Traffic Speech Recognition system. Also, we aim at developing a unique platform allowing to collect, organize and pre-process air-traffic control (voice communications) data from air space (and yes! air traffic communication is a challenging task!).
 
 
 Originally from Baranoa, Colombia. A tiny village in the North of Colombia (around 30 minutes from the Caribbean coast). I received a B.S. in Mechatronics Engineering from [Universidad Autonoma del Caribe](https://www.uac.edu.co/) and an M.Sc. also in Mechatronics Engineering, but this time from [University of Oviedo](https://www.uniovi.es/en) in Spain. 
@@ -28,6 +28,14 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2021
 
+- More news before the Holiday season - end of 2021! Our paper about cross-lingual speech recognition was acepted for publication in [**Electronics**](https://www.mdpi.com/journal/electronics) (Journal) (December, 10(24))!
+  - Domain-Adversarial Based Model with Phonological Knowledge for Cross-Lingual Speech Recognition.
+  [abstract](https://www.mdpi.com/2079-9292/10/24/3172), [PDF](https://www.mdpi.com/2079-9292/10/24/3172/htm){: .notice}
+
+- Our paper submitted to [**The 9th OpenSky Symposium**](https://symposium.opensky-network.org/) has been published in MDPI engineering proceedings!
+  - Automatic Processing Pipeline for Collecting and Annotating Air-Traffic Voice Communication Data.
+  [abstract](https://www.mdpi.com/2673-4591/13/1/8), [PDF](https://www.mdpi.com/2673-4591/13/1/8/htm){: .notice}
+
 - Our team from [Idiap](https://www.idiap.ch/en) and [BUT](https://www.vut.cz/EN/) is traveling to Brussels, Belgium to present our paper at [**The 9th OpenSky Symposium**](https://symposium.opensky-network.org/)
 
 - Out first paper submitted to [ICASSP 2022](https://2022.ieeeicassp.org/) was just released in ArXiV:
@@ -35,7 +43,7 @@ Resume / CV: [`click here`](/cv/)
   [abstract](https://arxiv.org/abs/2110.05781), [PDF](https://arxiv.org/pdf/2110.05781.pdf){: .notice}
 
 
-- We submitted 3 papers to [ICASSP 2022](https://2022.ieeeicassp.org/) with Yulia, Amrutha and Saeed from our lab ([Idiap](https://www.idiap.ch/en)). 
+- We submitted 3 papers to [ICASSP 2022](https://2022.ieeeicassp.org/) with Yulia, Amrutha, Saeed and Petr M., from our lab ([Idiap](https://www.idiap.ch/en)). 
 
 - Exciting news! Our paper submitted to [**The 9th OpenSky Symposium**](https://symposium.opensky-network.org/) was accepted for on-site presentation! (Automatic processing pipeline for collecting and annotating air-traffic voice communication data)
 
