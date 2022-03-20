@@ -49,6 +49,15 @@ Michio Kaku is my favorite author about ohysics and futuristic fiction! His book
 * Physics of the Future: How Science Will Shape Human Destiny and Our Daily Lives by the Year 2100 [Link](https://www.amazon.com/gp/product/0307473333/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307473333&linkCode=as2&tag=kaku-20&linkId=VGABPXTXC3PHL6SA). Rate (4.8 - 5.0)
 
 
+Magic Realism
+======
+You might be wondering what is magic realism, well: also known as magical realism or marvelous realism, it is a 20th-century style of fiction and literary genre. The term was influenced by a German painting style of the 1920s given the same name. As a literary fiction style, magic realism paints a realistic view of the world while also adding magical elements, often dealing with the blurring of the lines between fantasy and reality. Magical realism, perhaps the most common term, often refers to literature in particular, with magical or supernatural phenomena presented in an otherwise real-world or mundane setting, commonly found in novels and dramatic performances. [More information](https://en.wikipedia.org/wiki/Magic_realism).
+
+By far, my favorite writer is Gabriel García Márquez (also Colombian!). One Hundred Years of Solitude, was widely popular book and led to García Márquez's Nobel Prize in Literature. 
+
+* Cien años de soledad (Engish: One Hundred Years of Solitude) [Link](https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude). Rate (5.1 - 5.0). By far, the best book I've ever read
+* El coronel no tiene quien le escriba (English: No One Writes to the Colonel) [link](https://en.wikipedia.org/wiki/No_One_Writes_to_the_Colonel). Rate (4.5 - 5.0). 
+
 
 Thriller, Fiction, Mystery, and Suspense
 ======

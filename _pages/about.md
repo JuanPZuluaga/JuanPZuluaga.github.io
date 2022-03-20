@@ -30,7 +30,7 @@ Resume / CV: [`click here`](/cv/)
 - We are submitting 4 papers to [INTERSPEECH 2022](https://interspeech2022.org/) with Amrutha, Yulia, Saeed and Petr M., from our lab ([Idiap](https://www.idiap.ch/en)) and some other nice co-authors from DLR (Germany) and Brno University of Technology
   - Two submissions are improved versions of the two rejected papers at ICASSP 2022. We are putting a lot of effort into improving the quality of those ones.
   - The third paper is about How pre-trained Wav2Vec2.0 performs on domain-shifted ASR? This is basically an extensive benchmark on air traffic control communications.
-  - A new paper is about a submission to the [Oriental Language Recognition (OLR) 2021 Challenge](http://cslt.riit.tsinghua.edu.cn/mediawiki/index.php/OLR_Challenge_2021) with the School of Information and Electronics at Beijing Institute of Technology. The team obtained second and third place in task 3 and task 4.
+  - A new paper is about School of Information and Electronics, Beijing Institute of Technology submission to the [Oriental Language Recognition (OLR) 2021 Challenge](http://cslt.riit.tsinghua.edu.cn/mediawiki/index.php/OLR_Challenge_2021). The team obtained 2nd and 3rd place in task3 and task4 (constrained and unconstrained ASR for 13 oriental languages). 
 
 - Exciting news! One out of three papers submitted to [**ICASSP 2022**](https://2022.ieeeicassp.org/) were accepted for on-site presentation!
   - Accepted paper: A two-step approach to leverage contextual data: speech recognition in air-traffic communications. 
