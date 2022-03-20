@@ -33,7 +33,7 @@ Resume / CV: [`click here`](/cv/)
   - A new paper is about a submission to the [Oriental Language Recognition (OLR) 2021 Challenge](http://cslt.riit.tsinghua.edu.cn/mediawiki/index.php/OLR_Challenge_2021) with the School of Information and Electronics at Beijing Institute of Technology. The team obtained second and third place in task 3 and task 4.
 
 - Exciting news! One out of three papers submitted to [**ICASSP 2022**](https://2022.ieeeicassp.org/) were accepted for on-site presentation!
-  - A two-step approach to leverage contextual data: speech recognition in air-traffic communications. 
+  - Accepted paper: A two-step approach to leverage contextual data: speech recognition in air-traffic communications. 
   [abstract](https://arxiv.org/abs/2202.03725), [PDF](https://arxiv.org/pdf/2202.03725.pdf){: .notice}
 
 - Rebuttal period for our 3 submissions to ICASSP 2022... Loading... Loading. 

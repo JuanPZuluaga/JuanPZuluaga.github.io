@@ -62,7 +62,8 @@ I really enjoyed the [Chris Kuzneski](http://chriskuzneski.com/) Payne & Jones s
 * The Prophecy [Link](http://chriskuzneski.com/books/the-prophecy.html). Rate (4.4 - 5.0)
 * The Death Relic [Link](http://chriskuzneski.com/books/the-death-relic.html). Rate (4.2 - 5.0)
 
-Currently reading! The expanse series by [James S.A. Corey](https://www.jamessacorey.com/). I have finished the first two books:
+
+Currently reading! The expanse series by [James S.A. Corey](https://www.jamessacorey.com/). I have finished the first two books.
 
 * Leviathan Wakes [Link](https://www.jamessacorey.com/books/leviathan-wakes/). Rate (5.0 - 5.0). (It is literally my favorite!) 
 * Caliban’s War [Link](https://www.jamessacorey.com/books/calibans-war/). Rate (4.5 - 5.0).
