@@ -45,9 +45,7 @@ Futuristic fiction
 Michio Kaku is my favorite author about ohysics and futuristic fiction! His books about star ships, time travel, black holes, wormholes, alien civilizations, hyperspace, anti-matter driv and, parallel universes are just great!
 
 * The Future of Humanity: Terraforming Mars, Interstellar Travel, Immortality, and Our Destiny Beyond Earth [Link](https://mkaku.org/home/publications/about-the-future-of-humanity/). Rate (4.9 - 5.0)
-
 * The Future of the Mind: The Scientific Quest to Understand, Enhance, and Empower the Mind [Link](https://www.amazon.com/gp/product/0307473341/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307473341&linkCode=as2&tag=kaku-20&linkId=WVZ7LHLUD4QVO6OL). Rate (4.5 - 5.0)
-
 * Physics of the Future: How Science Will Shape Human Destiny and Our Daily Lives by the Year 2100 [Link](https://www.amazon.com/gp/product/0307473333/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307473333&linkCode=as2&tag=kaku-20&linkId=VGABPXTXC3PHL6SA). Rate (4.8 - 5.0)
 
 
