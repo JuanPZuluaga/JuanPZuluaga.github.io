@@ -34,8 +34,6 @@ Another author I have been recently reading books from is [Joseph E. Stiglitz](h
 * The Price of Inequality: How Today's Divided Society Endangers Our Future [Link](https://www.amazon.com/The-Price-Inequality-Divided-Endangers-ebook/dp/B007MKCQ30/ref=dp_kinw_strp_1). Rate (4.5 - 5.0)
 * People, Power, and Profits: Progressive Capitalism for an Age of Discontent [Link](https://www8.gsb.columbia.edu/faculty/jstiglitz/books). Currently Reading it! 
 
- author I have been recently reading books from is [Joseph E. Stiglitz](https://www8.gsb.columbia.edu/faculty/jstiglitz/)
-
 Mariana Mazzucato's books are just great. Easy to read and insightfuls. [Her website](https://marianamazzucato.com/)
 * The Value of Everything Making and taking in the global economy [Link](https://marianamazzucato.com/books/the-value-of-everything). Rate (4.9 - 5.0). I really loved this read.
 
@@ -57,7 +55,6 @@ By far, my favorite writer is Gabriel García Márquez (also Colombian!). One Hu
 
 * Cien años de soledad (Engish: One Hundred Years of Solitude) [Link](https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude). Rate (5.1 - 5.0). By far, the best book I've ever read
 * El coronel no tiene quien le escriba (English: No One Writes to the Colonel) [link](https://en.wikipedia.org/wiki/No_One_Writes_to_the_Colonel). Rate (4.5 - 5.0). 
-
 
 Thriller, Fiction, Mystery, and Suspense
 ======
