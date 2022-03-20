@@ -27,11 +27,20 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2022
 
+- We are submitting 4 papers to [INTERSPEECH 2022](https://interspeech2022.org/) with Amrutha, Yulia, Saeed and Petr M., from our lab ([Idiap](https://www.idiap.ch/en)) and some other nice co-authors from DLR (Germany) and Brno University of Technology
+  - Two submissions are improved versions of the two rejected papers at ICASSP 2022. We are putting a lot of effort into improving the quality of those ones.
+  - The third paper is about How pre-trained Wav2Vec2.0 performs on domain-shifted ASR? This is basically an extensive benchmark on air traffic control communications.
+  - A new paper is about a submission to the [Oriental Language Recognition (OLR) 2021 Challenge](http://cslt.riit.tsinghua.edu.cn/mediawiki/index.php/OLR_Challenge_2021). The team obtained second and third place in task 3 and task 4.
+
+- Exciting news! One out of three papers submitted to [**ICASSP 2022**](https://2022.ieeeicassp.org/) were accepted for on-site presentation!
+  - A two-step approach to leverage contextual data: speech recognition in air-traffic communications. 
+  [abstract](https://arxiv.org/abs/2202.03725), [PDF](https://arxiv.org/pdf/2202.03725.pdf){: .notice}
+
 - Rebuttal period for our 3 submissions to ICASSP 2022... Loading... Loading. 
 
 ### 2021
 
-- More news before the Holiday season - end of 2021! Our paper about cross-lingual speech recognition was acepted for publication in [**Electronics**](https://www.mdpi.com/journal/electronics) (Journal) (December, 10(24))!
+- More news before the Holiday season - end of 2021! Our paper about cross-lingual speech recognition was accepted for publication in [**Electronics**](https://www.mdpi.com/journal/electronics) (Journal) (December, 10(24))!
   - Domain-Adversarial Based Model with Phonological Knowledge for Cross-Lingual Speech Recognition.
   [abstract](https://www.mdpi.com/2079-9292/10/24/3172), [PDF](https://www.mdpi.com/2079-9292/10/24/3172/htm){: .notice}
 
