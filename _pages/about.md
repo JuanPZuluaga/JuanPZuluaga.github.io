@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). I am working on a European Union Horizon 2020 project called [ATCO2](https://www.atco2.org/). It is dedicated to the development of an Automatic Air Traffic Speech Recognition system. Also, we aim at developing a unique platform allowing to collect, organize and pre-process air-traffic control (voice communications) data from air space (and yes! air traffic communication is a challenging task!).
+I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). I am working on a European Union Horizon 2020 project called [ATCO2](https://www.atco2.org/). It is dedicated to the development of an Automatic Air Traffic Speech Recognition system. Also, we aim at developing a unique platform allowing to collect, organize and pre-process air traffic control (voice communications) data from air space (and yes! air traffic control communications are quite challenging task!).
 
 
 Originally from Baranoa, Colombia. A tiny village in the North of Colombia (around 30 minutes from the Caribbean coast). I received a B.S. in Mechatronics Engineering from [Universidad Autonoma del Caribe](https://www.uac.edu.co/) and an M.Sc. also in Mechatronics Engineering, but this time from [University of Oviedo](https://www.uniovi.es/en) in Spain. 
@@ -27,10 +27,17 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2022
 
-- We are submitting 4 papers to [INTERSPEECH 2022](https://interspeech2022.org/) with Amrutha, Yulia, Saeed and Petr M., from our lab ([Idiap](https://www.idiap.ch/en)) and some other nice co-authors from DLR (Germany) and Brno University of Technology
-  - Two submissions are improved versions of the two rejected papers at ICASSP 2022. We are putting a lot of effort into improving the quality of those ones.
+- The first two papers submitted to [INTERSPEECH 2022](https://interspeech2022.org/) are up in ArXiV! Check them out! 
+  - BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications
+  [abstract](https://arxiv.org/abs/2110.05781), [PDF](https://arxiv.org/pdf/2110.05781.pdf){: .notice}
+  - How Does Pre-trained Wav2Vec2.0 Perform on Domain-Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications
+  [abstract](https://arxiv.org/abs/2203.16822), [PDF](https://arxiv.org/pdf/2203.16822.pdf){: .notice}
+
+- We submitted 5 papers to [INTERSPEECH 2022](https://interspeech2022.org/) with Yulia, Amrutha, Saeed and Petr M., from our lab ([Idiap](https://www.idiap.ch/en)) and some other nice co-authors from DLR (Germany), Brno University of Technology and Uniphore!
+  - Two submissions are improved versions of the two rejected papers at ICASSP 2022. We are putting a lot of effort into improving the quality of these two.
   - The third paper is about How pre-trained Wav2Vec2.0 performs on domain-shifted ASR? This is basically an extensive benchmark on air traffic control communications.
   - A new paper is about School of Information and Electronics, Beijing Institute of Technology submission to the [Oriental Language Recognition (OLR) 2021 Challenge](http://cslt.riit.tsinghua.edu.cn/mediawiki/index.php/OLR_Challenge_2021). The team obtained 2nd and 3rd place in task3 and task4 (constrained and unconstrained ASR for 13 oriental languages). 
+  - The last paper is about a Kaldi implementation of contextual biasing in GPU decoder for online ASR. Basically, adding some target n-grams after/during ASR decoding.  
 
 - Exciting news! One out of three papers submitted to [**ICASSP 2022**](https://2022.ieeeicassp.org/) were accepted for on-site presentation!
   - Accepted paper: A two-step approach to leverage contextual data: speech recognition in air-traffic communications. 
