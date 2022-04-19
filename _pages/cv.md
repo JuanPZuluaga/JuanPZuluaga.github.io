@@ -10,8 +10,8 @@ redirect_from:
 {% include base_path %}
 
 
-One page CV: [`click here`](/files/cv/Resume_Juan_Pablo_Zuluaga.pdf)
-
+Short resume - CV: [`click here`](/files/cv/Resume_Juan_Pablo_Zuluaga.pdf)
+Extended resume - CV: [`click here`](/files/cv/Long_professional_CV.pdf)
 
 Education
 ======
