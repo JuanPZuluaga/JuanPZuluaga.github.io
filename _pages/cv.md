@@ -11,6 +11,7 @@ redirect_from:
 
 
 Short resume - CV: [`click here`](/files/cv/Resume_Juan_Pablo_Zuluaga.pdf)
+
 Extended resume - CV: [`click here`](/files/cv/Long_professional_CV.pdf)
 
 Education
