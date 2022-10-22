@@ -18,9 +18,19 @@ History, Social Philosophy and Debate
 
 Here, my favorites are from [Yuval Noah Harari](https://www.ynharari.com/). They are a must-read for the XXI Century.
 
-* Sapiens: A Brief History of Humankind [Link](https://www.ynharari.com/book/sapiens-2/). Rate (4.7 - 5.0)
+* Thinking, Fast and Slow [Link](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow). Rate (5.0 - 5.0). My favorite one so far!
 * Homo Deus: A Brief History of Tomorrow [Link](https://www.ynharari.com/book/homo-deus/). Rate (4.7 - 5.0)
 * 21 Lessons for the 21st Century [Link](https://www.ynharari.com/book/21-lessons-book/). Rate (4.4 - 5.0)
+
+Science, Psychology
+======
+
+Here, are my favorites! .
+
+* Sapiens: A Brief History of Humankind [Link](https://www.ynharari.com/book/sapiens-2/). Rate (4.7 - 5.0)
+* LIFE ASCENDING: THE TEN GREAT INVENTIONS OF EVOLUTION [Link](https://nick-lane.net/books/life-ascending-the-ten-great-inventions-of-evolution/). Currently Reading it!
+* THE VITAL QUESTION. WHY IS LIFE THE WAY IT IS? [Link](https://nick-lane.net/books/the-vital-question-why-is-life-the-way-it-is/). Currently Reading it!
+
 
 Economics
 ======
@@ -73,4 +83,8 @@ Currently reading! The expanse series by [James S.A. Corey](https://www.jamessac
 
 * Leviathan Wakes [Link](https://www.jamessacorey.com/books/leviathan-wakes/). Rate (5.0 - 5.0). (It is literally my favorite!) 
 * Caliban’s War [Link](https://www.jamessacorey.com/books/calibans-war/). Rate (4.5 - 5.0).
-* Abaddon’s Gate [Link](https://www.jamessacorey.com/books/abaddons-gate/). Currently Reading it!
+* Abaddon’s Gate [Link](https://www.jamessacorey.com/books/abaddons-gate/). Rate (4.7 - 5.0).
+* Cibola Burn [Link](https://www.jamessacorey.com/books/cibola-burn/). Rate (4.2 - 5.0).
+* Nemesis Games [Link](https://www.jamessacorey.com/books/nemesis-games/). Rate (4.4 - 5.0).
+* Babylon’s Ashes [Link](https://www.jamessacorey.com/books/babylons-ashes/). Currently Reading it!
+
