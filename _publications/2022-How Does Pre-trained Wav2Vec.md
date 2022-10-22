@@ -1,7 +1,7 @@
 ---
-title: "How Does Pre-trained Wav2Vec2.0 Perform on Domain-Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications"
+title: "How Does Pre-trained Wav2Vec 2.0 Perform on Domain-Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications"
 collection: publications
-permalink: /publication/2022-How Does Pre-trained Wav2Vec2.0 Perform on Domain-Shifted ASR
+permalink: /publication/2022-How Does Pre trained Wav2Vec 2 Perform on Domain Shifted
 excerpt: 'This paper is about Automatic Speech Recognition in air traffic Control Communications'
 date: 2022-04-01
 venue: 'ArXiv'
