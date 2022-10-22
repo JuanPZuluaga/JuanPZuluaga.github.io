@@ -1,7 +1,7 @@
 ---
 title: "IDIAPers @ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach"
 collection: publications
-permalink: /publication/2022-CNC challenge Efficient Causal Relation
+permalink: /publication/2022-cnc challenge Efficient Causal Relation
 excerpt: 'In this paper, we describe our participation in the subtask 1 of CASE-2022 (at EMNLP), Event Causality Identification with Casual News Corpus'
 date: 2022-12-02
 venue: 'ArXiv'

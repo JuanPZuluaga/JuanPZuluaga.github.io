@@ -1,7 +1,7 @@
 ---
 title: "IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model"
 collection: publications
-permalink: /publication/2022-CNC challenge Extracting Cause Effect Signal
+permalink: /publication/2022-cnc challenge Extracting Cause Effect Signal
 excerpt: 'In this paper, we describe our participation in the subtask 2 of CASE-2022 (at EMNLP), Event Causality Identification with Casual News Corpus'
 date: 2022-12-02
 venue: 'ArXiv'
