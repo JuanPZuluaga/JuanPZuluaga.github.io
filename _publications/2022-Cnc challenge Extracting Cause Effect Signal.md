@@ -17,7 +17,8 @@ Despite training on an extremely small dataset of 160 samples, our approach achi
 
 **Recommended citation**: 
 
-Fajcik, Martin and Singh, Muskaan and Zuluaga-Gomez, Juan and Villatoro-Tello, Esau and Burdisso, Sergio and Motlicek, Petr and Smrz, Pavel, 2022. IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model. The 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE @ EMNLP 2022). Association for Computational Linguistics.{: .notice}
+Fajcik, Martin and Singh, Muskaan and Zuluaga-Gomez, Juan and Villatoro-Tello, Esau and Burdisso, Sergio and Motlicek, Petr and Smrz, Pavel, 2022. IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model. The 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE @ EMNLP 2022). Association for Computational Linguistics.
+{: .notice}
 
 - BibTeX:
 

@@ -17,7 +17,8 @@ We compare the performance of this method against  ensemble techniques trained o
 
 **Recommended citation**: 
 
-Burdisso, Sergio and Zuluaga-Gomez, Juan and Villatoro-Tello, Esau and Fajcik, Martin and Singh, Muskaan and Smrz, Pavel and Motlicek, Petr, 2022. IDIAPers@ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach. The 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE @ EMNLP 2022). Association for Computational Linguistics.{: .notice}
+Burdisso, Sergio and Zuluaga-Gomez, Juan and Villatoro-Tello, Esau and Fajcik, Martin and Singh, Muskaan and Smrz, Pavel and Motlicek, Petr, 2022. IDIAPers@ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach. The 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE @ EMNLP 2022). Association for Computational Linguistics.
+{: .notice}
 
 - BibTeX:
 

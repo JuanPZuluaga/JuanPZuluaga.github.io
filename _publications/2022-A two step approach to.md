@@ -17,7 +17,8 @@ Abstract: Automatic Speech Recognition (ASR), as the assistance of speech commun
 
 **Recommended citation**: 
 
-Nigmatulina, Iuliia and Zuluaga-Gomez, Juan and Prasad, Amrutha and Saeed Sarfjoo, Seyyed and Motlicek, Petr. (2022). A two-step approach to leverage contextual data: Speech recognition in air-traffic communications. ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing, 6282–6286.{: .notice}
+Nigmatulina, Iuliia and Zuluaga-Gomez, Juan and Prasad, Amrutha and Saeed Sarfjoo, Seyyed and Motlicek, Petr. (2022). A two-step approach to leverage contextual data: Speech recognition in air-traffic communications. ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing, 6282–6286.
+{: .notice}
 
 - BibTeX:
 

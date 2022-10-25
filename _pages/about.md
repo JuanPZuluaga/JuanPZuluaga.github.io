@@ -27,10 +27,13 @@ Resume / CV: [`click here`](/cv/)
 
 ### 2022
 
-- The first two papers submitted to [INTERSPEECH 2022](https://interspeech2022.org/) are up in ArXiV! Check them out! 
+- Working on one paper for [ICASSP 2023](https://2023.ieeeicassp.org/), related to Spoken Language Understanding (SLU).
+
+
+- Two papers accepted at [IEEE Spoken Language Technology Workshop (SLT 2022)](https://slt2022.org/). The camera-ready versions are up in ArXiV. Check them out!
   - BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications
   [abstract](https://arxiv.org/abs/2110.05781), [PDF](https://arxiv.org/pdf/2110.05781.pdf){: .notice}
-  - How Does Pre-trained Wav2Vec2.0 Perform on Domain-Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications
+  - How Does Pre-trained Wav2Vec 2.0 Perform on Domain Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications
   [abstract](https://arxiv.org/abs/2203.16822), [PDF](https://arxiv.org/pdf/2203.16822.pdf){: .notice}
 
 - We submitted 5 papers to [INTERSPEECH 2022](https://interspeech2022.org/) with Yulia, Amrutha, Saeed and Petr M., from our lab ([Idiap](https://www.idiap.ch/en)) and some other nice co-authors from DLR (Germany), Brno University of Technology and Uniphore!
@@ -39,11 +42,10 @@ Resume / CV: [`click here`](/cv/)
   - A new paper is about School of Information and Electronics, Beijing Institute of Technology submission to the [Oriental Language Recognition (OLR) 2021 Challenge](http://cslt.riit.tsinghua.edu.cn/mediawiki/index.php/OLR_Challenge_2021). The team obtained 2nd and 3rd place in task3 and task4 (constrained and unconstrained ASR for 13 oriental languages). 
   - The last paper is about a Kaldi implementation of contextual biasing in GPU decoder for online ASR. Basically, adding some target n-grams after/during ASR decoding.  
 
-- Exciting news! One out of three papers submitted to [**ICASSP 2022**](https://2022.ieeeicassp.org/) were accepted for on-site presentation!
+- Exciting news! One out of three papers submitted to [**ICASSP 2022**](https://2022.ieeeicassp.org/) was accepted for on-site presentation!
   - Accepted paper: A two-step approach to leverage contextual data: speech recognition in air-traffic communications. 
   [abstract](https://arxiv.org/abs/2202.03725), [PDF](https://arxiv.org/pdf/2202.03725.pdf){: .notice}
 
-- Rebuttal period for our 3 submissions to ICASSP 2022... Loading... Loading. 
 
 ### 2021
 
