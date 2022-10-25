@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-How Does Pre trained Wav2Vec 2 Perform on Domain Shifted
 excerpt: 'This paper is about Automatic Speech Recognition in air traffic Control Communications'
 date: 2022-12-01
-venue: 'IEEE Spoken Language Technology Workshop'
+venue: 'IEEE SLT 2022'
 paperurl: 'https://arxiv.org/abs/2203.16822'
 citation: 'Juan Zuluaga-Gomez, Amrutha Prasad, Iuliia Nigmatulina, Saeed Sarfjoo, Petr Motlicek, Matthias Kleinert, Hartmut Helmke, Oliver Ohneiser, Qingran Zhan, 2022. How Does Pre-trained Wav2Vec 2.0 Perform on Domain Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications. 2022 IEEE Spoken Language Technology Workshop (SLT), Doha, Qatar.'
 ---
@@ -16,7 +16,8 @@ Abstract: Recent work on self-supervised pre-training focus on leveraging large-
 
 **Recommended citation**: 
 
-Juan Zuluaga-Gomez, Amrutha Prasad, Iuliia Nigmatulina, Saeed Sarfjoo, Petr Motlicek, Matthias Kleinert, Hartmut Helmke, Oliver Ohneiser, Qingran Zhan, 2022. How Does Pre-trained Wav2Vec 2.0 Perform on Domain Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications. 2022 IEEE Spoken Language Technology Workshop (SLT), Doha, Qatar.{: .notice}
+Juan Zuluaga-Gomez, Amrutha Prasad, Iuliia Nigmatulina, Saeed Sarfjoo, Petr Motlicek, Matthias Kleinert, Hartmut Helmke, Oliver Ohneiser, Qingran Zhan, 2022. How Does Pre-trained Wav2Vec 2.0 Perform on Domain Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications. 2022 IEEE Spoken Language Technology Workshop (SLT), Doha, Qatar.
+{: .notice}
 
 - BibTeX:
 

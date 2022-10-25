@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-BERTraffic A Robust BERT Based Approach
 excerpt: 'This paper is about Automatic Speech Recognition in Air-traffic Control Communications'
 date: 2022-12-01
-venue: 'IEEE SLT'
+venue: 'IEEE SLT 2022'
 paperurl: 'https://arxiv.org/abs/2110.05781'
 citation: 'Juan Zuluaga-Gomez, Seyyed Saeed Sarfjoo, Amrutha Prasad, Iuliia Nigmatulina, Petr Motlicek, Karel Ondrej, Oliver Ohneiser, Hartmut Helmke, 2022. BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications. 2022 IEEE Spoken Language Technology Workshop (SLT), Doha, Qatar.'
 ---
@@ -16,7 +16,8 @@ Abstract: Automatic speech recognition (ASR) allows transcribing the communicati
 
 **Recommended citation**: 
 
-Zuluaga-Gomez, J., Sarfjoo, S. S., Prasad, A., Nigmatulina, I., Motlicek, P., Ondrej, K., Ohneiser, O., & Helmke, H. (2021). BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications. 2022 IEEE Spoken Language Technology Workshop (SLT), Doha, Qatar.{: .notice}
+Zuluaga-Gomez, J., Sarfjoo, S. S., Prasad, A., Nigmatulina, I., Motlicek, P., Ondrej, K., Ohneiser, O., & Helmke, H. (2021). BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications. 2022 IEEE Spoken Language Technology Workshop (SLT), Doha, Qatar.
+{: .notice}
 
 - BibTeX:
 
