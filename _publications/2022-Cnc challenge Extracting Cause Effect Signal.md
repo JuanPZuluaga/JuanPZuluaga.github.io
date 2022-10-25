@@ -3,7 +3,7 @@ title: "IDIAPers - Causal News Corpus 2022: Extracting Cause-Effect-Signal Tripl
 collection: publications
 permalink: /publication/2022-Cnc challenge Extracting Cause Effect Signal
 excerpt: 'In this paper, we describe our participation in the subtask 2 of CASE-2022 (at EMNLP), Event Causality Identification with Casual News Corpus'
-date: 2022-12-02
+date: 2022-10-20
 venue: 'CASE - EMNLP 2022 (5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text)'
 paperurl: 'https://arxiv.org/abs/2209.03891'
 citation: 'Fajcik, Martin and Singh, Muskaan and Zuluaga-Gomez, Juan and Villatoro-Tello, Esau and Burdisso, Sergio and Motlicek, Petr and Smrz, Pavel, 2022. IDIAPers - Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model. The 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE - EMNLP 2022). Association for Computational Linguistics'

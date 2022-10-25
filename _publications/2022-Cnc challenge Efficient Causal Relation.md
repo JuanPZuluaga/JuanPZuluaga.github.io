@@ -3,7 +3,7 @@ title: "IDIAPers - Causal News Corpus 2022: Efficient Causal Relation Identifica
 collection: publications
 permalink: /publication/2022-Cnc challenge Efficient Causal Relation
 excerpt: 'In this paper, we describe our participation in the subtask 1 of CASE-2022 (at EMNLP), Event Causality Identification with Casual News Corpus'
-date: 2022-12-02
+date: 2022-10-20
 venue: 'CASE - EMNLP 2022 (5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text)'
 paperurl: 'https://arxiv.org/abs/2209.03895'
 citation: 'Burdisso, Sergio and Zuluaga-Gomez, Juan and Villatoro-Tello, Esau and Fajcik, Martin and Singh, Muskaan and Smrz, Pavel and Motlicek, Petr, 2022. IDIAPers - Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach. The 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE - EMNLP 2022). Association for Computational Linguistics'
