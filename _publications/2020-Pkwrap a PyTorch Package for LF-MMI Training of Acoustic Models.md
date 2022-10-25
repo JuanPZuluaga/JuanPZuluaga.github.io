@@ -2,7 +2,7 @@
 title: "Pkwrap: a PyTorch Package for LF-MMI Training of Acoustic Models"
 collection: publications
 permalink: /publication/2020-Pkwrap a PyTorch Package for LF-MMI Training of Acoustic Models
-excerpt: 't a simple wrapper that is useful to train acoustic models in PyTorch using Kaldi’s LF-MMI training framework. The wrapper, called pkwrap (short form of PyTorch kaldi wrapper), enables the user to utilize the flexibility provided by PyTorch in designing model architectures. It exposes the LF-MMI cost function as an autograd function.'
+excerpt: 'Pkwrap (short form of PyTorch Kaldi WRapper) is a simple wrapper that is useful to train acoustic models in PyTorch using Kaldi’s LF-MMI training framework. The wrapper, enables the user to utilize the flexibility provided by PyTorch in designing model architectures. It exposes the LF-MMI cost function as an autograd function.'
 date: 2020-09-01
 venue: 'ArXiv preprint'
 paperurl: 'https://arxiv.org/abs/2010.03466'
