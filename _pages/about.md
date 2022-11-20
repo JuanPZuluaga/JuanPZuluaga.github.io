@@ -43,7 +43,7 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 ### 2021
 
 - **Domain-Adversarial Based Model with Phonological Knowledge for Cross-Lingual Speech Recognition**. *Electronics Journal, MDPI*. [Abstract](https://www.mdpi.com/2079-9292/10/24/3172) / [PDF](https://www.mdpi.com/2079-9292/10/24/3172/pdf?version=1639986773)
-- **Automatic Processing Pipeline for Collecting and Annotating Air-Traffic Voice Communication Data**. *Engineering Proceegings, MDPI*. [Abstract](https://www.mdpi.com/2673-4591/13/1/8) / [PDF](https://www.mdpi.com/2673-4591/13/1/8/pdf?version=1641268696)
+- **Automatic Processing Pipeline for Collecting and Annotating Air-Traffic Voice Communication Data**. *Engineering Proceedings, MDPI*. [Abstract](https://www.mdpi.com/2673-4591/13/1/8) / [PDF](https://www.mdpi.com/2673-4591/13/1/8/pdf?version=1641268696)
 - **Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems**. *Proc. Interspeech 2021*. [Abstract](https://www.isca-speech.org/archive/interspeech_2021/zuluagagomez21_interspeech.html) / [PDF](https://www.isca-speech.org/archive/pdfs/interspeech_2021/zuluagagomez21_interspeech.pdf)
 - **Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition**. *Proc. Interspeech 2021*. [Abstract](https://www.isca-speech.org/archive/interspeech_2021/kocour21_interspeech.html) / [PDF](https://www.isca-speech.org/archive/pdfs/interspeech_2021/kocour21_interspeech.pdf)
 - **Improving callsign recognition with air-surveillance data in air-traffic communication.** *ArXiv preprint*. [abstract](https://arxiv.org/abs/2108.12156) / [PDF](https://arxiv.org/pdf/2108.12156.pdf)
