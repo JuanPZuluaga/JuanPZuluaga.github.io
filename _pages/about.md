@@ -23,9 +23,16 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 ## Publications
 ---
 
+### 2023
+
+- **Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks**. *Submitted to ICASSP 2023*.
+- **ATCO2 Corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications.** *Under review*. [Abstract](https://arxiv.org/abs/2211.04054) / [PDF](https://arxiv.org/pdf/2211.04054.pdf) / [Code](https://github.com/idiap/atco2-corpus) / Colab
+
 ### 2022
 
-- **ATCO2 Corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications.** *Under review*. [Abstract](https://arxiv.org/abs/2211.04054) / [PDF](https://arxiv.org/pdf/2211.04054.pdf) / [Code](https://github.com/idiap/atco2-corpus) / Colab
+- **Speech and Natural Language Processing Technologies for Pseudo-Pilot Simulator**. *SESAR Innovation Days 2022*. Accepted.
+- **Readback Error Detection by Automatic Speech Recognition and Understanding -- Results of HAAWAII Project for Isavia’s Enroute Airspace**. *SESAR Innovation Days 2022*. Accepted
+- **Grammar Based Identification Of Speaker Role For Improving ATCO And Pilot ASR**. *SESAR Innovation Days 2022*. ArXiv preprint: [Abstract](https://arxiv.org/abs/2108.12175) / [PDF](https://arxiv.org/pdf/2108.12175.pdf)
 - **IDIAPers @ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach**. *CASE Workshop@EMNLP 2022.* [Abstract](https://arxiv.org/abs/2209.03895) / [PDF](https://arxiv.org/pdf/2209.03895.pdf) / [Code](https://github.com/idiap/cncsharedtask)
 - **IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model**. *CASE Workshop@EMNLP 2022.* [Abstract](https://arxiv.org/abs/2209.03891) / [PDF](https://arxiv.org/pdf/2209.03891.pdf) / [Code](https://github.com/idiap/cncsharedtask)
 - **BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications**. *IEEE Spoken Language Technology Workshop, SLT-2022*. [Abstract](https://arxiv.org/abs/2110.05781) / [PDF](https://arxiv.org/pdf/2110.05781.pdf) / [Code](https://github.com/idiap/bert-text-diarization-atc)
@@ -40,7 +47,6 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 - **Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems**. *Proc. Interspeech 2021*. [Abstract](https://www.isca-speech.org/archive/interspeech_2021/zuluagagomez21_interspeech.html) / [PDF](https://www.isca-speech.org/archive/pdfs/interspeech_2021/zuluagagomez21_interspeech.pdf)
 - **Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition**. *Proc. Interspeech 2021*. [Abstract](https://www.isca-speech.org/archive/interspeech_2021/kocour21_interspeech.html) / [PDF](https://www.isca-speech.org/archive/pdfs/interspeech_2021/kocour21_interspeech.pdf)
 - **Improving callsign recognition with air-surveillance data in air-traffic communication.** *ArXiv preprint*. [abstract](https://arxiv.org/abs/2108.12156) / [PDF](https://arxiv.org/pdf/2108.12156.pdf)
-- **Grammar Based Identification Of Speaker Role For Improving ATCO And Pilot ASR**. *ArXiv preprint. *[abstract](https://arxiv.org/abs/2108.12175), [PDF](https://arxiv.org/pdf/2108.12175.pdf){: .notice}
 
 ### 2020
 
