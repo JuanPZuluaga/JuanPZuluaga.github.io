@@ -27,8 +27,8 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 
 - **ATCO2 Corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications.** *Under review*. [Abstract](https://arxiv.org/abs/2211.04054) / [PDF](https://arxiv.org/pdf/2211.04054.pdf) / [Code](https://github.com/idiap/atco2-corpus) / Colab
 - **IDIAPers @ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach**. *CASE Workshop@EMNLP 2022.* [Abstract](https://arxiv.org/abs/2209.03895) / [PDF](https://arxiv.org/pdf/2209.03895.pdf) / [Code](https://github.com/idiap/cncsharedtask)
-- **IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model**. *CASE Workshop@EMNLP 2022.* [Abstract](https://arxiv.org/abs/2209.03891) / [PDF](https://arxiv.org/pdf/2209.03891.pdf) /** [Code](https://github.com/idiap/cncsharedtask)
-- BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications**. *IEEE Spoken Language Technology Workshop, SLT-2022*. [Abstract](https://arxiv.org/abs/2110.05781) / [PDF](https://arxiv.org/pdf/2110.05781.pdf) / [Code](https://github.com/idiap/bert-text-diarization-atc)
+- **IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model**. *CASE Workshop@EMNLP 2022.* [Abstract](https://arxiv.org/abs/2209.03891) / [PDF](https://arxiv.org/pdf/2209.03891.pdf) / [Code](https://github.com/idiap/cncsharedtask)
+- **BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications**. *IEEE Spoken Language Technology Workshop, SLT-2022*. [Abstract](https://arxiv.org/abs/2110.05781) / [PDF](https://arxiv.org/pdf/2110.05781.pdf) / [Code](https://github.com/idiap/bert-text-diarization-atc)
 - **How Does Pre-trained Wav2Vec2.0 Perform on Domain-Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications**. *IEEE Spoken Language Technology Workshop, SLT-2022.* [Abstract](https://arxiv.org/abs/2203.16822) / [PDF](https://arxiv.org/pdf/2203.16822.pdf) / [Code](https://github.com/idiap/w2v2-air-traffic) / [Colab](https://colab.research.google.com/github/idiap/w2v2-air-traffic/blob/main/src/eval_xlsr_atc_model.ipynb) / [HuggingFace](https://huggingface.co/Jzuluaga/wav2vec2-large-960h-lv60-self-en-atc-atcosim)
 - **Legal and Ethical Challenges in Recording Air Traffic Control Speech**. *13th Language Resources and Evaluation Conference*. [Abstract](https://aclanthology.org/2022.legal-1.14/) / [PDF](https://aclanthology.org/2022.legal-1.14.pdf)
 - **A two-step approach to leverage contextual data: speech recognition in air-traffic communications.** *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2022*. [Abstract](https://arxiv.org/abs/2202.03725) / [PDF](https://arxiv.org/pdf/2202.03725.pdf)
@@ -44,19 +44,13 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 
 ### 2020
 
+- **Pkwrap: a PyTorch Package for LF-MMI Training of Acoustic Models**. *ArXiv preprint*. [Abstract](https://arxiv.org/abs/2010.03466) / [PDF](https://arxiv.org/pdf/2010.03466.pdf) / [Code](https://github.com/idiap/pkwrap)
 - **Automatic Call Sign Detection: Matching Air Surveillance Data with Air Traffic Spoken Communications**. *Proceedings, MDPI*. [Abstract](https://www.mdpi.com/2504-3900/59/1/14) / [PDF](https://www.mdpi.com/2504-3900/59/1/14/pdf?version=1606993156)
 - **Automatic speech recognition benchmark for air-traffic communications**. *Proc. Interspeech 2020*. [Abstract](https://isca-speech.org/archive/interspeech_2020/zuluagagomez20_interspeech.html) / [PDF](https://isca-speech.org/archive/pdfs/interspeech_2020/zuluagagomez20_interspeech.pdf)
 
+- January: Started my PhD studies at [The École polytechnique fédérale de Lausanne](https://www.epfl.ch/en/) & [Idiap Research Institute](https://www.idiap.ch/en) in Switzerland!
+
 ### 2019
-
-- Another paper from our team (led by Jian Ma) got published in the **Vibroengineering PROCEDIA**:
-  - A portable breast cancer detection system based on a smartphone with an infrared camera. [abstract](https://www.jvejournals.com/article/20978)[PDF](https://www.jvejournals.com/article/20978/pdf){: .notice}
-
-- Time goes so fast! We just published a second Journal paper related to breast cancer diagnosis with infrared techniques and machine learning (computer vision)! The paper was accepted for publication in the **Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization**. 
-[Journal](https://www.tandfonline.com/doi/abs/10.1080/21681163.2020.1824685) and [pre-print](https://arxiv.org/abs/1910.13757){: .notice}
-
-- Excited about my first Journal survey paper related to breast cancer diagnosis techniques! The survey paper was published in the **Journal of Medical Engineering & Technology**. 
-[Journal](https://www.tandfonline.com/doi/abs/10.1080/03091902.2019.1664672) and [pre-print](https://hal.archives-ouvertes.fr/hal-02387519/document){: .notice}
 
 - January: Started my Master Thesis at the École nationale supérieure de mécanique et des microtechniques in Besançon, France! I will work on computer vision for breast cancer diagnosis! 
 
