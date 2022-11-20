@@ -25,29 +25,13 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 
 ### 2022
 
-    ATCO2 corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications.
-    Under review.
-    IEEE Spoken Language Technology Workshop, SLT-2022
-    Abstract / PDF / Code / Colab
-
-
-- The first two papers submitted to [INTERSPEECH 2022](https://interspeech2022.org/) are up in ArXiV! Check them out! 
-  - BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications
-  [abstract](https://arxiv.org/abs/2110.05781), [PDF](https://arxiv.org/pdf/2110.05781.pdf){: .notice}
-  - How Does Pre-trained Wav2Vec2.0 Perform on Domain-Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications
-  [abstract](https://arxiv.org/abs/2203.16822), [PDF](https://arxiv.org/pdf/2203.16822.pdf){: .notice}
-
-- We submitted 5 papers to [INTERSPEECH 2022](https://interspeech2022.org/) with Yulia, Amrutha, Saeed and Petr M., from our lab ([Idiap](https://www.idiap.ch/en)) and some other nice co-authors from DLR (Germany), Brno University of Technology and Uniphore!
-  - Two submissions are improved versions of the two rejected papers at ICASSP 2022. We are putting a lot of effort into improving the quality of these two.
-  - The third paper is about How pre-trained Wav2Vec2.0 performs on domain-shifted ASR? This is basically an extensive benchmark on air traffic control communications.
-  - A new paper is about School of Information and Electronics, Beijing Institute of Technology submission to the [Oriental Language Recognition (OLR) 2021 Challenge](http://cslt.riit.tsinghua.edu.cn/mediawiki/index.php/OLR_Challenge_2021). The team obtained 2nd and 3rd place in task3 and task4 (constrained and unconstrained ASR for 13 oriental languages). 
-  - The last paper is about a Kaldi implementation of contextual biasing in GPU decoder for online ASR. Basically, adding some target n-grams after/during ASR decoding.  
-
-- Exciting news! One out of three papers submitted to [**ICASSP 2022**](https://2022.ieeeicassp.org/) were accepted for on-site presentation!
-  - Accepted paper: A two-step approach to leverage contextual data: speech recognition in air-traffic communications. 
-  [abstract](https://arxiv.org/abs/2202.03725), [PDF](https://arxiv.org/pdf/2202.03725.pdf){: .notice}
-
-- Rebuttal period for our 3 submissions to ICASSP 2022... Loading... Loading. 
+- ATCO2 corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications. *Under review*. [Abstract](https://arxiv.org/abs/2211.04054) / [PDF](https://arxiv.org/pdf/2211.04054.pdf) / [Code](https://github.com/idiap/atco2-corpus) / Colab
+- IDIAPers @ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach. *CASE Workshop@EMNLP 2022.* [Abstract](https://arxiv.org/abs/2209.03895) / [PDF](https://arxiv.org/pdf/2209.03895.pdf) / [Code](https://github.com/idiap/cncsharedtask)
+- IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model. *CASE Workshop@EMNLP 2022.* [Abstract](https://arxiv.org/abs/2209.03891) / [PDF](https://arxiv.org/pdf/2209.03891.pdf) / [Code](https://github.com/idiap/cncsharedtask)
+- BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications. *IEEE Spoken Language Technology Workshop, SLT-2022*. [Abstract](https://arxiv.org/abs/2110.05781) / [PDF](https://arxiv.org/pdf/2110.05781.pdf) / [Code](https://github.com/idiap/bert-text-diarization-atc)
+- How Does Pre-trained Wav2Vec2.0 Perform on Domain-Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications. *IEEE Spoken Language Technology Workshop, SLT-2022.* [Abstract](https://arxiv.org/abs/2203.16822) / [PDF](https://arxiv.org/pdf/2203.16822.pdf) / [Code](https://github.com/idiap/w2v2-air-traffic) / [Colab](https://colab.research.google.com/github/idiap/w2v2-air-traffic/blob/main/src/eval_xlsr_atc_model.ipynb) / [HuggingFace](https://huggingface.co/Jzuluaga/wav2vec2-large-960h-lv60-self-en-atc-atcosim)
+- Legal and Ethical Challenges in Recording Air Traffic Control Speech. *13th Language Resources and Evaluation Conference*. [Abstract](https://aclanthology.org/2022.legal-1.14/) / [PDF](https://aclanthology.org/2022.legal-1.14.pdf)
+- A two-step approach to leverage contextual data: speech recognition in air-traffic communications. *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2022*. [Abstract](https://arxiv.org/abs/2202.03725) / [PDF](https://arxiv.org/pdf/2202.03725.pdf)
 
 ### 2021
 
