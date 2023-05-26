@@ -30,6 +30,7 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 - **HyperConformer: Multi-head HyperMixer for Efficient Speech Recognition**. *Proc. Interspeech 2023*.
 - **CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice**. *Proc. Interspeech 2023*.
 - **Implementing contextual biasing in GPU decoder for online ASR**. *Proc. Interspeech 2023*.
+- **An Automatic Speaker Clustering Pipeline for Air Traffic Communication Domain**. *Under review at Aerospace*.
 - **Lessons Learned in ATCO2: 5000 hours of Air Traffic Control Communications for Robust Automatic Speech Recognition and Understanding**. *Under review at Aerospace*. [Preprint](https://arxiv.org/abs/2305.01155)
 - **A Virtual Simulation-Pilot Agent for Training of Air Traffic Controllers**. *Aerospace 2023, 10(5), 490*. [Paper](https://www.mdpi.com/2226-4310/10/5/490)
 - **Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks**. *ICASSP 2023*. [Paper](https://ieeexplore.ieee.org/abstract/document/10095168/) / [Pre-print](https://arxiv.org/abs/2212.08489)
