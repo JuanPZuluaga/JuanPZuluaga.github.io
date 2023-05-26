@@ -8,8 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). 
+Currently, interning at AWS-AI in Seattle. Later, I will be interning at Apple in Boston!
 
-I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). I am working on a European Union Horizon 2020 project called [ATCO2](https://www.atco2.org/). It is dedicated to the development of an Automatic Air Traffic Speech Recognition system. Also, we aim at developing a unique platform allowing to collect, organize and pre-process air traffic control (voice communications) data from air space (and yes! air traffic control communications are quite challenging task!).
+I am working on a European Union Horizon 2020 project called [ATCO2](https://www.atco2.org/). It is dedicated to the development of an Automatic Air Traffic Speech Recognition system. Also, we aim at developing a unique platform allowing to collect, organize and pre-process air traffic control (voice communications) data from air space (and yes! air traffic control communications are quite challenging task!).
 
 
 Originally from Baranoa, Colombia. A tiny village in the North of Colombia (around 30 minutes from the Caribbean coast). I received a B.S. in Mechatronics Engineering from [Universidad Autonoma del Caribe](https://www.uac.edu.co/) and an M.Sc. also in Mechatronics Engineering, but this time from [University of Oviedo](https://www.uniovi.es/en) in Spain. 
@@ -25,8 +27,17 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 
 ### 2023
 
-- **Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks**. *Submitted to ICASSP 2023*.
+- **HyperConformer: Multi-head HyperMixer for Efficient Speech Recognition**. *Proc. Interspeech 2023*.
+- **CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice**. *Proc. Interspeech 2023*.
+- **Implementing contextual biasing in GPU decoder for online ASR**. *Proc. Interspeech 2023*.
+- **Lessons Learned in ATCO2: 5000 hours of Air Traffic Control Communications for Robust Automatic Speech Recognition and Understanding**. *Under review at Aerospace*. [Preprint](https://arxiv.org/abs/2305.01155)
+- **A Virtual Simulation-Pilot Agent for Training of Air Traffic Controllers**. *Aerospace 2023, 10(5), 490*. [Paper](https://www.mdpi.com/2226-4310/10/5/490)
+- **Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks**. *ICASSP 2023*. [Paper](https://ieeexplore.ieee.org/abstract/document/10095168/) / [Pre-print](https://arxiv.org/abs/2212.08489)
+- **Automatic Speech Recognition and Understanding for Radar Label Maintenance Support Increases Safety and Reduces Air Traffic Controllers’ Workload**. *Air Traffic Management Research and Development Seminar*. 
 - **ATCO2 Corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications.** *Under review*. [Abstract](https://arxiv.org/abs/2211.04054) / [PDF](https://arxiv.org/pdf/2211.04054.pdf) / [Code](https://github.com/idiap/atco2-corpus) / Colab
+- **BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications**. *IEEE Spoken Language Technology Workshop, SLT-2022*. [Abstract](https://arxiv.org/abs/2110.05781) / [PDF](https://arxiv.org/pdf/2110.05781.pdf) / [Code](https://github.com/idiap/bert-text-diarization-atc)
+- **How Does Pre-trained Wav2Vec2.0 Perform on Domain-Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications**. *IEEE Spoken Language Technology Workshop, SLT-2022.* [Abstract](https://arxiv.org/abs/2203.16822) / [PDF](https://arxiv.org/pdf/2203.16822.pdf) / [Code](https://github.com/idiap/w2v2-air-traffic) / [Colab](https://colab.research.google.com/github/idiap/w2v2-air-traffic/blob/main/src/eval_xlsr_atc_model.ipynb) / [HuggingFace](https://huggingface.co/Jzuluaga/wav2vec2-large-960h-lv60-self-en-atc-atcosim)
+
 
 ### 2022
 
@@ -35,8 +46,6 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 - **Grammar Based Identification Of Speaker Role For Improving ATCO And Pilot ASR**. *SESAR Innovation Days 2022*. ArXiv preprint: [Abstract](https://arxiv.org/abs/2108.12175) / [PDF](https://arxiv.org/pdf/2108.12175.pdf)
 - **IDIAPers @ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach**. *CASE Workshop@EMNLP 2022.* [Abstract](https://arxiv.org/abs/2209.03895) / [PDF](https://arxiv.org/pdf/2209.03895.pdf) / [Code](https://github.com/idiap/cncsharedtask)
 - **IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model**. *CASE Workshop@EMNLP 2022.* [Abstract](https://arxiv.org/abs/2209.03891) / [PDF](https://arxiv.org/pdf/2209.03891.pdf) / [Code](https://github.com/idiap/cncsharedtask)
-- **BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications**. *IEEE Spoken Language Technology Workshop, SLT-2022*. [Abstract](https://arxiv.org/abs/2110.05781) / [PDF](https://arxiv.org/pdf/2110.05781.pdf) / [Code](https://github.com/idiap/bert-text-diarization-atc)
-- **How Does Pre-trained Wav2Vec2.0 Perform on Domain-Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications**. *IEEE Spoken Language Technology Workshop, SLT-2022.* [Abstract](https://arxiv.org/abs/2203.16822) / [PDF](https://arxiv.org/pdf/2203.16822.pdf) / [Code](https://github.com/idiap/w2v2-air-traffic) / [Colab](https://colab.research.google.com/github/idiap/w2v2-air-traffic/blob/main/src/eval_xlsr_atc_model.ipynb) / [HuggingFace](https://huggingface.co/Jzuluaga/wav2vec2-large-960h-lv60-self-en-atc-atcosim)
 - **Legal and Ethical Challenges in Recording Air Traffic Control Speech**. *13th Language Resources and Evaluation Conference*. [Abstract](https://aclanthology.org/2022.legal-1.14/) / [PDF](https://aclanthology.org/2022.legal-1.14.pdf)
 - **A two-step approach to leverage contextual data: speech recognition in air-traffic communications.** *IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2022*. [Abstract](https://arxiv.org/abs/2202.03725) / [PDF](https://arxiv.org/pdf/2202.03725.pdf)
 
