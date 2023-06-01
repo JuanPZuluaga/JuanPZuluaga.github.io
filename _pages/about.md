@@ -27,8 +27,8 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 
 ### 2023
 
-- **HyperConformer: Multi-head HyperMixer for Efficient Speech Recognition**. *Proc. Interspeech 2023*.
-- **CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice**. *Proc. Interspeech 2023*.
+- **HyperConformer: Multi-head HyperMixer for Efficient Speech Recognition**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2305.18281) / [Paper](https://arxiv.org/pdf/2305.18281.pdf)
+- **CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2305.18283) / [Paper](https://arxiv.org/pdf/2305.18283.pdf)
 - **Implementing contextual biasing in GPU decoder for online ASR**. *Proc. Interspeech 2023*.
 - **An Automatic Speaker Clustering Pipeline for Air Traffic Communication Domain**. *Under review at Aerospace*.
 - **Lessons Learned in ATCO2: 5000 hours of Air Traffic Control Communications for Robust Automatic Speech Recognition and Understanding**. *Under review at Aerospace*. [Preprint](https://arxiv.org/abs/2305.01155)
