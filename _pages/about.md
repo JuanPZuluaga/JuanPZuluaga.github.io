@@ -28,12 +28,13 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 ### 2023
 
 - **HyperConformer: Multi-head HyperMixer for Efficient Speech Recognition**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2305.18281) / [Paper](https://arxiv.org/pdf/2305.18281.pdf)
-- **CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2305.18283) / [Paper](https://arxiv.org/pdf/2305.18283.pdf)
-- **Implementing contextual biasing in GPU decoder for online ASR**. *Proc. Interspeech 2023*.
-- **An Automatic Speaker Clustering Pipeline for Air Traffic Communication Domain**. *Under review at Aerospace*.
-- **Lessons Learned in ATCO2: 5000 hours of Air Traffic Control Communications for Robust Automatic Speech Recognition and Understanding**. *Under review at Aerospace*. [Preprint](https://arxiv.org/abs/2305.01155)
+- **CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2305.18283) / [Paper](https://arxiv.org/pdf/2305.18283.pdf) | *Nominated: best Student Paper Award*
+- **Implementing contextual biasing in GPU decoder for online ASR**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2306.15685) / [Paper](https://arxiv.org/pdf/2306.15685.pdf)
+- **An Automatic Speaker Clustering Pipeline for Air Traffic Communication Domain**. *Aerospace 2023, 10(10), 876*. [Paper](https://www.mdpi.com/2226-4310/10/10/876)
+- **Lessons Learned in ATCO2: 5000 hours of Air Traffic Control Communications for Robust Automatic Speech Recognition and Understanding**. *Aerospace 2023, 10(10), 898*. [Paper](https://www.mdpi.com/2226-4310/10/10/898)
 - **A Virtual Simulation-Pilot Agent for Training of Air Traffic Controllers**. *Aerospace 2023, 10(5), 490*. [Paper](https://www.mdpi.com/2226-4310/10/5/490)
-- **Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks**. *ICASSP 2023*. [Paper](https://ieeexplore.ieee.org/abstract/document/10095168/) / [Pre-print](https://arxiv.org/abs/2212.08489)
+- **Validating Automatic Speech Recognition and Understanding for Pre-Filling Radar Labels—Increasing Safety While Reducing Air Traffic Controllers’ Workload**. *Aerospace 2023, 10(6), 538*. [Paper](https://www.mdpi.com/2226-4310/10/6/538)
+- **Effectiveness of Text, Acoustic, and Lattice-based representations in Spoken Language Understanding tasks**. *ICASSP 2023*. [Paper](https://ieeexplore.ieee.org/abstract/document/10095168/) / [Paper](https://arxiv.org/abs/2212.08489)
 - **Automatic Speech Recognition and Understanding for Radar Label Maintenance Support Increases Safety and Reduces Air Traffic Controllers’ Workload**. *Air Traffic Management Research and Development Seminar*. 
 - **ATCO2 Corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications.** *Under review*. [Abstract](https://arxiv.org/abs/2211.04054) / [PDF](https://arxiv.org/pdf/2211.04054.pdf) / [Code](https://github.com/idiap/atco2-corpus) / Colab
 - **BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications**. *IEEE Spoken Language Technology Workshop, SLT-2022*. [Abstract](https://arxiv.org/abs/2110.05781) / [PDF](https://arxiv.org/pdf/2110.05781.pdf) / [Code](https://github.com/idiap/bert-text-diarization-atc)
