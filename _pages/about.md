@@ -27,8 +27,9 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 
 ### 2023
 
+- **End-to-End Single-Channel Speaker-Turn Aware Conversational Speech Translation**. *EMNLP main, 2023*. [Abstract](https://arxiv.org/abs/2311.00697) / [Paper](https://arxiv.org/pdf/2311.00697.pdf)
 - **HyperConformer: Multi-head HyperMixer for Efficient Speech Recognition**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2305.18281) / [Paper](https://arxiv.org/pdf/2305.18281.pdf)
-- **CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2305.18283) / [Paper](https://arxiv.org/pdf/2305.18283.pdf) | *Nominated: best Student Paper Award*
+- **CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification Based on Common Voice**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2305.18283) / [Paper](https://arxiv.org/pdf/2305.18283.pdf). *Nominated: best Student Paper Award*
 - **Implementing contextual biasing in GPU decoder for online ASR**. *Proc. Interspeech 2023*. [Abstract](https://arxiv.org/abs/2306.15685) / [Paper](https://arxiv.org/pdf/2306.15685.pdf)
 - **An Automatic Speaker Clustering Pipeline for Air Traffic Communication Domain**. *Aerospace 2023, 10(10), 876*. [Paper](https://www.mdpi.com/2226-4310/10/10/876)
 - **Lessons Learned in ATCO2: 5000 hours of Air Traffic Control Communications for Robust Automatic Speech Recognition and Understanding**. *Aerospace 2023, 10(10), 898*. [Paper](https://www.mdpi.com/2226-4310/10/10/898)
