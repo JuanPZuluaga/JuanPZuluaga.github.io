@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). Former intern in AWS-AI in Seattle and at Apple in Boston! I am working on a European Union Horizon 2020 project called [ATCO2](https://www.atco2.org/). It is dedicated to the development of robost Automatic Air Traffic Speech Recognition systems. Working in the intersection between natural language processing and automatic speech recognition. Contributor of [HyperConformer](https://arxiv.org/abs/2305.18281) for efficient ASR and [STAC-ST](https://arxiv.org/abs/2311.00697) for Speech Translation.
+I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). Former intern in AWS-AI in Seattle and at Apple in Boston! I am working on a European Union Horizon 2020 project called [ATCO2](https://www.atco2.org/). It is dedicated to the development of robust Automatic Air Traffic Speech Recognition systems. Working in the intersection between natural language processing and automatic speech recognition. Contributor of [HyperConformer](https://arxiv.org/abs/2305.18281) for efficient ASR and [STAC-ST](https://arxiv.org/abs/2311.00697) for Speech Translation.
 
 Originally from Baranoa, Colombia. A tiny village in the North of Colombia (around 30 minutes from the Caribbean coast). I received a B.S. in Mechatronics Engineering from [Universidad Autonoma del Caribe](https://www.uac.edu.co/) and an M.Sc. also in Mechatronics Engineering, but this time from [University of Oviedo](https://www.uniovi.es/en) in Spain. 
 
