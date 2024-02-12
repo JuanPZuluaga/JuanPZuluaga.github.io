@@ -16,7 +16,7 @@ Extended resume - CV: [`click here`](/files/cv/Long_professional_CV.pdf)
 
 Education
 ======
-* Ph.D in Computer Science, École Polytechnique Fédérale de Lausanne, 2024 (expected)
+* Ph.D in Computer Science, (EPFL) École Polytechnique Fédérale de Lausanne, 2024 (expected)
 * M.S. in Mechatronic Engineering, Universidad de Oviedo, 2019
 * B.S. in Mechatronic Engineering, Universidad Autonoma del Caribe, 2016
 
@@ -26,6 +26,17 @@ Work experience
   * Idiap Research Institute and EPFL (Martigny, Switzerland)
   * Topics: Automatic Speech Recognition and Natural Language Processing 
   * Current Projects: ATCO2, HAAWAII, Skysoft, Eurocontrol
+
+* July-September 2023 - Machine Learning Engineer—Internship
+  * Apple, AI/ML Team, Cambridge, MA, USA
+  * Topics: Working on discriminative training of language models to improve automatic speech recognition (ASR) performance on tail named-entity data
+  * Transformer-based language modeling for production-level ASR systems
+
+* April–July 2023 - Applied Scientist—Internship
+  * Amazon, Amazon Web Services (AWS), Seattle, WA, USA
+  * Topics: Research on dual speech-to-text Translation (ST) and Transcription (ASR) for conversational speech
+  * Serialized output training (conditioned with special tokens, akin to Whisper) for robust multilingual ST and ASR
+  * Our system is aware of speaker turns and overlapped speech, improving BLEU and WER performance
 
 * January-December, 2019: Master Thesis, Research Assitant
   * Research Institute Femto-ST (Besancon, France)
