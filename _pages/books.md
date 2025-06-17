@@ -18,6 +18,7 @@ History, Social Philosophy and Debate
 
 My favorites are from [Yuval Noah Harari](https://www.ynharari.com/). They are a must-read for the XXI Century.
 
+* The Worlds I see. [Link](https://www.goodreads.com/book/show/144405196-the-worlds-i-see). Rate (4.7 - 5.0). Another favorite!
 * Thinking, Fast and Slow [Link](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow). Rate (5.0 - 5.0). My favorite one so far!
 * Homo Deus: A Brief History of Tomorrow [Link](https://www.ynharari.com/book/homo-deus/). Rate (4.7 - 5.0)
 * 21 Lessons for the 21st Century [Link](https://www.ynharari.com/book/21-lessons-book/). Rate (4.4 - 5.0)

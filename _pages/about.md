@@ -7,7 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am Ph.D. student at IDIAP jointly with the École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). Former intern in AWS-AI in Seattle and at Apple in Boston! I am working on a European Union Horizon 2020 project called [ATCO2](https://www.atco2.org/). It is dedicated to the development of robust Automatic Air Traffic Speech Recognition systems. Working in the intersection between natural language processing and automatic speech recognition. Contributor of [HyperConformer](https://arxiv.org/abs/2305.18281) for efficient ASR and [STAC-ST](https://arxiv.org/abs/2311.00697) for Speech Translation.
+I'm a Senior Research Engineer working at the intersection of natural language processing (NLP) and automatic speech recognition (ASR), with a strong focus on speech-and-audio LLMs. I’ve contributed to projects like HyperConformer for efficient ASR and STAC-ST for speech translation. My work spans spoken language understanding, LLMs, TTS/ASR model training, pseudo-labeling, and data generation/selection pipelines for model optimization.
+
+Currently at Agigo AG, a Swiss AI company building next-generation autonomous AI-agents, I focus on 1) Scaling and deploying large acoustic and LLMs in production settings. 2) Generating high-quality synthetic conversational data for model training. 3) Maximizing GPU efficiency for multi-client inference workloads.
+
+I'm passionate about bridging speech and language technologies for real-world, multimodal, and multilingual applications. I have also explored AI applications in biomedical imaging and intelligent human-machine communication.
+
+I obtained a Ph.D. at IDIAP and École polytechnique fédérale de Lausanne ([EPFL](https://www.epfl.ch/en/)). I was also intern at AWS (Amazon) in Seattle and Apple in Boston in 2023!
+
+My PhD initially targeted [ATCO2](https://www.atco2.org/) project. Mainly dedicated to the development of Robust Automatic Air Traffic Speech Recognition and Understanding system. We aimed at developing a unique platform allowing to collect, organize and pre-process air-traffic control (voice communication) data from air space (and yes! air traffic communications are very tough and the pilots talk super fast!). 
 
 Originally from Baranoa, Colombia. A tiny village in the North of Colombia (around 30 minutes from the Caribbean coast). I received a B.S. in Mechatronics Engineering from [Universidad Autonoma del Caribe](https://www.uac.edu.co/) and an M.Sc. also in Mechatronics Engineering, but this time from [University of Oviedo](https://www.uniovi.es/en) in Spain. 
 
@@ -19,6 +27,24 @@ Originally from Baranoa, Colombia. A tiny village in the North of Colombia (arou
 
 ## Publications
 ---
+
+
+
+### 2025
+
+- **Speech Data Selection for Efficient ASR Fine-Tuning using Domain Classifier and Pseudo-Label Filtering**. *ICASSP 2025*. [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10888138/) / [PDF](https://publications.idiap.ch/attachments/papers/2025/Rangappa_ICASSP2025_2025.pdf)
+
+- **XLSR-Transducer: Streaming ASR for Self-Supervised Pretrained Models**. *ICASSP 2025*. [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10888110/) / [arXiv PDF](https://arxiv.org/pdf/2407.04439)
+
+- **Fine-Tuning Pretrained Models with NVIB for Improved Generalisation**. *Workshop on Spurious Correlation and Shortcut Learning: Foundations and Applications, 2025*. [PDF](https://openreview.net/pdf?id=eX0VFgG4IS) / [OpenReview](https://openreview.net/forum?id=eX0VFgG4IS)
+
+### 2024
+
+- **TokenVerse: Unifying Speech and NLP Tasks via Transducer-based ASR**. *arXiv e-prints, 2024*. [ADS Abstract](https://ui.adsabs.harvard.edu/abs/2024arXiv240704444K/abstract)
+- **Open-source conversational AI with SpeechBrain 1.0**. *Journal of Machine Learning Research, 2024*. [JMLR](http://www.jmlr.org/papers/v25/24-0991.html) / [PDF](http://www.jmlr.org/papers/volume25/24-0991/24-0991.pdf)
+- **Fast Streaming Transducer ASR Prototyping via Knowledge Distillation with Whisper**. *arXiv preprint arXiv:2409.13499, 2024*. [arXiv](https://arxiv.org/abs/2409.13499) / [PDF](https://arxiv.org/pdf/2409.13499?)
+- **LM-assisted keyword biasing with Aho-Corasick algorithm for Transducer-based ASR**. *arXiv preprint arXiv:2409.13514, 2024*. [arXiv](https://arxiv.org/abs/2409.13514) / [PDF](https://arxiv.org/pdf/2409.13514)
+- **Low-Resource Speech Recognition and Understanding for Challenging Applications**. *2024*. [PDF](https://publications.idiap.ch/attachments/papers/2024/Juan_THESIS_2024.pdf)
 
 ### 2023
 

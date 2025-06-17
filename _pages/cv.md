@@ -16,13 +16,22 @@ Extended resume - CV: [`click here`](/files/cv/Long_professional_CV.pdf)
 
 Education
 ======
-* Ph.D in Computer Science, (EPFL) École Polytechnique Fédérale de Lausanne, 2024 (expected)
+* Ph.D in Computer Science, (EPFL) École Polytechnique Fédérale de Lausanne, 2024
 * M.S. in Mechatronic Engineering, Universidad de Oviedo, 2019
 * B.S. in Mechatronic Engineering, Universidad Autonoma del Caribe, 2016
 
 Work experience
 ======
-* January 2020 - Ongoing: Ph.D. Student in Computer Science
+* February 2025 - Ongoing: Senior Research Engineer
+  * Agigo AG (Zurich, Switzerland)
+  * Topics: Automatic Speech Recognition and Natural Language Processing
+  * As a Senior Research Engineer at Agigo, I am working on scaling and deploying large acoustic (ASR/TTS) and LLMs for production. Generating high-quality synthetic conversational data for model training. Maximizing GPU efficiency for multi-client inference workloads.
+
+* September 2024 - February 2025: Research Engineer
+  * Telepathy Labs (Zurich, Switzerland)
+  * Topics: Automatic Speech Recognition and Natural Language Processing 
+
+* January 2020 - July 2024: Ph.D. Student in Computer Science
   * Idiap Research Institute and EPFL (Martigny, Switzerland)
   * Topics: Automatic Speech Recognition and Natural Language Processing 
   * Current Projects: ATCO2, HAAWAII, Skysoft, Eurocontrol
