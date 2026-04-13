@@ -1,0 +1,160 @@
+# =============================================================
+# Publications — source of truth for home + publications page.
+# Ordered most-recent first. Set featured: true for top papers.
+# Author formatting: wrap "J. P. Zuluaga" in <strong>…</strong>
+# so the name is highlighted in the byline.
+# =============================================================
+
+- title: "Speech Data Selection for Efficient ASR Fine-Tuning"
+  year: 2025
+  venue: "ICASSP"
+  authors: "P. Rangappa, S. Madikeri, <strong>J. P. Zuluaga</strong>, J. Villatoro-Tello, P. Motlicek."
+  summary: "A domain classifier plus pseudo-label filtering cuts ASR fine-tuning compute by ~40% at matched WER."
+  paper: "https://ieeexplore.ieee.org/abstract/document/10888138/"
+  pdf: "https://publications.idiap.ch/attachments/papers/2025/Rangappa_ICASSP2025_2025.pdf"
+  featured: true
+
+- title: "XLSR-Transducer: Streaming ASR for Self-Supervised Pretrained Models"
+  year: 2025
+  venue: "ICASSP"
+  authors: "S. Madikeri, <strong>J. P. Zuluaga</strong>, P. Rangappa, J. Villatoro-Tello, P. Motlicek."
+  summary: "Streaming ASR atop a frozen self-supervised backbone, without sacrificing non-streaming accuracy."
+  arxiv: "https://arxiv.org/abs/2407.04439"
+  featured: true
+
+- title: "Contextual Biasing for Keyword Recognition on Low-Resource Air Traffic Control Data"
+  year: 2024
+  venue: "Interspeech"
+  authors: "M. Kocour, K. Veselý, I. Szoke, S. Kesiraju, <strong>J. P. Zuluaga</strong>, A. Blatt, M. Motlíček, J. Černocký."
+  summary: "Contextual biasing with deep fusion for domain-specific keyword recognition in ATC."
+
+- title: "Open-source Conversational AI with SpeechBrain 1.0"
+  year: 2024
+  venue: "JMLR"
+  authors: "M. Ravanelli, T. Parcollet, A. Moumen, S. de Langen, C. Subakan, P. Plantinga, Y. Liao, S. Cornell, D. Roman, S. Moradi, D. Chander, D. Petermann, Y. Wang, <strong>J. P. Zuluaga</strong>, et al."
+  summary: "Co-authored the 1.0 release of SpeechBrain — a PyTorch toolkit for conversational AI."
+  paper: "https://jmlr.org/papers/v25/24-0991.html"
+  code: "https://github.com/speechbrain/speechbrain"
+  featured: true
+
+- title: "End-to-end single-channel speaker-turn aware conversational speech translation"
+  year: 2023
+  venue: "EMNLP"
+  authors: "<strong>J. P. Zuluaga</strong>, Z. Huang, X. Niu, R. Paturi, S. Srinivasan, P. Mathur, B. Thompson, M. Federico."
+  summary: "First end-to-end speech translation system that handles speaker turns and overlapped speech on a single channel."
+  paper: "https://aclanthology.org/2023.emnlp-main.493/"
+  arxiv: "https://arxiv.org/abs/2311.00697"
+  code: "https://github.com/amazon-science/stac-speech-translation"
+  featured: true
+
+- title: "HyperConformer: Multi-Head HyperMixer for Efficient Speech Recognition"
+  year: 2023
+  venue: "Interspeech"
+  authors: "F. Mai, <strong>J. P. Zuluaga</strong>, T. Parcollet, P. Motlicek."
+  summary: "Replaces Conformer attention with HyperMixer, matching accuracy at a fraction of the compute."
+  arxiv: "https://arxiv.org/abs/2305.18281"
+  featured: true
+
+- title: "CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification"
+  year: 2023
+  venue: "Interspeech"
+  authors: "<strong>J. P. Zuluaga</strong>, S. Sarfjoo, A. Prasad, I. Nigmatulina, P. Motlicek, K. Ondrej, O. Ohneiser, H. Helmke."
+  summary: "Accent classification benchmark on Common Voice using large self-supervised models — **Best Student Paper nominee**."
+  arxiv: "https://arxiv.org/abs/2305.18283"
+  code: "https://github.com/JuanPZuluaga/accent-recog-slt2022"
+  model: "https://huggingface.co/Jzuluaga/accent-id-commonaccent_ecapa"
+  featured: true
+
+- title: "How Does Pre-Trained Wav2Vec 2.0 Perform on Domain Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications"
+  year: 2022
+  venue: "IEEE SLT"
+  authors: "<strong>J. P. Zuluaga</strong>, A. Prasad, I. Nigmatulina, S. Sarfjoo, P. Motlicek, M. Kleinert, H. Helmke, O. Ohneiser, Q. Zhan."
+  summary: "Systematic study of self-supervised pretraining under domain shift — 20–40% relative WER cut on Air Traffic Control."
+  arxiv: "https://arxiv.org/abs/2203.16822"
+  code: "https://github.com/idiap/w2v2-air-traffic"
+  model: "https://huggingface.co/Jzuluaga/wav2vec2-large-960h-lv60-self-en-atc-atcosim"
+  featured: true
+
+- title: "BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications"
+  year: 2022
+  venue: "IEEE SLT"
+  authors: "<strong>J. P. Zuluaga</strong>, S. Sarfjoo, A. Prasad, I. Nigmatulina, P. Motlicek, K. Vesely, M. Kocour, I. Szoke."
+  summary: "Joint speaker-role and speaker-change detection for ATC using BERT — 27% DER reduction over audio-only baselines."
+  arxiv: "https://arxiv.org/abs/2110.05781"
+  code: "https://github.com/idiap/bert-text-diarization-atc"
+
+- title: "A Two-Step Approach to Leverage Contextual Data: Speech Recognition in Air Traffic Control"
+  year: 2022
+  venue: "ICASSP"
+  authors: "<strong>J. P. Zuluaga</strong>, I. Nigmatulina, A. Prasad, P. Motlicek, K. Vesely, M. Kocour, I. Szoke."
+  arxiv: "https://arxiv.org/abs/2202.03725"
+
+- title: "ATCO2 Corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications"
+  year: 2023
+  venue: "arXiv"
+  authors: "<strong>J. P. Zuluaga</strong>, K. Vesely, I. Szoke, P. Motlicek, M. Kocour, M. Rigault, K. Choukri, A. Prasad, S. Sarfjoo, I. Nigmatulina, C. Cevenini, P. Kolcarek, A. Tart, J. Cernocky, D. Klakow."
+  summary: "5,000 hours of Air Traffic Control communications — the largest open ATC speech corpus."
+  arxiv: "https://arxiv.org/abs/2211.04054"
+  code: "https://github.com/idiap/atco2-corpus"
+
+- title: "Contextual Semi-Supervised Learning: An Approach to Leverage Air-Surveillance and Untranscribed ATC Data in ASR Systems"
+  year: 2021
+  venue: "Interspeech"
+  authors: "<strong>J. P. Zuluaga</strong>, I. Nigmatulina, A. Prasad, P. Motlicek, K. Vesely, M. Kocour, I. Szoke."
+  arxiv: "https://arxiv.org/abs/2104.03643"
+
+- title: "Boosting of Contextual Information in ASR for Air-Traffic Call-Sign Recognition"
+  year: 2021
+  venue: "Interspeech"
+  authors: "I. Nigmatulina, R. Braun, <strong>J. P. Zuluaga</strong>, P. Motlicek."
+
+- title: "Grammar Based Identification Of Speaker Role For Improving ATCO And Pilot ASR"
+  year: 2021
+  venue: "arXiv"
+  authors: "A. Prasad, <strong>J. P. Zuluaga</strong>, P. Motlicek, S. Sarfjoo, I. Nigmatulina, K. Vesely, M. Kocour, I. Szoke."
+  arxiv: "https://arxiv.org/abs/2108.12175"
+
+- title: "Improving Callsign Recognition with Air-Surveillance Data in Air-Traffic Communication"
+  year: 2021
+  venue: "arXiv"
+  authors: "I. Nigmatulina, R. Braun, <strong>J. P. Zuluaga</strong>, P. Motlicek."
+  arxiv: "https://arxiv.org/abs/2108.12156"
+
+- title: "Domain-Adversarial Based Model with Phonological Knowledge for Cross-Lingual Speech Recognition"
+  year: 2021
+  venue: "Electronics"
+  authors: "Q. Xu, Y. Li, J. Shen, J. Liu, Y. Yang, <strong>J. P. Zuluaga</strong>."
+
+- title: "Automatic Call Sign Detection: Matching Air Surveillance Data with Air Traffic Spoken Communications"
+  year: 2020
+  venue: "MDPI Proceedings"
+  authors: "<strong>J. P. Zuluaga</strong>, M. Kocour, K. Vesely, I. Szoke, P. Motlicek, M. Rigault, K. Choukri, A. Tart, J. Cernocky."
+
+- title: "Automatic Speech Recognition Benchmark for Air-Traffic Communications"
+  year: 2020
+  venue: "Interspeech"
+  authors: "<strong>J. P. Zuluaga</strong>, P. Motlicek, Q. Zhan, K. Vesely, R. Braun."
+
+- title: "Pkwrap: a PyTorch Package for LF-MMI Training of Acoustic Models"
+  year: 2020
+  venue: "arXiv"
+  authors: "S. Madikeri, S. Tong, <strong>J. P. Zuluaga</strong>, A. Vyas, P. Motlicek, H. Bourlard."
+  summary: "PyTorch package for LF-MMI acoustic model training, bridging Kaldi and modern PyTorch workflows."
+  arxiv: "https://arxiv.org/abs/2010.03466"
+  code: "https://github.com/idiap/pkwrap"
+
+- title: "A CNN-based Methodology for Breast Cancer Diagnosis using Thermal Images"
+  year: 2020
+  venue: "CMBBE"
+  authors: "<strong>J. P. Zuluaga</strong>, Z. Al Masry, K. Benaggoune, S. Meraghni, N. Zerhouni."
+  arxiv: "https://arxiv.org/abs/1910.13757"
+
+- title: "A Survey of Breast Cancer Screening Techniques: Thermography and Electrical Impedance Tomography"
+  year: 2019
+  venue: "Journal of Medical Engineering & Technology"
+  authors: "<strong>J. P. Zuluaga</strong>, Z. Al Masry, K. Benaggoune, S. Meraghni, N. Zerhouni."
+
+- title: "A Portable Breast Cancer Detection System Based on Smartphone with Infrared Camera"
+  year: 2019
+  venue: "Vibroengineering Procedia"
+  authors: "<strong>J. P. Zuluaga</strong>, Z. Al Masry, N. Zerhouni."
