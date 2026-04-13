@@ -77,7 +77,7 @@ disableKinds = ["taxonomy", "term"]
     url = "https://github.com/JuanPZuluaga"
   [[params.socialIcons]]
     name = "linkedin"
-    url = "https://linkedin.com/in/juan-pablo-zuluaga-gomez-co/"
+    url = "https://www.linkedin.com/in/pablo-zuluaga-gomez/"
   [[params.socialIcons]]
     name = "huggingface"
     url = "https://huggingface.co/Jzuluaga"

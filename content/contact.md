@@ -15,7 +15,7 @@ The best ways to reach me.
 **Professional** ·
 [GitHub ↗](https://github.com/JuanPZuluaga) ·
 [Google Scholar ↗](https://scholar.google.com/citations?user=_9_Ja2MAAAAJ&hl=en) ·
-[LinkedIn ↗](https://linkedin.com/in/juan-pablo-zuluaga-gomez-co/) ·
+[LinkedIn ↗](https://www.linkedin.com/in/pablo-zuluaga-gomez/) ·
 [ORCID ↗](https://orcid.org/0000-0002-6947-2706) ·
 [ResearchGate ↗](https://www.researchgate.net/profile/Juan-Pablo-Zuluaga) ·
 [HuggingFace ↗](https://huggingface.co/Jzuluaga)

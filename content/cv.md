@@ -117,4 +117,4 @@ Spanish (native) · English (fluent) · French (intermediate)
 [juan.zuluaga@eu4m.eu](mailto:juan.zuluaga@eu4m.eu) ·
 [GitHub ↗](https://github.com/JuanPZuluaga) ·
 [Scholar ↗](https://scholar.google.com/citations?user=_9_Ja2MAAAAJ&hl=en) ·
-[LinkedIn ↗](https://linkedin.com/in/juan-pablo-zuluaga-gomez-co/)
+[LinkedIn ↗](https://www.linkedin.com/in/pablo-zuluaga-gomez/)

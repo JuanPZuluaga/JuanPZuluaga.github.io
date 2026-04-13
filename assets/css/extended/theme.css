@@ -580,6 +580,16 @@ img.home-hero__photo {
   font-weight: 600;
 }
 
+.stats__side {
+  margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  .stats__side {
+    margin-left: 0;
+  }
+}
+
 /* ============================================================
    Blockquote
    ============================================================ */

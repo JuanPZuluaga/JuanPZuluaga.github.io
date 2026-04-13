@@ -5,6 +5,14 @@
 # so the name is highlighted in the byline.
 # =============================================================
 
+- title: "Unifying Global and Near-Context Biasing in a Single Trie Pass"
+  year: 2025
+  venue: "TSD"
+  authors: "I. Thorbecke, E. Villatoro-Tello, <strong>J. P. Zuluaga</strong>, S. Kumar, S. Burdisso, P. Rangappa, A. Carofilis, S. Madikeri, P. Motlicek, K. Pandia, K. Hacioglu, A. Stolcke."
+  summary: "Single-pass trie unifies global vocabulary biasing with utterance-level context biasing for transducer ASR."
+  paper: "https://doi.org/10.1007/978-3-032-02548-7_15"
+  featured: true
+
 - title: "Speech Data Selection for Efficient ASR Fine-Tuning"
   year: 2025
   venue: "ICASSP"
@@ -21,6 +29,29 @@
   summary: "Streaming ASR atop a frozen self-supervised backbone, without sacrificing non-streaming accuracy."
   arxiv: "https://arxiv.org/abs/2407.04439"
   featured: true
+
+- title: "TokenVerse: Towards Unifying Speech and NLP Tasks via Transducer-based ASR"
+  year: 2024
+  venue: "EMNLP"
+  authors: "S. Kumar, S. Madikeri, <strong>J. P. Zuluaga</strong>, I. Thorbecke, E. Villatoro-Tello, S. Burdisso, P. Motlicek, K. S, A. Ganapathiraju."
+  summary: "A single transducer framework that jointly handles ASR, speaker change, and named-entity tagging — one model, one decoding pass."
+  paper: "https://aclanthology.org/2024.emnlp-main.1167/"
+  arxiv: "https://arxiv.org/abs/2407.04444"
+
+- title: "Fast Streaming Transducer ASR Prototyping via Knowledge Distillation with Whisper"
+  year: 2024
+  venue: "EMNLP Findings"
+  authors: "I. Thorbecke, <strong>J. P. Zuluaga</strong>, E. Villatoro-Tello, S. Kumar, P. Rangappa, S. Burdisso, P. Motlicek, K. S, A. Ganapathiraju."
+  summary: "Distill Whisper into a streaming transducer in hours instead of days — practical recipe for low-latency, low-resource ASR."
+  paper: "https://aclanthology.org/2024.findings-emnlp.976/"
+  arxiv: "https://arxiv.org/abs/2409.13499"
+
+- title: "LM-assisted keyword biasing with Aho-Corasick algorithm for Transducer-based ASR"
+  year: 2024
+  venue: "arXiv"
+  authors: "I. Nigmatulina, S. Madikeri, E. Villatoro-Tello, P. Motlicek, <strong>J. P. Zuluaga</strong>, K. Pandia, A. Ganapathiraju."
+  summary: "Aho-Corasick keyword spotting fused with an LM during transducer decoding — boosts rare-word recognition without retraining."
+  arxiv: "https://arxiv.org/abs/2409.13514"
 
 - title: "Contextual Biasing for Keyword Recognition on Low-Resource Air Traffic Control Data"
   year: 2024
@@ -55,6 +86,34 @@
   arxiv: "https://arxiv.org/abs/2305.18281"
   featured: true
 
+- title: "Implementing Contextual Biasing in GPU Decoder for Online ASR"
+  year: 2023
+  venue: "Interspeech"
+  authors: "I. Nigmatulina, S. Madikeri, E. Villatoro-Tello, P. Motlicek, <strong>J. P. Zuluaga</strong>, K. Pandia, A. Ganapathiraju."
+  summary: "Adds contextual biasing to a GPU CTC/attention decoder for online ASR with minimal latency overhead."
+  paper: "https://www.isca-archive.org/interspeech_2023/nigmatulina23_interspeech.html"
+
+- title: "Effectiveness of Text, Acoustic, and Lattice-Based Representations in Spoken Language Understanding Tasks"
+  year: 2023
+  venue: "ICASSP"
+  authors: "E. Villatoro-Tello, S. Madikeri, <strong>J. P. Zuluaga</strong>, B. Sharma, S. Sarfjoo, I. Nigmatulina, P. Motlicek, A. Ivanov, A. Ganapathiraju."
+  summary: "Systematic comparison of text, acoustic, and lattice features for SLU — lattices recover information lost in 1-best ASR."
+  paper: "https://doi.org/10.1109/ICASSP49357.2023.10095168"
+
+- title: "A Virtual Simulation-Pilot Agent for Training of Air Traffic Controllers"
+  year: 2023
+  venue: "arXiv"
+  authors: "<strong>J. P. Zuluaga</strong>, A. Prasad, I. Nigmatulina, S. Sarfjoo, P. Motlicek, M. Kleinert, H. Helmke, O. Ohneiser, Q. Zhan."
+  summary: "End-to-end virtual pilot agent — ASR, intent parsing, and TTS — for training and evaluating air traffic controllers."
+  arxiv: "https://arxiv.org/abs/2304.07842"
+
+- title: "Lessons Learned in ATCO2: 5000 hours of Air Traffic Control Communications for Robust Automatic Speech Recognition and Understanding"
+  year: 2023
+  venue: "arXiv"
+  authors: "<strong>J. P. Zuluaga</strong>, K. Vesely, A. Blatt, P. Motlicek, et al."
+  summary: "Postmortem of the ATCO2 project — what worked, what didn't, and what's next for low-resource ASR in safety-critical domains."
+  arxiv: "https://arxiv.org/abs/2305.01155"
+
 - title: "CommonAccent: Exploring Large Acoustic Pretrained Models for Accent Classification"
   year: 2023
   venue: "Interspeech"
@@ -88,6 +147,27 @@
   venue: "ICASSP"
   authors: "<strong>J. P. Zuluaga</strong>, I. Nigmatulina, A. Prasad, P. Motlicek, K. Vesely, M. Kocour, I. Szoke."
   arxiv: "https://arxiv.org/abs/2202.03725"
+
+- title: "IDIAPers @ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-Based Few-Shot Approach"
+  year: 2022
+  venue: "CASE @ EMNLP"
+  authors: "S. Burdisso, <strong>J. P. Zuluaga</strong>, E. Villatoro-Tello, M. Fajcik, M. Singh, P. Smrz, P. Motlicek."
+  summary: "Few-shot prompt-based causal relation extraction — winner-tier system on the Causal News Corpus 2022 shared task."
+  paper: "https://aclanthology.org/2022.case-1.9/"
+
+- title: "IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model"
+  year: 2022
+  venue: "CASE @ EMNLP"
+  authors: "M. Fajcik, M. Singh, <strong>J. P. Zuluaga</strong>, E. Villatoro-Tello, S. Burdisso, P. Motlicek, P. Smrz."
+  summary: "Generative LM for joint cause-effect-signal triple extraction — companion submission to the same Causal News shared task."
+  paper: "https://aclanthology.org/2022.case-1.10/"
+
+- title: "Speech and Natural Language Processing Technologies for Pseudo-Pilot Simulator"
+  year: 2022
+  venue: "arXiv"
+  authors: "<strong>J. P. Zuluaga</strong>, A. Prasad, I. Nigmatulina, P. Motlicek, M. Kleinert, H. Helmke, O. Ohneiser, Q. Zhan."
+  summary: "Speech + NLP pipeline that drives a pseudo-pilot simulator for ATCO training — built on top of the ATCO2 corpus."
+  arxiv: "https://arxiv.org/abs/2212.07164"
 
 - title: "ATCO2 Corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications"
   year: 2023
