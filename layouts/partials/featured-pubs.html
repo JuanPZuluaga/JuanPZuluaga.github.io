@@ -1,0 +1,31 @@
+{{/* Featured publications — loaded from data/publications.yaml, filtered by featured=true */}}
+{{ $pubs := slice }}
+{{ range site.Data.publications }}
+  {{ if .featured }}
+    {{ $pubs = $pubs | append . }}
+  {{ end }}
+{{ end }}
+
+{{ range $pubs }}
+<article class="pub">
+  <h3 class="pub__title">
+    {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+    {{ else }}{{ .title }}{{ end }}
+  </h3>
+  <div class="pub__meta">
+    <span class="badge">{{ .venue }}</span>
+    <span>{{ .year }}</span>
+    {{ with .note }}<span>· {{ . }}</span>{{ end }}
+  </div>
+  <p class="pub__authors">{{ .authors | safeHTML }}</p>
+  {{ with .summary }}<p class="pub__summary">{{ . | safeHTML }}</p>{{ end }}
+  <div class="pub__links">
+    {{ with .paper }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">paper</a>{{ end }}
+    {{ with .pdf }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">pdf</a>{{ end }}
+    {{ with .arxiv }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">arxiv</a>{{ end }}
+    {{ with .code }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">code</a>{{ end }}
+    {{ with .model }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">model</a>{{ end }}
+    {{ with .bibtex }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">bib</a>{{ end }}
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,131 @@
+baseURL = "https://juanpzuluaga.github.io/"
+languageCode = "en-us"
+title = "Juan Pablo Zuluaga"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+pygmentsUseClasses = true
+
+copyright = "&copy; 2026 [Juan Pablo Zuluaga](/) · built with [Hugo](https://gohugo.io/)"
+
+# Disable default taxonomies — we don't use tags or categories
+disableKinds = ["taxonomy", "term"]
+[taxonomies]
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[pagination]
+  pagerSize = 20
+
+[params]
+  env = "production"
+  title = "Juan Pablo Zuluaga"
+  description = "Senior Research Engineer at Agigo AG. Speech-and-audio LLMs, production ASR, spoken language understanding. PhD EPFL & IDIAP."
+  keywords = ["Speech Recognition", "ASR", "LLMs", "NLP", "Machine Learning", "Research", "Zurich"]
+  author = "Juan Pablo Zuluaga"
+  DateFormat = "Jan 2006"
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "Juan Pablo Zuluaga"
+    Content = "Senior Research Engineer · Agigo AG · Zürich"
+
+  [params.profileMode]
+    enabled = false
+
+  [params.footer]
+    hideCopyright = false
+    text = ""
+
+  [params.assets]
+    disableHLJS = false
+    disableFingerprinting = true
+    favicon = "/logo.png"
+    apple_touch_icon = "/logo.png"
+
+  [params.label]
+    text = "juan pablo zuluaga"
+
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=_9_Ja2MAAAAJ&hl=en"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/JuanPZuluaga"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/pablo-zuluaga-gomez/"
+  [[params.socialIcons]]
+    name = "huggingface"
+    url = "https://huggingface.co/Jzuluaga"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:juan.zuluaga@eu4m.eu"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    identifier = "publications"
+    name = "publications"
+    url = "/publications/"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects/"
+    weight = 20
+  [[menu.main]]
+    identifier = "cv"
+    name = "cv"
+    url = "/cv/"
+    weight = 30
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "/contact/"
+    weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "github-dark"

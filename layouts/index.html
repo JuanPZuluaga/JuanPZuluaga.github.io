@@ -1,0 +1,104 @@
+{{- define "main" }}
+
+<section class="home-hero">
+  <img class="home-hero__photo"
+       src="{{ "profile.jpg" | relURL }}"
+       alt="Juan Pablo Zuluaga"
+       width="1200" height="1200"
+       loading="eager"
+       fetchpriority="high">
+  <div class="home-hero__text">
+    <h1 class="home-hero__name">Juan Pablo Zuluaga</h1>
+    <p class="home-hero__tag">Senior Research Engineer · Agigo AG · Zürich</p>
+    <p class="home-hero__bio">
+      I build and deploy speech-and-audio LLMs, production ASR, and spoken language understanding systems.
+      PhD from EPFL &amp; IDIAP. Previously at Apple and AWS.
+    </p>
+    <div class="home-hero__links">
+      <a href="https://scholar.google.com/citations?user=_9_Ja2MAAAAJ&hl=en" target="_blank" rel="noopener" class="ext">scholar</a>
+      <a href="https://github.com/JuanPZuluaga" target="_blank" rel="noopener" class="ext">github</a>
+      <a href="https://huggingface.co/Jzuluaga" target="_blank" rel="noopener" class="ext">huggingface</a>
+      <a href="https://www.linkedin.com/in/pablo-zuluaga-gomez/" target="_blank" rel="noopener" class="ext">linkedin</a>
+      <a href="mailto:juan.zuluaga@eu4m.eu">email</a>
+      <a href="{{ "files/cv/Resume_Juan_Pablo_Zuluaga.pdf" | relURL }}" target="_blank" rel="noopener" class="ext">cv</a>
+    </div>
+  </div>
+</section>
+
+<div class="stats">
+  <span><strong>40+</strong> publications</span>
+  <span class="stats__side">Interspeech · ICASSP · EMNLP · IEEE SLT · JMLR · TSD</span>
+</div>
+
+<h2 class="section-heading">about</h2>
+<p>
+  I'm a Senior Research Engineer at <a href="https://agigo.ai" target="_blank" rel="noopener" class="ext">Agigo AG</a>, a Swiss AI company building autonomous AI agents.
+  My work sits at the intersection of natural language processing and automatic speech recognition, with a strong focus on speech-and-audio LLMs.
+</p>
+<p>
+  I completed my PhD at <a href="https://www.epfl.ch/" target="_blank" rel="noopener" class="ext">EPFL</a> and <a href="https://www.idiap.ch/" target="_blank" rel="noopener" class="ext">IDIAP</a> in 2024.
+  My thesis tackled automatic speech recognition for air traffic control — one of the hardest real-world ASR domains.
+  Along the way I built the <a href="/projects/atco2-corpus/">ATCO2 corpus</a>, fine-tuned self-supervised models for this domain,
+  and published work on speaker diarization, speaker role detection, and contextual ASR.
+</p>
+<p>
+  Before Agigo, I interned at <strong>Apple</strong> (ML for ASR on tail named entities) and
+  at <strong>AWS</strong> (speech translation and transcription).
+  I hold master's and bachelor's degrees in Mechatronics Engineering from Universidad de Oviedo and Universidad Autónoma del Caribe.
+</p>
+<p>
+  I live in Zürich. Originally from Baranoa, Colombia.
+</p>
+
+<h2 class="section-heading">currently</h2>
+<div class="currently">
+  <div class="currently__item">
+    <span class="currently__dot"></span>
+    <div>
+      <span class="currently__title">Production speech LLMs</span>
+      <span class="currently__desc">— scaling acoustic and language models for multi-client inference.</span>
+    </div>
+  </div>
+  <div class="currently__item">
+    <span class="currently__dot"></span>
+    <div>
+      <span class="currently__title">Synthetic conversational data</span>
+      <span class="currently__desc">— generating high-quality dialogues for model training pipelines.</span>
+    </div>
+  </div>
+  <div class="currently__item">
+    <span class="currently__dot"></span>
+    <div>
+      <span class="currently__title">GPU efficiency</span>
+      <span class="currently__desc">— maximizing throughput for inference workloads across clients.</span>
+    </div>
+  </div>
+  <div class="currently__item">
+    <span class="currently__dot"></span>
+    <div>
+      <span class="currently__title">Generative TTS with universal phonetizers</span>
+      <span class="currently__desc">— improving zero-shot, multilingual text-to-speech with shared phonetic representations.</span>
+    </div>
+  </div>
+  <div class="currently__item">
+    <span class="currently__dot"></span>
+    <div>
+      <span class="currently__title">Omni-LLM data pipelines</span>
+      <span class="currently__desc">— large-scale data processing with omni LLMs to fuel multi-task RL training.</span>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-heading">featured publications</h2>
+{{ partial "featured-pubs.html" . }}
+<p class="small" style="margin-top: var(--s-3);">
+  <a href="{{ "publications/" | relURL }}">→ all publications</a>
+</p>
+
+<h2 class="section-heading">featured projects</h2>
+{{ partial "featured-projects.html" . }}
+<p class="small" style="margin-top: var(--s-3);">
+  <a href="{{ "projects/" | relURL }}">→ all projects</a>
+</p>
+
+{{- end }}
