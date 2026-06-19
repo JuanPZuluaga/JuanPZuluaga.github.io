@@ -1,6 +1,6 @@
 {{/* Featured publications — loaded from data/publications.yaml, filtered by featured=true */}}
 {{ $pubs := slice }}
-{{ range site.Data.publications }}
+{{ range hugo.Data.publications }}
   {{ if .featured }}
     {{ $pubs = $pubs | append . }}
   {{ end }}
