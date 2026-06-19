@@ -5,6 +5,7 @@ weight: 5
 featured: true
 hook: "Active contributor to vLLM-Omni — the inference engine for omni-modality models (text, speech, audio, vision)."
 tags: ["Inference", "TTS", "Open-source", "vLLM"]
+description: "Juan Pablo Zuluaga is an active contributor to vLLM-Omni, the omni-modality inference engine. Contributions include Qwen3-TTS streaming, Code2Wav batched decoding, CUDA Graph + torch.compile optimization, OmniVoice voice cloning, and high-concurrency TTS throughput improvements."
 summary: "Ongoing contributions to vLLM-Omni's Qwen3-TTS and OmniVoice paths: streaming output, Code2Wav batched decoding, CUDA Graph + torch.compile, voice cloning, and throughput/latency optimization for high-concurrency TTS serving."
 links:
   - name: github

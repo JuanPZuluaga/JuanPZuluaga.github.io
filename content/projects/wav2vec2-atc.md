@@ -5,6 +5,7 @@ weight: 20
 featured: true
 hook: "Self-supervised ASR models fine-tuned for Air Traffic Control, available on HuggingFace."
 tags: ["ASR", "Self-supervised", "Wav2Vec2", "HuggingFace"]
+description: "A family of Wav2Vec2 and XLS-R models fine-tuned for Air Traffic Control speech recognition, achieving 20–40% relative WER reduction over supervised baselines. Released on HuggingFace with training recipes and a Colab notebook."
 summary: "A family of Wav2Vec2 models that achieve 20–40% relative WER reduction on ATC data compared to supervised baselines. Released with training recipes, evaluation scripts, and a Colab notebook for immediate inference. The benchmark paper at SLT 2022 studies self-supervised pretraining behavior under heavy domain shift."
 links:
   - name: huggingface

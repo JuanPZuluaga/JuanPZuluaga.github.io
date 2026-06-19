@@ -5,6 +5,7 @@ weight: 30
 featured: true
 hook: "Joint speaker-role and speaker-change detection from ATC transcripts — no audio required."
 tags: ["NLP", "BERT", "Diarization", "ATC"]
+description: "BERTraffic is a BERT-based text-only speaker diarization system for Air Traffic Control that jointly detects turn boundaries and speaker roles (pilot vs. controller), outperforming audio-based baselines by 27% DER."
 summary: "Most ATC diarization systems rely on audio signals, which are low-quality and short. BERTraffic reframes the problem as text classification: given a transcript, predict speaker turns and whether each turn is a pilot or controller. Beats audio-only baselines by 27% DER."
 links:
   - name: github

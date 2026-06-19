@@ -5,6 +5,7 @@ weight: 50
 featured: true
 hook: "Co-authored the 1.0 release of the open-source conversational AI toolkit."
 tags: ["Open Source", "PyTorch", "Speech", "NLP"]
+description: "SpeechBrain 1.0 is a PyTorch-based open-source toolkit for speech and language tasks — ASR, TTS, speaker recognition, and dialogue — with stable APIs and reproducible recipes. Juan Pablo Zuluaga contributed ATC ASR recipes, HyperConformer, and accent classification benchmarks."
 summary: "SpeechBrain is a PyTorch-based toolkit for speech and language tasks, used by dozens of research groups and startups. The 1.0 release (JMLR 2024) consolidates years of contributions into a stable API with comprehensive recipes for ASR, TTS, speaker recognition, and dialogue understanding."
 links:
   - name: github

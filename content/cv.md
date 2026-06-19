@@ -1,6 +1,7 @@
 ---
 title: "CV"
 url: "/cv/"
+description: "Curriculum Vitae of Juan Pablo Zuluaga — Senior Research Engineer at Agigo AG, PhD from EPFL & IDIAP. Research in speech-and-audio LLMs, production ASR, and spoken language understanding."
 summary: "Curriculum Vitae of Juan Pablo Zuluaga — research, experience, and education."
 ShowToc: false
 hidemeta: true

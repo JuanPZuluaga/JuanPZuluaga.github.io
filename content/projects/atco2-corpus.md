@@ -5,6 +5,7 @@ weight: 10
 featured: true
 hook: "5,000 hours of Air Traffic Control communications — the largest open ATC speech dataset."
 tags: ["Speech", "ASR", "Dataset", "NLU"]
+description: "ATCO2 is a 5,000-hour multilingual corpus of Air Traffic Control speech with transcripts, speaker role labels, and contextual metadata — the largest open ATC dataset for ASR and NLU research."
 summary: "A multilingual, semi-automatically labeled corpus built to advance ASR and natural language understanding on one of the hardest real-world speech domains. Includes audio, transcripts, speaker role annotations, and a preprocessing pipeline. Used as a benchmark by follow-up work across Europe."
 links:
   - name: github

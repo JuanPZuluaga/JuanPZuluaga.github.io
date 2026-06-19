@@ -1,3 +1,19 @@
 {{/* Override PaperMod's default theme-color (#2e2e33) to match our dark bg */}}
 <meta name="theme-color" content="#0d1117">
 <meta name="color-scheme" content="dark">
+
+{{/* Preconnect for Google Fonts — reduces render-blocking font request latency */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+{{/* Open Graph / Twitter image for home page (PaperMod doesn't infer one without a cover) */}}
+{{- if .IsHome }}
+<meta property="og:image" content="{{ "profile.jpg" | absURL }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="{{ "profile.jpg" | absURL }}">
+{{- end }}
+
+{{/* JSON-LD structured data */}}
+{{- partial "json-ld.html" . -}}
