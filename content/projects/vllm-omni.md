@@ -18,13 +18,13 @@ links:
 
 ## What I work on
 
-**Streaming & low-latency TTS** — real-time token-by-token audio output, dynamic time-to-first-audio (TTFA) tuning based on Code2Wav load, and flexible initial-phase chunking to minimize perceived latency.
+**Streaming & low-latency TTS** — real-time token-by-token audio output [[1]](https://github.com/vllm-project/vllm-omni/pull/1438), dynamic TTFA tuning based on Code2Wav load [[2]](https://github.com/vllm-project/vllm-omni/pull/1714), and flexible initial-phase chunking to minimize perceived latency [[3]](https://github.com/vllm-project/vllm-omni/pull/1583).
 
-**GPU kernel optimization** — CUDA Graph capture of Code2Wav and CodePredictor, Triton SnakeBeta kernel fusion, `torch.compile` with `reduce-overhead` and static shapes, and batched waveform decoding for high-concurrency throughput.
+**GPU kernel optimization** — CUDA Graph capture of Code2Wav and CodePredictor [[4]](https://github.com/vllm-project/vllm-omni/pull/2376), Triton SnakeBeta kernel fusion [[5]](https://github.com/vllm-project/vllm-omni/pull/1797), `torch.compile` with `reduce-overhead` and static shapes [[6]](https://github.com/vllm-project/vllm-omni/pull/1913), and batched waveform decoding for high-concurrency throughput [[7]](https://github.com/vllm-project/vllm-omni/pull/1426).
 
-**Voice cloning & speaker management** — global speaker cache manager with LRU eviction, OmniVoice voice cloning, reference audio upload, and load-time speaker resolution from model config.
+**Voice cloning & speaker management** — global speaker cache manager with LRU eviction [[8]](https://github.com/vllm-project/vllm-omni/pull/2630), OmniVoice voice cloning [[9]](https://github.com/vllm-project/vllm-omni/pull/2676), and reference audio upload with optional transcription [[10]](https://github.com/vllm-project/vllm-omni/pull/2046).
 
-**Prefix-cache hardening** — OOM guards, per-key eviction fallbacks, and fixes for silent cache corruption under long-context requests.
+**Prefix-cache hardening** — OOM guards and hot-buffer fallbacks [[11]](https://github.com/vllm-project/vllm-omni/pull/3689), and fixes for silent cache corruption under long-context requests [[12]](https://github.com/vllm-project/vllm-omni/pull/4317).
 
 ## Why it matters
 
