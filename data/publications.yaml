@@ -118,7 +118,8 @@
   year: 2023
   venue: "Interspeech"
   authors: "<strong>J. P. Zuluaga</strong>, S. Sarfjoo, A. Prasad, I. Nigmatulina, P. Motlicek, K. Ondrej, O. Ohneiser, H. Helmke."
-  summary: "Accent classification benchmark on Common Voice using large self-supervised models — **Best Student Paper nominee**."
+  summary: "Accent classification benchmark on Common Voice using large self-supervised models."
+  award: "Best Student Paper nominee"
   arxiv: "https://arxiv.org/abs/2305.18283"
   code: "https://github.com/JuanPZuluaga/accent-recog-slt2022"
   model: "https://huggingface.co/Jzuluaga/accent-id-commonaccent_ecapa"

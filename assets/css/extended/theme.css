@@ -403,8 +403,8 @@ img.home-hero__photo {
 .pub__authors em.me,
 .pub__authors strong {
   font-style: normal;
-  color: var(--c-text);
-  font-weight: 500;
+  color: var(--c-accent);
+  font-weight: 600;
 }
 
 .pub__summary {
@@ -428,24 +428,43 @@ img.home-hero__photo {
   letter-spacing: 0.05em;
 }
 
+/* Award / honor badge (gold, distinct from the teal venue badge) */
+.pub__award {
+  display: inline-block;
+  font-family: var(--f-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid color-mix(in srgb, var(--c-warning) 40%, var(--c-border));
+  color: var(--c-warning);
+  background: color-mix(in srgb, var(--c-warning) 12%, transparent);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
 .pub__links {
   display: flex;
-  gap: var(--s-3);
+  gap: var(--s-2);
   flex-wrap: wrap;
   font-family: var(--f-mono);
   font-size: 0.8125rem;
   margin-top: var(--s-3);
 }
 
+/* Resource links as ghost pills — outline at rest, teal wash on hover */
 .pub__links a {
   color: var(--c-muted);
-  border-bottom: 1px solid var(--c-border);
-  padding: 1px 0;
+  border: 1px solid var(--c-border);
+  border-radius: 4px;
+  padding: 2px 10px;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
 }
 
 .pub__links a:hover {
   color: var(--c-accent);
-  border-bottom-color: var(--c-accent);
+  border-color: color-mix(in srgb, var(--c-accent) 45%, var(--c-border));
+  background: color-mix(in srgb, var(--c-accent) 8%, transparent);
 }
 
 /* Year grouping header */
@@ -456,6 +475,14 @@ img.home-hero__photo {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-block: var(--s-7) var(--s-3);
+}
+
+.year-heading__count {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.6875rem;
+  opacity: 0.65;
+  margin-left: var(--s-2);
 }
 
 /* ============================================================

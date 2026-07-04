@@ -16,6 +16,7 @@
     <span class="badge">{{ .venue }}</span>
     <span>{{ .year }}</span>
     {{ with .note }}<span>· {{ . }}</span>{{ end }}
+    {{ with .award }}<span class="pub__award">★ {{ . }}</span>{{ end }}
   </div>
   <p class="pub__authors">{{ .authors | safeHTML }}</p>
   {{ with .summary }}<p class="pub__summary">{{ . | safeHTML }}</p>{{ end }}

@@ -23,8 +23,9 @@
 
 {{ range $sorted }}
   {{ $y := . }}
-  <h2 class="year-heading">{{ $y }}</h2>
-  {{ range where $pubs "year" $y }}
+  {{ $inYear := where $pubs "year" $y }}
+  <h2 class="year-heading">{{ $y }}<span class="year-heading__count">{{ len $inYear }} paper{{ if gt (len $inYear) 1 }}s{{ end }}</span></h2>
+  {{ range $inYear }}
     <article class="pub">
       <h3 class="pub__title">
         {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
@@ -36,6 +37,7 @@
         <span class="badge">{{ .venue }}</span>
         <span>{{ .year }}</span>
         {{ with .note }}<span>· {{ . }}</span>{{ end }}
+        {{ with .award }}<span class="pub__award">★ {{ . }}</span>{{ end }}
       </div>
       <p class="pub__authors">{{ .authors | safeHTML }}</p>
       {{ with .summary }}<p class="pub__summary">{{ . | safeHTML }}</p>{{ end }}
