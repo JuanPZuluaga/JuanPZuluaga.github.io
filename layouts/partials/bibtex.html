@@ -1,0 +1,25 @@
+{{- /* Auto-generate a BibTeX entry from a publication record (passed as context).
+       Heuristic entry type: arXiv -> @misc, known journals -> @article, else @inproceedings.
+       Authors: strip HTML, "et al." -> "and others", comma-separated -> " and ". */ -}}
+{{- $journals := slice "JMLR" "Electronics" "CMBBE" "Journal of Medical Engineering & Technology" "Vibroengineering Procedia" "MDPI Proceedings" -}}
+{{- $authors := .authors | plainify -}}
+{{- $authors = replace $authors ", et al." " and others" -}}
+{{- $authors = replace $authors ", " " and " -}}
+{{- $authors = strings.TrimSuffix "." $authors -}}
+{{- $tw := split (urlize .title) "-" -}}
+{{- $key := printf "%s%v" (index $tw 0) .year -}}
+{{- if ge (len $tw) 2 }}{{ $key = printf "%s%s%v" (index $tw 0) (index $tw 1) .year }}{{ end -}}
+{{- $url := or .paper .arxiv .pdf "" -}}
+{{- $type := "inproceedings" -}}{{- $cfield := "booktitle" -}}
+{{- if eq .venue "arXiv" -}}{{- $type = "misc" -}}{{- $cfield = "" -}}
+{{- else if in $journals .venue -}}{{- $type = "article" -}}{{- $cfield = "journal" -}}{{- end -}}
+{{- $b := printf "@%s{%s,\n  title = {%s},\n  author = {%s}" $type $key .title $authors -}}
+{{- if $cfield }}{{ $b = printf "%s,\n  %s = {%s}" $b $cfield .venue }}{{ end -}}
+{{- $b = printf "%s,\n  year = {%v}" $b .year -}}
+{{- if eq $type "misc" -}}
+  {{- $eprint := replace (replace .arxiv "https://arxiv.org/abs/" "") "http://arxiv.org/abs/" "" -}}
+  {{- $b = printf "%s,\n  eprint = {%s},\n  archivePrefix = {arXiv}" $b $eprint -}}
+{{- else if $url -}}
+  {{- $b = printf "%s,\n  url = {%s}" $b $url -}}
+{{- end -}}
+{{- printf "%s\n}" $b -}}

@@ -21,6 +21,7 @@
   {{ $sorted = $sorted | append . }}
 {{ end }}
 
+<div class="pub-timeline">
 {{ range $sorted }}
   {{ $y := . }}
   {{ $inYear := where $pubs "year" $y }}
@@ -47,10 +48,15 @@
         {{ with .arxiv }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">arxiv</a>{{ end }}
         {{ with .code }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">code</a>{{ end }}
         {{ with .model }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">model</a>{{ end }}
-        {{ with .bibtex }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">bib</a>{{ end }}
+        <button type="button" class="pub__cite" aria-expanded="false">cite</button>
+      </div>
+      <div class="pub__bibtex" hidden>
+        <button type="button" class="pub__copy">copy</button>
+        <pre><code>{{ partial "bibtex.html" . }}</code></pre>
       </div>
     </article>
   {{ end }}
 {{ end }}
+</div>
 
 {{- end }}
