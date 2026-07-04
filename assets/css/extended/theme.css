@@ -4,8 +4,8 @@
    ============================================================ */
 
 :root,
-.dark,
-html[data-theme="dark"] {
+:root[data-theme="dark"] {
+  color-scheme: dark;
   /* Color — dark palette (teal accent) */
   --theme: #0d1117;
   --entry: #111720;
@@ -49,6 +49,32 @@ html[data-theme="dark"] {
   --nav-h: 64px;
 }
 
+/* Light palette — GitHub-light inspired; teal accent darkened for AA contrast.
+   Only color tokens are overridden; spacing/typography/layout cascade from :root. */
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --theme: #ffffff;
+  --entry: #f6f8fa;
+  --primary: #1f2328;
+  --secondary: #59636e;
+  --tertiary: #eaeef2;
+  --content: #24292f;
+  --code-block-bg: #f6f8fa;
+  --code-bg: #eff1f3;
+  --border: #d1d9e0;
+
+  --c-bg: #ffffff;
+  --c-surface: #f6f8fa;
+  --c-text: #1f2328;
+  --c-muted: #59636e;
+  --c-border: #d1d9e0;
+  --c-accent: #0a7c6d;
+  --c-accent-dim: #076152;
+  --c-success: #0a7c6d;
+  --c-warning: #9a6700;
+}
+
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
 
@@ -68,6 +94,12 @@ body {
   background: var(--c-bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* PaperMod paints list-page bodies (home, publications, projects) with
+   var(--code-bg); unify them to our page background in both themes. */
+.list {
+  background: var(--c-bg);
 }
 
 .main {

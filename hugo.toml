@@ -29,7 +29,7 @@ disableKinds = ["taxonomy", "term"]
   author = "Juan Pablo Zuluaga"
   DateFormat = "Jan 2006"
   defaultTheme = "dark"
-  disableThemeToggle = true
+  disableThemeToggle = false
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -62,6 +62,7 @@ disableKinds = ["taxonomy", "term"]
     disableFingerprinting = true
     favicon = "/logo.png"
     apple_touch_icon = "/logo.png"
+    theme_color = "#0d1117"
 
   [params.label]
     text = "juan pablo zuluaga"

@@ -1,6 +1,16 @@
-{{/* Override PaperMod's default theme-color (#2e2e33) to match our dark bg */}}
-<meta name="theme-color" content="#0d1117">
-<meta name="color-scheme" content="dark">
+{{/* Set the theme before first paint: default to dark, honor a saved preference.
+     This avoids a flash and guarantees an explicit data-theme so the toggle icon
+     (PaperMod swaps on [data-theme]) renders correctly on the very first load. */}}
+<script>
+  (function () {
+    try {
+      var p = localStorage.getItem('pref-theme');
+      document.documentElement.dataset.theme = (p === 'light') ? 'light' : 'dark';
+    } catch (e) {
+      document.documentElement.dataset.theme = 'dark';
+    }
+  })();
+</script>
 
 {{/* Preconnect for Google Fonts — reduces render-blocking font request latency */}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
