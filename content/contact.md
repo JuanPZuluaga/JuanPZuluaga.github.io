@@ -9,7 +9,7 @@ disableShare: true
 layout: "single"
 ---
 
-The best ways to reach me.
+The best ways to reach me:
 
 **Email** · [juan.zuluaga@eu4m.eu](mailto:juan.zuluaga@eu4m.eu)
 
@@ -21,17 +21,17 @@ The best ways to reach me.
 [ResearchGate ↗](https://www.researchgate.net/profile/Juan-Pablo-Zuluaga) ·
 [HuggingFace ↗](https://huggingface.co/Jzuluaga)
 
-**Less professional** · [Twitter ↗](https://twitter.com/Pablogomez3)
+**Social** · [Twitter ↗](https://twitter.com/Pablogomez3)
 
 **Location** · Zürich, Switzerland
 
 ---
 
-I'm especially happy to hear from:
+I'm always glad to connect with:
 
 - Researchers working on speech, NLP, or speech-and-audio LLMs
-- Engineers interested in production ASR / TTS deployment
-- Students applying to speech labs — happy to share advice
-- Collaborators on open-source speech / NLP projects
+- Engineers building production ASR and TTS systems
+- Students applying to speech labs, and others navigating a research career
+- Collaborators on open-source speech and NLP projects
 
-I try to reply to every email within a week. If you don't hear back, it got lost — please nudge me.
+I aim to respond to every message within a week.

@@ -8,7 +8,7 @@ buildDrafts = false
 buildFuture = false
 pygmentsUseClasses = true
 
-copyright = "&copy; 2026 [Juan Pablo Zuluaga](/) · built with [Hugo](https://gohugo.io/)"
+copyright = "&copy; 2026 [Juan Pablo Zuluaga](/)"
 
 # Disable default taxonomies — we don't use tags or categories
 disableKinds = ["taxonomy", "term"]

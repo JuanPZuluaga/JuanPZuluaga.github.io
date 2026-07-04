@@ -1,6 +1,6 @@
 /* ============================================================
-   Direction B — Modern Academic (dark-only)
-   Custom design tokens that override PaperMod's defaults.
+   Custom design tokens and components layered over PaperMod.
+   Supports light and dark themes.
    ============================================================ */
 
 :root,
@@ -174,9 +174,9 @@ a.ext::after {
    ============================================================ */
 
 .header {
-  background: color-mix(in srgb, var(--c-bg) 90%, transparent);
-  backdrop-filter: saturate(140%) blur(8px);
-  -webkit-backdrop-filter: saturate(140%) blur(8px);
+  /* Opaque background: a translucent bar + backdrop-filter bleeds page text
+     through on mobile Chrome during momentum scroll (filter fails to repaint). */
+  background: var(--c-bg);
   border-bottom: 1px solid var(--c-border);
   position: sticky;
   top: 0;
@@ -357,6 +357,31 @@ img.home-hero__photo {
   color: var(--c-muted);
 }
 
+/* AI-assisted engineering — domain chips */
+.ai-domains {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin-top: var(--s-4);
+}
+
+.ai-domain {
+  font-family: var(--f-mono);
+  font-size: 0.8125rem;
+  color: var(--c-text);
+  padding: 5px 14px;
+  border: 1px solid color-mix(in srgb, var(--c-accent) 30%, var(--c-border));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--c-accent) 6%, transparent);
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+}
+
+.ai-domain:hover {
+  border-color: color-mix(in srgb, var(--c-accent) 60%, var(--c-border));
+  background: color-mix(in srgb, var(--c-accent) 12%, transparent);
+  transform: translateY(-1px);
+}
+
 /* ============================================================
    Publication entry
    ============================================================ */
@@ -403,8 +428,8 @@ img.home-hero__photo {
 .pub__authors em.me,
 .pub__authors strong {
   font-style: normal;
-  color: var(--c-text);
-  font-weight: 500;
+  color: var(--c-accent);
+  font-weight: 600;
 }
 
 .pub__summary {
@@ -428,24 +453,43 @@ img.home-hero__photo {
   letter-spacing: 0.05em;
 }
 
+/* Award / honor badge (gold, distinct from the teal venue badge) */
+.pub__award {
+  display: inline-block;
+  font-family: var(--f-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid color-mix(in srgb, var(--c-warning) 40%, var(--c-border));
+  color: var(--c-warning);
+  background: color-mix(in srgb, var(--c-warning) 12%, transparent);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
 .pub__links {
   display: flex;
-  gap: var(--s-3);
+  gap: var(--s-2);
   flex-wrap: wrap;
   font-family: var(--f-mono);
   font-size: 0.8125rem;
   margin-top: var(--s-3);
 }
 
+/* Resource links as ghost pills — outline at rest, teal wash on hover */
 .pub__links a {
   color: var(--c-muted);
-  border-bottom: 1px solid var(--c-border);
-  padding: 1px 0;
+  border: 1px solid var(--c-border);
+  border-radius: 4px;
+  padding: 2px 10px;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
 }
 
 .pub__links a:hover {
   color: var(--c-accent);
-  border-bottom-color: var(--c-accent);
+  border-color: color-mix(in srgb, var(--c-accent) 45%, var(--c-border));
+  background: color-mix(in srgb, var(--c-accent) 8%, transparent);
 }
 
 /* Year grouping header */
@@ -456,6 +500,97 @@ img.home-hero__photo {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-block: var(--s-7) var(--s-3);
+}
+
+.year-heading__count {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.6875rem;
+  opacity: 0.65;
+  margin-left: var(--s-2);
+}
+
+/* Timeline spine down the publications list, with a node dot per year */
+.pub-timeline {
+  position: relative;
+  padding-left: 28px;
+}
+
+.pub-timeline::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 12px;
+  bottom: 12px;
+  width: 2px;
+  background: var(--c-border);
+}
+
+.pub-timeline .year-heading {
+  position: relative;
+}
+
+.pub-timeline .year-heading::before {
+  content: '';
+  position: absolute;
+  left: -27px;
+  top: 0.15em;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--c-accent);
+  border: 2px solid var(--c-bg);
+  box-shadow: 0 0 0 2px var(--c-accent);
+}
+
+/* Cite button + inline BibTeX */
+.pub__cite {
+  font-family: var(--f-mono);
+  font-size: 0.8125rem;
+  color: var(--c-muted);
+  background: none;
+  border: 1px solid var(--c-border);
+  border-radius: 4px;
+  padding: 2px 10px;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.pub__cite:hover {
+  color: var(--c-accent);
+  border-color: color-mix(in srgb, var(--c-accent) 45%, var(--c-border));
+  background: color-mix(in srgb, var(--c-accent) 8%, transparent);
+}
+
+.pub__bibtex {
+  position: relative;
+  margin-top: var(--s-3);
+}
+
+.pub__bibtex pre {
+  margin: 0;
+  font-size: 0.8125rem;
+}
+
+.pub__copy {
+  position: absolute;
+  z-index: 2;
+  top: var(--s-2);
+  right: var(--s-2);
+  font-family: var(--f-mono);
+  font-size: 0.6875rem;
+  color: var(--c-muted);
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.pub__copy:hover {
+  color: var(--c-accent);
+  border-color: var(--c-accent);
 }
 
 /* ============================================================

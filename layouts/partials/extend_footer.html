@@ -1,2 +1,36 @@
 {{/* Theme handling lives in extend_head.html (pre-paint, no flash) and is toggled
-     by PaperMod's built-in theme-toggle button. Nothing needed here. */}}
+     by PaperMod's built-in theme-toggle button. */}}
+
+{{/* Publications: toggle inline BibTeX and copy to clipboard. Event-delegated so
+     it works on every page (home featured list + full publications page). */}}
+<script>
+document.addEventListener('click', function (e) {
+  var cite = e.target.closest('.pub__cite');
+  if (cite) {
+    var box = cite.closest('.pub').querySelector('.pub__bibtex');
+    if (box) {
+      box.hidden = !box.hidden;
+      cite.setAttribute('aria-expanded', box.hidden ? 'false' : 'true');
+    }
+    return;
+  }
+  var copy = e.target.closest('.pub__copy');
+  if (copy) {
+    var pre = copy.closest('.pub__bibtex').querySelector('pre');
+    var text = pre.innerText;
+    var done = function () {
+      var prev = copy.textContent;
+      copy.textContent = 'copied';
+      setTimeout(function () { copy.textContent = prev; }, 1200);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(done);
+    } else {
+      var ta = document.createElement('textarea');
+      ta.value = text; document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); } catch (err) {}
+      document.body.removeChild(ta); done();
+    }
+  }
+});
+</script>

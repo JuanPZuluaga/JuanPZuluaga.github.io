@@ -21,10 +21,12 @@
   {{ $sorted = $sorted | append . }}
 {{ end }}
 
+<div class="pub-timeline">
 {{ range $sorted }}
   {{ $y := . }}
-  <h2 class="year-heading">{{ $y }}</h2>
-  {{ range where $pubs "year" $y }}
+  {{ $inYear := where $pubs "year" $y }}
+  <h2 class="year-heading">{{ $y }}<span class="year-heading__count">{{ len $inYear }} paper{{ if gt (len $inYear) 1 }}s{{ end }}</span></h2>
+  {{ range $inYear }}
     <article class="pub">
       <h3 class="pub__title">
         {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
@@ -36,6 +38,7 @@
         <span class="badge">{{ .venue }}</span>
         <span>{{ .year }}</span>
         {{ with .note }}<span>· {{ . }}</span>{{ end }}
+        {{ with .award }}<span class="pub__award">★ {{ . }}</span>{{ end }}
       </div>
       <p class="pub__authors">{{ .authors | safeHTML }}</p>
       {{ with .summary }}<p class="pub__summary">{{ . | safeHTML }}</p>{{ end }}
@@ -45,10 +48,15 @@
         {{ with .arxiv }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">arxiv</a>{{ end }}
         {{ with .code }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">code</a>{{ end }}
         {{ with .model }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">model</a>{{ end }}
-        {{ with .bibtex }}<a href="{{ . }}" target="_blank" rel="noopener" class="ext">bib</a>{{ end }}
+        <button type="button" class="pub__cite" aria-expanded="false">cite</button>
+      </div>
+      <div class="pub__bibtex" hidden>
+        <button type="button" class="pub__copy">copy</button>
+        <pre><code>{{ partial "bibtex.html" . }}</code></pre>
       </div>
     </article>
   {{ end }}
 {{ end }}
+</div>
 
 {{- end }}
