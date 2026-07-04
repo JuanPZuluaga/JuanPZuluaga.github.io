@@ -357,6 +357,31 @@ img.home-hero__photo {
   color: var(--c-muted);
 }
 
+/* AI-assisted engineering — domain chips */
+.ai-domains {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin-top: var(--s-4);
+}
+
+.ai-domain {
+  font-family: var(--f-mono);
+  font-size: 0.8125rem;
+  color: var(--c-text);
+  padding: 5px 14px;
+  border: 1px solid color-mix(in srgb, var(--c-accent) 30%, var(--c-border));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--c-accent) 6%, transparent);
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+}
+
+.ai-domain:hover {
+  border-color: color-mix(in srgb, var(--c-accent) 60%, var(--c-border));
+  background: color-mix(in srgb, var(--c-accent) 12%, transparent);
+  transform: translateY(-1px);
+}
+
 /* ============================================================
    Publication entry
    ============================================================ */
