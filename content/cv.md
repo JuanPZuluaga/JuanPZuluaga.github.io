@@ -107,7 +107,15 @@ layout: "single"
 
 ## Skills
 
-Python · PyTorch · SpeechBrain · Kaldi · HuggingFace · LaTeX · Git · Linux · GPU training &amp; inference · LLMs · ASR · TTS · Self-supervised learning · NLP
+**Core** · Python · PyTorch · SpeechBrain · Kaldi · HuggingFace · LaTeX · Git · Linux · GPU training &amp; inference · LLMs · ASR · TTS · Self-supervised learning · NLP
+
+**AI-assisted development** · I use agentic coding tools — primarily [Claude Code](https://claude.com/claude-code) — as a core part of my engineering workflow, applying them across the full AI stack:
+
+- **Full-stack AI development** — building models, inference services, and the tooling around them end to end
+- **Rapid prototyping** — going from idea to working proof of concept in hours rather than days
+- **Data curation** — large-scale filtering, cleaning, and synthetic data generation pipelines
+- **Pipeline orchestration** — wiring together training, evaluation, and deployment workflows
+- **Evaluation &amp; infrastructure** — automated benchmarking harnesses and reproducible experiment tooling
 
 ## Languages
 

@@ -1,6 +1,6 @@
 /* ============================================================
-   Direction B — Modern Academic (dark-only)
-   Custom design tokens that override PaperMod's defaults.
+   Custom design tokens and components layered over PaperMod.
+   Supports light and dark themes.
    ============================================================ */
 
 :root,
