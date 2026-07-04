@@ -109,7 +109,7 @@ layout: "single"
 
 **Core** · Python · PyTorch · SpeechBrain · Kaldi · HuggingFace · LaTeX · Git · Linux · GPU training &amp; inference · LLMs · ASR · TTS · Self-supervised learning · NLP
 
-**AI-assisted development** · I use agentic coding tools — primarily [Claude Code](https://claude.com/claude-code) — as a core part of my engineering workflow, applying them from low-level GPU kernels up to high-concurrency serving:
+**AI-assisted development** · I use agentic coding tools — primarily **Claude Code** — as a core part of my engineering workflow, applying them from low-level GPU kernels up to high-concurrency serving:
 
 - **Kernel development** — CUDA Graphs, Triton kernels, and `torch.compile` for GPU-efficient inference
 - **TTS &amp; LLM systems** — streaming synthesis, controllability, and omni-modal model serving
