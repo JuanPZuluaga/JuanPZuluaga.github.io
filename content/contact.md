@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 url: "/contact/"
+description: "Contact Juan Pablo Zuluaga — Senior Research Scientist in speech-and-audio LLMs at Agigo AG, based in Zürich, Switzerland."
 summary: "How to reach Juan Pablo Zuluaga."
 ShowToc: false
 hidemeta: true

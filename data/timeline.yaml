@@ -1,0 +1,86 @@
+# =============================================================
+# Experience & Education timeline — single source of truth.
+# Used by layouts/partials/experience-timeline.html.
+# type: "work" | "education"
+# end: leave blank for ongoing roles, "present" shows "Present"
+# =============================================================
+
+- id: agigo
+  type: work
+  title: "Senior Research Scientist"
+  org: "Agigo AG"
+  url: "https://agigo.ai"
+  location: "Zürich, Switzerland"
+  start: "2025"
+  end: "present"
+  description: "Production speech-and-audio LLMs, synthetic conversational data, GPU-efficient multi-client inference for real-world ASR and TTS deployments."
+
+- id: telepathy
+  type: work
+  title: "Research Engineer"
+  org: "Telepathy Labs"
+  url: ""
+  location: "Zürich, Switzerland"
+  start: "2024"
+  end: "2025"
+  description: "Speech recognition, understanding, and generation for conversational AI agents."
+
+- id: apple
+  type: work
+  title: "ML Engineer Intern"
+  org: "Apple"
+  url: "https://www.apple.com"
+  location: "Cambridge, MA"
+  start: "Summer 2023"
+  end: ""
+  description: "Discriminative training of language models for ASR on tail named-entity data."
+
+- id: aws
+  type: work
+  title: "Applied Scientist Intern"
+  org: "Amazon Web Services"
+  url: "https://aws.amazon.com"
+  location: "Seattle, WA"
+  start: "Spring 2023"
+  end: ""
+  description: "Joint speech-to-text translation and transcription research. Work published at EMNLP 2023."
+
+- id: idiap-phd
+  type: education
+  title: "PhD Researcher"
+  org: "Idiap Research Institute & EPFL"
+  url: "https://www.idiap.ch/"
+  location: "Martigny, Switzerland"
+  start: "2020"
+  end: "2024"
+  description: "Thesis: <em>Low-Resource Speech Recognition and Understanding for Challenging Applications</em>. Advised by Dr. Petr Motlicek and Prof. Hervé Bourlard."
+
+- id: idiap-engineer
+  type: work
+  title: "Research Engineer"
+  org: "Idiap Research Institute"
+  url: "https://www.idiap.ch/"
+  location: "Martigny, Switzerland"
+  start: "2019"
+  end: "2020"
+  description: "ATCO2 project (EU Horizon 2020). Automatic speech recognition and contextual understanding for air traffic control communications."
+
+- id: eu4m-msc
+  type: education
+  title: "MSc · Erasmus Mundus EU4M"
+  org: "Universidad de Oviedo"
+  url: "https://www.uniovi.es/"
+  location: "Oviedo · Nancy · Cluj-Napoca"
+  start: "2017"
+  end: "2019"
+  description: "Mechatronics & Micro-Mechatronics. Fully funded Erasmus Mundus scholarship (EU Commission). Thesis on computer vision for breast cancer diagnosis."
+
+- id: uac-bsc
+  type: education
+  title: "BSc · Mechatronics Engineering"
+  org: "Universidad Autónoma del Caribe"
+  url: "https://www.uac.edu.co/"
+  location: "Barranquilla, Colombia"
+  start: "2011"
+  end: "2016"
+  description: "Mechatronics Engineering. DAAD Research Scholarship (Germany, 2014)."

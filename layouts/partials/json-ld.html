@@ -1,0 +1,46 @@
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Juan Pablo Zuluaga",
+  "url": "{{ .Site.BaseURL }}",
+  "image": "{{ "profile.jpg" | absURL }}",
+  "jobTitle": "Senior Research Scientist",
+  "description": "{{ .Site.Params.description }}",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Agigo AG",
+    "url": "https://agigo.ai"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "EPFL",
+      "url": "https://www.epfl.ch/"
+    },
+    {
+      "@type": "ResearchOrganization",
+      "name": "Idiap Research Institute",
+      "url": "https://www.idiap.ch/"
+    }
+  ],
+  "knowsAbout": [
+    "Automatic Speech Recognition",
+    "Speech and Audio Language Models",
+    "Natural Language Processing",
+    "Spoken Language Understanding",
+    "Machine Learning"
+  ],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=_9_Ja2MAAAAJ&hl=en",
+    "https://github.com/JuanPZuluaga",
+    "https://www.linkedin.com/in/pablo-zuluaga-gomez/",
+    "https://huggingface.co/Jzuluaga",
+    "https://orcid.org/0000-0002-6947-2706",
+    "https://www.researchgate.net/profile/Juan-Pablo-Zuluaga",
+    "https://twitter.com/Pablogomez3"
+  ]
+}
+</script>
+{{- end -}}

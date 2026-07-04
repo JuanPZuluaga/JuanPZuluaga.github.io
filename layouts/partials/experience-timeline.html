@@ -1,0 +1,20 @@
+{{- $tl := hugo.Data.timeline -}}
+<div class="exp-timeline">
+  {{- range $tl }}
+  <div class="exp-item{{ if eq .type "education" }} exp-item--education{{ end }}">
+    <div class="exp-item__header">
+      <span class="exp-item__date">
+        {{- .start }}{{ if .end }} — {{ if eq .end "present" }}present{{ else }}{{ .end }}{{ end }}{{ end -}}
+      </span>
+      {{- if .url }}
+      <a href="{{ .url }}" class="exp-item__org ext" target="_blank" rel="noopener">{{ .org }}</a>
+      {{- else }}
+      <span class="exp-item__org">{{ .org }}</span>
+      {{- end }}
+      {{- with .location }}<span class="exp-item__location-inline">· {{ . }}</span>{{- end }}
+    </div>
+    <h3 class="exp-item__title">{{ .title }}</h3>
+    {{- with .description }}<p class="exp-item__desc">{{ . | safeHTML }}</p>{{- end }}
+  </div>
+  {{- end }}
+</div>

@@ -8,7 +8,7 @@
 </div>
 
 {{/* Group by year, descending */}}
-{{ $pubs := site.Data.publications }}
+{{ $pubs := hugo.Data.publications }}
 {{ $years := slice }}
 {{ range $pubs }}
   {{ $years = $years | append .year }}

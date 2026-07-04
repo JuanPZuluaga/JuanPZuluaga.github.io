@@ -1,6 +1,2 @@
-{{/* Force dark theme always — disable PaperMod's localStorage-driven theme switching */}}
-<script>
-  document.documentElement.setAttribute('data-theme', 'dark');
-  document.documentElement.classList.add('dark');
-  try { localStorage.setItem('pref-theme', 'dark'); } catch (e) {}
-</script>
+{{/* Theme handling lives in extend_head.html (pre-paint, no flash) and is toggled
+     by PaperMod's built-in theme-toggle button. Nothing needed here. */}}

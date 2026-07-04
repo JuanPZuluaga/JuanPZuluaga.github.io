@@ -9,7 +9,8 @@
        fetchpriority="high">
   <div class="home-hero__text">
     <h1 class="home-hero__name">Juan Pablo Zuluaga</h1>
-    <p class="home-hero__tag">Senior Research Engineer · Agigo AG · Zürich</p>
+    <p class="home-hero__tag">Senior Research Scientist · Agigo AG · Zürich</p>
+    <p class="home-hero__flags">🇨🇴 🇨🇭</p>
     <p class="home-hero__bio">
       I build and deploy speech-and-audio LLMs, production ASR, and spoken language understanding systems.
       PhD from EPFL &amp; IDIAP. Previously at Apple and AWS.
@@ -32,7 +33,7 @@
 
 <h2 class="section-heading">about</h2>
 <p>
-  I'm a Senior Research Engineer at <a href="https://agigo.ai" target="_blank" rel="noopener" class="ext">Agigo AG</a>, a Swiss AI company building autonomous AI agents.
+  I'm a Senior Research Scientist at <a href="https://agigo.ai" target="_blank" rel="noopener" class="ext">Agigo AG</a>, a Swiss AI company building autonomous AI agents.
   My work sits at the intersection of natural language processing and automatic speech recognition, with a strong focus on speech-and-audio LLMs.
 </p>
 <p>
@@ -55,46 +56,52 @@
   <div class="currently__item">
     <span class="currently__dot"></span>
     <div>
-      <span class="currently__title">Production speech LLMs</span>
-      <span class="currently__desc">— scaling acoustic and language models for multi-client inference.</span>
+      <span class="currently__title">High-throughput LLM &amp; speech model serving</span>
+      <span class="currently__desc">— production deployment with <a href="https://github.com/vllm-project/vllm-omni" target="_blank" rel="noopener" class="ext">vLLM-Omni</a>: streaming decoders, CUDA Graphs, <code>torch.compile</code>, and multi-client inference scheduling.</span>
     </div>
   </div>
   <div class="currently__item">
     <span class="currently__dot"></span>
     <div>
-      <span class="currently__title">Synthetic conversational data</span>
-      <span class="currently__desc">— generating high-quality dialogues for model training pipelines.</span>
+      <span class="currently__title">TTS controllability &amp; steering</span>
+      <span class="currently__desc">— conditioning generative TTS on prosody, speaker identity, and style — including voice cloning and zero-shot cross-lingual synthesis.</span>
     </div>
   </div>
   <div class="currently__item">
     <span class="currently__dot"></span>
     <div>
-      <span class="currently__title">GPU efficiency</span>
-      <span class="currently__desc">— maximizing throughput for inference workloads across clients.</span>
+      <span class="currently__title">Full-stack model development</span>
+      <span class="currently__desc">— end-to-end: data curation, large-scale synthetic data generation, training optimization targeting <strong>50% MFU</strong>, and deployment tuning for low-latency serving.</span>
     </div>
   </div>
   <div class="currently__item">
     <span class="currently__dot"></span>
     <div>
-      <span class="currently__title">Generative TTS with universal phonetizers</span>
-      <span class="currently__desc">— improving zero-shot, multilingual text-to-speech with shared phonetic representations.</span>
+      <span class="currently__title">Local LLM deployment &amp; KV-cache offloading</span>
+      <span class="currently__desc">— memory-efficient inference using disaggregated caching and offloading techniques (e.g., <a href="https://github.com/LMCache/LMCache" target="_blank" rel="noopener" class="ext">LMCache</a>) for constrained-GPU and edge scenarios.</span>
     </div>
   </div>
   <div class="currently__item">
     <span class="currently__dot"></span>
     <div>
-      <span class="currently__title">Omni-LLM data pipelines</span>
-      <span class="currently__desc">— large-scale data processing with omni LLMs to fuel multi-task RL training.</span>
+      <span class="currently__title">Holistic TTS evaluation pipelines</span>
+      <span class="currently__desc">— state-of-the-art automated evaluation covering intelligibility, speaker similarity, naturalness, prosody, and robustness across languages and domains.</span>
     </div>
   </div>
   <div class="currently__item">
     <span class="currently__dot"></span>
     <div>
-      <span class="currently__title">Open-source contributor to <a href="https://github.com/vllm-project/vllm-omni" target="_blank" rel="noopener" class="ext">vllm-omni</a></span>
-      <span class="currently__desc">— TTS inference, streaming decoders, and throughput kernels (<a href="https://github.com/vllm-project/vllm-omni/commits?author=JuanPZuluaga" target="_blank" rel="noopener" class="ext">see my contributions</a>).</span>
+      <span class="currently__title">Omni-modal data pipelines</span>
+      <span class="currently__desc">— large-scale processing with omni LLMs to generate multi-task RL training signal across speech, text, and audio.</span>
     </div>
   </div>
 </div>
+
+<h2 class="section-heading">experience</h2>
+{{ partial "experience-timeline.html" . }}
+<p class="small" style="margin-top: var(--s-4);">
+  <a href="{{ "cv/" | relURL }}">→ full cv with education &amp; awards</a>
+</p>
 
 <h2 class="section-heading">featured publications</h2>
 {{ partial "featured-pubs.html" . }}

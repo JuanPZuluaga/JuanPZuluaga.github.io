@@ -2,6 +2,7 @@
 title: "Publications"
 layout: "publications"
 url: "/publications/"
+description: "40+ peer-reviewed and preprint publications by Juan Pablo Zuluaga on automatic speech recognition, spoken language understanding, and speech-and-audio LLMs. Published at Interspeech, ICASSP, EMNLP, SLT, JMLR, and TSD."
 summary: "List of peer-reviewed and preprint publications by Juan Pablo Zuluaga."
 ShowToc: false
 ---

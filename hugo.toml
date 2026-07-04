@@ -24,12 +24,12 @@ disableKinds = ["taxonomy", "term"]
 [params]
   env = "production"
   title = "Juan Pablo Zuluaga"
-  description = "Senior Research Engineer at Agigo AG. Speech-and-audio LLMs, production ASR, spoken language understanding. PhD EPFL & IDIAP."
+  description = "Senior Research Scientist at Agigo AG. Speech-and-audio LLMs, production ASR, spoken language understanding. PhD EPFL & IDIAP."
   keywords = ["Speech Recognition", "ASR", "LLMs", "NLP", "Machine Learning", "Research", "Zurich"]
   author = "Juan Pablo Zuluaga"
   DateFormat = "Jan 2006"
   defaultTheme = "dark"
-  disableThemeToggle = true
+  disableThemeToggle = false
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -48,7 +48,7 @@ disableKinds = ["taxonomy", "term"]
 
   [params.homeInfoParams]
     Title = "Juan Pablo Zuluaga"
-    Content = "Senior Research Engineer · Agigo AG · Zürich"
+    Content = "Senior Research Scientist · Agigo AG · Zürich"
 
   [params.profileMode]
     enabled = false
@@ -62,6 +62,7 @@ disableKinds = ["taxonomy", "term"]
     disableFingerprinting = true
     favicon = "/logo.png"
     apple_touch_icon = "/logo.png"
+    theme_color = "#0d1117"
 
   [params.label]
     text = "juan pablo zuluaga"
