@@ -23,7 +23,7 @@ Wav2Vec2 and XLS-R models fine-tuned on public ATC datasets (ATCOSIM, LDC-ATCC, 
 ## Headline results
 
 - **20–40% relative WER reduction** vs. supervised Conformer baselines on in-domain ATC test sets
-- **Cross-accent generalization** via XLS-R — a single model trained on mixed European ATC data
+- **Cross-accent generalization** via XLS-R, a single model trained on mixed European ATC data
 - **~6% WER** on ATCOSIM with the Wav2Vec2-Large fine-tune
 
 ## What's released
@@ -36,8 +36,8 @@ Wav2Vec2 and XLS-R models fine-tuned on public ATC datasets (ATCOSIM, LDC-ATCC, 
 
 ## Try it
 
-The Colab notebook loads any of the models and transcribes an audio sample in under a minute — no GPU required for inference.
+The Colab notebook loads any of the models and transcribes an audio sample in under a minute, no GPU required for inference.
 
 ## Context
 
-This work is part of my PhD at Idiap/EPFL and was presented at IEEE SLT 2022. The accompanying paper systematically studies how self-supervised representations transfer under heavy domain shift — something surprisingly under-studied before we published.
+This work is part of my PhD at Idiap/EPFL and was presented at IEEE SLT 2022. The accompanying paper systematically studies how self-supervised representations transfer under heavy domain shift, something surprisingly under-studied before we published.

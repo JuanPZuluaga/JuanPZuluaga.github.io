@@ -1,4 +1,4 @@
-{{/* Featured projects — reads from pages in content/projects/ with featured: true */}}
+{{/* Featured projects, reads from pages in content/projects/ with featured: true */}}
 {{ $projects := where site.RegularPages "Section" "projects" }}
 {{ $featured := where $projects ".Params.featured" true }}
 

@@ -1,5 +1,5 @@
 # =============================================================
-# Experience & Education timeline — single source of truth.
+# Experience & Education timeline, single source of truth.
 # Used by layouts/partials/experience-timeline.html.
 # type: "work" | "education"
 # end: leave blank for ongoing roles, "present" shows "Present"

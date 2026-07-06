@@ -1,8 +1,8 @@
 ---
 title: "CV"
 url: "/cv/"
-description: "Curriculum Vitae of Juan Pablo Zuluaga — Senior Research Scientist at Agigo AG, PhD from EPFL & IDIAP. Research in speech-and-audio LLMs, production ASR, and spoken language understanding."
-summary: "Curriculum Vitae of Juan Pablo Zuluaga — research, experience, and education."
+description: "Curriculum Vitae of Juan Pablo Zuluaga, Senior Research Scientist at Agigo AG, PhD from EPFL & IDIAP. Research in speech-and-audio LLMs, production ASR, and spoken language understanding."
+summary: "Curriculum Vitae of Juan Pablo Zuluaga, research, experience, and education."
 ShowToc: false
 hidemeta: true
 disableShare: true
@@ -14,7 +14,7 @@ layout: "single"
 ## Current role
 
 <div class="cv-item">
-<div class="cv-item__date">2025 — now</div>
+<div class="cv-item__date">2025–now</div>
 <div>
 <h3 class="cv-item__title">Senior Research Scientist · Agigo AG</h3>
 <p class="cv-item__place">Zürich, Switzerland</p>
@@ -25,7 +25,7 @@ layout: "single"
 ## Experience
 
 <div class="cv-item">
-<div class="cv-item__date">2024 — 2025</div>
+<div class="cv-item__date">2024–2025</div>
 <div>
 <h3 class="cv-item__title">Research Engineer · Telepathy Labs</h3>
 <p class="cv-item__place">Zürich, Switzerland</p>
@@ -52,7 +52,7 @@ layout: "single"
 </div>
 
 <div class="cv-item">
-<div class="cv-item__date">2020 — 2024</div>
+<div class="cv-item__date">2020–2024</div>
 <div>
 <h3 class="cv-item__title">PhD Researcher · Idiap Research Institute &amp; EPFL</h3>
 <p class="cv-item__place">Martigny, Switzerland</p>
@@ -61,7 +61,7 @@ layout: "single"
 </div>
 
 <div class="cv-item">
-<div class="cv-item__date">2019 — 2020</div>
+<div class="cv-item__date">2019–2020</div>
 <div>
 <h3 class="cv-item__title">Research Engineer · Idiap Research Institute</h3>
 <p class="cv-item__place">Martigny, Switzerland</p>
@@ -76,12 +76,12 @@ layout: "single"
 <div>
 <h3 class="cv-item__title">PhD · EPFL &amp; IDIAP</h3>
 <p class="cv-item__place">Lausanne / Martigny, Switzerland</p>
-<p class="cv-item__body">Computer Science. Dissertation on Automatic Speech Recognition for Air Traffic Control — domain shift, self-supervised pretraining, and contextual biasing.</p>
+<p class="cv-item__body">Computer Science. Dissertation on Automatic Speech Recognition for Air Traffic Control, domain shift, self-supervised pretraining, and contextual biasing.</p>
 </div>
 </div>
 
 <div class="cv-item">
-<div class="cv-item__date">2017 — 2019</div>
+<div class="cv-item__date">2017–2019</div>
 <div>
 <h3 class="cv-item__title">MSc · Erasmus Mundus EU4M</h3>
 <p class="cv-item__place">Oviedo, Spain · Nancy, France · Cluj-Napoca, Romania</p>
@@ -90,7 +90,7 @@ layout: "single"
 </div>
 
 <div class="cv-item">
-<div class="cv-item__date">2011 — 2016</div>
+<div class="cv-item__date">2011–2016</div>
 <div>
 <h3 class="cv-item__title">BSc · Universidad Autónoma del Caribe</h3>
 <p class="cv-item__place">Barranquilla, Colombia</p>
@@ -100,23 +100,23 @@ layout: "single"
 
 ## Awards
 
-- **Best Student Paper nominee** — Interspeech 2023 (CommonAccent)
-- **1st place** — International Create Challenge 2020 · HealthTech Award (Groupe Mutuel)
-- **Erasmus Mundus Scholarship** — EU Commission (EU4M programme, 2017)
-- **DAAD Research Scholarship** — Germany (2014)
+- **Best Student Paper nominee**: Interspeech 2023 (CommonAccent)
+- **1st place**: International Create Challenge 2020 · HealthTech Award (Groupe Mutuel)
+- **Erasmus Mundus Scholarship**: EU Commission (EU4M programme, 2017)
+- **DAAD Research Scholarship**: Germany (2014)
 
 ## Skills
 
 **Core** · Python · PyTorch · SpeechBrain · Kaldi · HuggingFace · LaTeX · Git · Linux · GPU training &amp; inference · LLMs · ASR · TTS · Self-supervised learning · NLP
 
-**AI-assisted development** · I use agentic coding tools — primarily **Claude Code** — as a core part of my engineering workflow, applying them from low-level GPU kernels up to high-concurrency serving:
+**AI-assisted development** · I use agentic coding tools, primarily **Claude Code**, as a core part of my engineering workflow, applying them from low-level GPU kernels up to high-concurrency serving:
 
-- **Kernel development** — CUDA Graphs, Triton kernels, and `torch.compile` for GPU-efficient inference
-- **TTS &amp; LLM systems** — streaming synthesis, controllability, and omni-modal model serving
-- **High-concurrency deployment** — throughput and latency optimization for multi-client production serving
-- **Rapid prototyping** — from idea to working proof of concept in hours rather than days
-- **Data curation** — large-scale filtering, cleaning, and synthetic data generation pipelines
-- **Evaluation &amp; infrastructure** — automated benchmarking harnesses and reproducible experiment tooling
+- **Kernel development**: CUDA Graphs, Triton kernels, and `torch.compile` for GPU-efficient inference
+- **TTS &amp; LLM systems**: streaming synthesis, controllability, and omni-modal model serving
+- **High-concurrency deployment**: throughput and latency optimization for multi-client production serving
+- **Rapid prototyping**: from idea to working proof of concept in hours rather than days
+- **Data curation**: large-scale filtering, cleaning, and synthetic data generation pipelines
+- **Evaluation &amp; infrastructure**: automated benchmarking harnesses and reproducible experiment tooling
 
 ## Languages
 
