@@ -10,7 +10,7 @@ pygmentsUseClasses = true
 
 copyright = "&copy; 2026 [Juan Pablo Zuluaga](/)"
 
-# Disable default taxonomies — we don't use tags or categories
+# Disable default taxonomies, we don't use tags or categories
 disableKinds = ["taxonomy", "term"]
 [taxonomies]
 

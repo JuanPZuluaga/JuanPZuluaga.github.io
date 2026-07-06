@@ -4,7 +4,7 @@
   <div class="exp-item{{ if eq .type "education" }} exp-item--education{{ end }}">
     <div class="exp-item__header">
       <span class="exp-item__date">
-        {{- .start }}{{ if .end }} — {{ if eq .end "present" }}present{{ else }}{{ .end }}{{ end }}{{ end -}}
+        {{- .start }}{{ if .end }} – {{ if eq .end "present" }}present{{ else }}{{ .end }}{{ end }}{{ end -}}
       </span>
       {{- if .url }}
       <a href="{{ .url }}" class="exp-item__org ext" target="_blank" rel="noopener">{{ .org }}</a>
