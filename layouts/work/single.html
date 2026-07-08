@@ -1,0 +1,113 @@
+{{- define "main" }}
+{{- $p := .Params }}
+<article class="cs">
+
+  {{/* ---------- Hero ---------- */}}
+  <header class="cs-hero">
+    <div class="cs-hero__meta">
+      {{- with $p.venue }}<span class="badge">{{ . }}</span>{{ end }}
+      {{- with $p.year }}<span class="cs-hero__year">{{ . }}</span>{{ end }}
+      {{- with $p.award }}<span class="pub__award">★ {{ . }}</span>{{ end }}
+    </div>
+    <h1 class="cs-hero__title">{{ .Title }}</h1>
+    {{- with $p.tldr }}<p class="cs-hero__tldr">{{ . | markdownify }}</p>{{ end }}
+    {{- with $p.authors }}<p class="cs-hero__authors">{{ . | safeHTML }}</p>{{ end }}
+    {{- with $p.links }}
+    <div class="cs-links">
+      {{- range . }}<a href="{{ .url }}" target="_blank" rel="noopener" class="cs-link">{{ .name }}</a>{{ end }}
+    </div>
+    {{- end }}
+  </header>
+
+  {{/* ---------- Stat tiles ---------- */}}
+  {{- with $p.stats }}
+  <div class="cs-stats">
+    {{- range . }}
+    <div class="cs-stat">
+      <div class="cs-stat__value">{{ .value }}</div>
+      <div class="cs-stat__label">{{ .label | markdownify }}</div>
+    </div>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{/* ---------- Hero figure ---------- */}}
+  {{- with $p.hero_image }}
+  <figure class="cs-figure cs-figure--wide">
+    <img src="{{ . | relURL }}" alt="{{ $p.hero_caption | default $.Title }}" loading="lazy">
+    {{- with $p.hero_caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+  </figure>
+  {{- end }}
+
+  {{/* ---------- The problem ---------- */}}
+  {{- with $p.problem }}
+  <section class="cs-section">
+    <h2 class="section-heading">the problem</h2>
+    <div class="cs-prose">{{ . | markdownify }}</div>
+  </section>
+  {{- end }}
+
+  {{/* ---------- Approach ---------- */}}
+  {{- with $p.approach }}
+  <section class="cs-section">
+    <h2 class="section-heading">approach</h2>
+    <div class="cs-prose">{{ . | markdownify }}</div>
+  </section>
+  {{- end }}
+
+  {{/* ---------- Results ---------- */}}
+  {{- with $p.results }}
+  <section class="cs-section">
+    <h2 class="section-heading">results</h2>
+    {{ partial "chart-bars.html" . }}
+  </section>
+  {{- end }}
+
+  {{/* ---------- What I did ---------- */}}
+  {{- with $p.contribution }}
+  <section class="cs-section">
+    <h2 class="section-heading">what I did</h2>
+    <div class="cs-prose">{{ . | markdownify }}</div>
+  </section>
+  {{- end }}
+
+  {{/* ---------- Achievements ---------- */}}
+  {{- with $p.achievements }}
+  <section class="cs-section">
+    <h2 class="section-heading">highlights</h2>
+    <ul class="cs-achievements">
+      {{- range . }}<li>{{ . | markdownify }}</li>{{ end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{/* ---------- Why it matters ---------- */}}
+  {{- with $p.impact }}
+  <section class="cs-section">
+    <h2 class="section-heading">why it matters</h2>
+    <div class="cs-prose">{{ . | markdownify }}</div>
+  </section>
+  {{- end }}
+
+  {{/* ---------- Free-form body (optional) ---------- */}}
+  {{- with .Content }}<div class="cs-prose cs-section">{{ . }}</div>{{ end }}
+
+  {{/* ---------- Cite ---------- */}}
+  {{- if and $p.authors $p.year (ne $p.venue "Open source") }}
+  <section class="cs-section">
+    <h2 class="section-heading">cite</h2>
+    <div class="pub__bibtex cs-bibtex">
+      <button type="button" class="pub__copy">copy</button>
+      <pre><code>{{ partial "bibtex.html" (dict "title" .Title "authors" $p.authors "year" $p.year "venue" $p.venue "paper" ($p.paper | default "") "arxiv" ($p.arxiv | default "")) }}</code></pre>
+    </div>
+  </section>
+  {{- end }}
+
+  {{/* ---------- Back / CTA ---------- */}}
+  <div class="cs-cta">
+    <a href="{{ "work/" | relURL }}">← all work</a>
+    <span>Interested in working together? <a href="{{ "contact/" | relURL }}">get in touch →</a></span>
+  </div>
+
+</article>
+{{- end }}

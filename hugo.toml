@@ -97,6 +97,11 @@ disableKinds = ["taxonomy", "term"]
 
 [menu]
   [[menu.main]]
+    identifier = "work"
+    name = "work"
+    url = "/work/"
+    weight = 5
+  [[menu.main]]
     identifier = "publications"
     name = "publications"
     url = "/publications/"
