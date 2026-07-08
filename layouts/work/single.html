@@ -19,6 +19,16 @@
     {{- end }}
   </header>
 
+  {{/* ---------- TL;DR ---------- */}}
+  {{- with $p.tldr_points }}
+  <aside class="tldr">
+    <div class="tldr__label">TL;DR</div>
+    <ul>
+      {{- range . }}<li>{{ . | markdownify }}</li>{{ end }}
+    </ul>
+  </aside>
+  {{- end }}
+
   {{/* ---------- Stat tiles ---------- */}}
   {{- with $p.stats }}
   <div class="cs-stats">
@@ -31,6 +41,13 @@
   </div>
   {{- end }}
 
+  {{/* ---------- How it works (flow diagram) ---------- */}}
+  {{- with $p.flow }}
+  <section class="cs-section">
+    {{ partial "flow-diagram.html" . }}
+  </section>
+  {{- end }}
+
   {{/* ---------- Hero figure ---------- */}}
   {{- with $p.hero_image }}
   <figure class="cs-figure cs-figure--wide">
@@ -39,23 +56,7 @@
   </figure>
   {{- end }}
 
-  {{/* ---------- The problem ---------- */}}
-  {{- with $p.problem }}
-  <section class="cs-section">
-    <h2 class="section-heading">the problem</h2>
-    <div class="cs-prose">{{ . | markdownify }}</div>
-  </section>
-  {{- end }}
-
-  {{/* ---------- Approach ---------- */}}
-  {{- with $p.approach }}
-  <section class="cs-section">
-    <h2 class="section-heading">approach</h2>
-    <div class="cs-prose">{{ . | markdownify }}</div>
-  </section>
-  {{- end }}
-
-  {{/* ---------- Results ---------- */}}
+  {{/* ---------- Results chart ---------- */}}
   {{- with $p.results }}
   <section class="cs-section">
     <h2 class="section-heading">results</h2>
@@ -63,15 +64,7 @@
   </section>
   {{- end }}
 
-  {{/* ---------- What I did ---------- */}}
-  {{- with $p.contribution }}
-  <section class="cs-section">
-    <h2 class="section-heading">what I did</h2>
-    <div class="cs-prose">{{ . | markdownify }}</div>
-  </section>
-  {{- end }}
-
-  {{/* ---------- Achievements ---------- */}}
+  {{/* ---------- Highlights ---------- */}}
   {{- with $p.achievements }}
   <section class="cs-section">
     <h2 class="section-heading">highlights</h2>
@@ -81,12 +74,17 @@
   </section>
   {{- end }}
 
-  {{/* ---------- Why it matters ---------- */}}
+  {{/* ---------- Why it matters (compact callout) ---------- */}}
   {{- with $p.impact }}
-  <section class="cs-section">
-    <h2 class="section-heading">why it matters</h2>
-    <div class="cs-prose">{{ . | markdownify }}</div>
-  </section>
+  <aside class="cs-impact">
+    <div class="cs-impact__label">why it matters</div>
+    <div>{{ . | markdownify }}</div>
+  </aside>
+  {{- end }}
+
+  {{/* ---------- My role (one line) ---------- */}}
+  {{- with $p.role }}
+  <p class="cs-role"><span class="cs-role__k">my role</span> {{ . | markdownify }}</p>
   {{- end }}
 
   {{/* ---------- Free-form body (optional) ---------- */}}
@@ -103,7 +101,7 @@
   </section>
   {{- end }}
 
-  {{/* ---------- Back / CTA ---------- */}}
+  {{/* ---------- CTA ---------- */}}
   <div class="cs-cta">
     <a href="{{ "work/" | relURL }}">← all work</a>
     <span>Interested in working together? <a href="{{ "contact/" | relURL }}">get in touch →</a></span>

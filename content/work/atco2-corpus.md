@@ -10,6 +10,22 @@ tldr: "A **5,000-hour** open corpus of real air traffic control communications, 
 tags: ["Dataset", "ASR", "NLU"]
 description: "ATCO2 is a 5,000-hour open corpus of air traffic control communications with transcripts, speaker-role labels, and contextual metadata, the largest open ATC dataset for ASR and NLU research."
 images: ["/papers/atco2-corpus/og.png"]
+tldr_points:
+  - "**Problem:** ATC speech is safety-critical and uniquely hard, yet the largest open datasets were only a few dozen hours."
+  - "**Idea:** an end-to-end pipeline to collect, auto-transcribe, quality-filter, and annotate live VHF ATC audio at scale."
+  - "**Result:** a **5,000-hour** open corpus, now a standard benchmark across Europe."
+flow:
+  title: "The data pipeline"
+  steps:
+    - label: "Live VHF audio"
+      sub: "European airspace"
+    - label: "Auto-transcribe & filter"
+      sub: "pseudo-labeling"
+    - label: "Role labels + metadata"
+      sub: "callsigns, commands"
+    - label: "5,000 h corpus"
+      sub: "open release"
+      highlight: true
 stats:
   - value: "5,000 h"
     label: "of live air traffic control audio"
@@ -17,18 +33,12 @@ stats:
     label: "EU project (SESAR Joint Undertaking)"
   - value: "1st"
     label: "open ATC corpus at this scale"
-problem: |
-  Air traffic control speech is a uniquely hard, safety-critical domain, yet before ATCO2 the largest open datasets were only a few dozen hours: far too small to train or fairly evaluate modern self-supervised systems. Progress was bottlenecked by data.
-approach: |
-  ATCO2 built an end-to-end pipeline to collect, automatically transcribe, and quality-filter live VHF air traffic control audio from across European airspace, then enrich it with **speaker-role labels** (pilot vs. controller) and **contextual metadata** (callsigns, commands, waypoints) linked to surveillance data. The result is released in tiers, from a small gold-standard test set to the full 5,000-hour pool.
-contribution: |
-  I was a lead author and driving contributor on the corpus: the collection and pseudo-labeling pipeline, the annotation scheme, and the released benchmark splits. It became the backbone of my PhD and of several follow-up projects on contextual ASR, diarization, and callsign recognition.
 achievements:
   - "**5,000 hours** of real ATC audio, orders of magnitude larger than prior open sets"
   - "Transcripts, **speaker-role labels**, and surveillance-linked contextual metadata"
   - "Released in tiers (gold-standard test → full pool) and used as a benchmark across Europe"
-impact: |
-  ATCO2 turned a data-starved field into one where large pretrained models can be studied at realistic scale. It is now a standard benchmark for ATC speech research and is available for research use through ELRA.
+impact: "Turned a data-starved field into one where large pretrained models can be studied at realistic scale. ATCO2 is now a standard benchmark for ATC speech research and is available for research use through ELRA."
+role: "**Lead author and driving contributor** on the collection and pseudo-labeling pipeline, the annotation scheme, and the released benchmark splits. ATCO2 became the backbone of my PhD."
 links:
   - name: arxiv
     url: "https://arxiv.org/abs/2211.04054"

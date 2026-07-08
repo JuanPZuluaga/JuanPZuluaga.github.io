@@ -6,4 +6,4 @@ description: "In-depth case studies of Juan Pablo Zuluaga's most impactful work:
 ShowToc: false
 ---
 
-Deep dives into a few projects I'm most proud of — the problem, what I built, the measurable results, and why it matters.
+Deep dives into a few projects I'm most proud of: the problem, what I built, the measurable results, and why it matters.

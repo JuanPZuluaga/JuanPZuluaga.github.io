@@ -1,0 +1,14 @@
+{{- /* Simple method/pipeline diagram: connected boxes with arrows.
+       Context: { title, steps: [ {label, sub, highlight} ] } */ -}}
+<figure class="flow">
+  {{- with .title }}<figcaption class="flow__title">{{ . }}</figcaption>{{ end }}
+  <div class="flow__steps">
+    {{- range $i, $s := .steps }}
+    {{- if $i }}<span class="flow__arrow" aria-hidden="true">&rarr;</span>{{ end }}
+    <div class="flow__step{{ if $s.highlight }} flow__step--hl{{ end }}">
+      <span class="flow__label">{{ $s.label }}</span>
+      {{- with $s.sub }}<span class="flow__sub">{{ . }}</span>{{ end }}
+    </div>
+    {{- end }}
+  </div>
+</figure>

@@ -11,6 +11,20 @@ tldr: "The first **end-to-end** speech translation system that handles speaker t
 tags: ["Speech Translation", "End-to-end", "Diarization"]
 description: "An end-to-end speech translation system that jointly handles speaker turns and overlapping speech on a single channel, published at EMNLP 2023. Work done during an AWS internship."
 images: ["/papers/speech-translation/og.png"]
+tldr_points:
+  - "**Problem:** real conversations have people talking over each other on one channel; cascaded pipelines lose overlapping speech."
+  - "**Idea:** an end-to-end model that jointly detects speaker turns and translates, directly from single-channel audio."
+  - "**Result:** the **first** end-to-end, speaker-turn-aware speech translation system for this setting."
+flow:
+  title: "How it works"
+  steps:
+    - label: "Single-channel audio"
+      sub: "overlapping speakers"
+    - label: "End-to-end model"
+      sub: "joint turns + translation"
+      highlight: true
+    - label: "Per-speaker translation"
+      sub: "who said what"
 hero_image: "/papers/e2e-translation/waveforms.png"
 hero_caption: "Single-channel conversational audio with overlapping speakers (top) decomposed into per-speaker streams: the model translates while tracking who spoke when."
 stats:
@@ -20,18 +34,12 @@ stats:
     label: "research internship, published at **EMNLP 2023**"
   - value: "open"
     label: "code released for reproducibility"
-problem: |
-  Real conversations are messy: people talk over each other on a single audio channel. Traditional speech-translation pipelines cascade separate diarization, recognition, and translation stages, so errors compound and overlapping speech is often lost. An end-to-end model that is aware of *who spoke when* had not been shown to work in this single-channel, overlapping setting.
-approach: |
-  I built an **end-to-end** model that jointly performs speaker-turn detection and speech translation directly from single-channel audio, so speaker structure and translation are learned together rather than bolted on. This removes the brittle cascade and lets the model handle overlap gracefully.
-contribution: |
-  First-author work during my research internship at **AWS**. I designed and trained the end-to-end system, ran the evaluation on conversational speech, and released the code. The work was published at **EMNLP 2023**.
 achievements:
   - "**First** end-to-end system to jointly handle speaker turns and translation on a single channel"
   - "Robust to **overlapping speech**, where cascaded pipelines break down"
   - "Published at **EMNLP 2023**; code released for reproducibility"
-impact: |
-  This work pushed speech translation toward realistic, conversational audio, exactly the setting that matters for meetings, calls, and live interpretation, and showed that jointly modeling speaker structure and translation beats cascading them.
+impact: "Pushed speech translation toward realistic, conversational audio, the setting that matters for meetings, calls, and live interpretation, and showed that jointly modeling speaker structure and translation beats cascading them."
+role: "**First author** during my research internship at **AWS**. I designed and trained the end-to-end system, ran the evaluation on conversational speech, and released the code."
 links:
   - name: paper
     url: "https://aclanthology.org/2023.emnlp-main.493/"

@@ -8,6 +8,21 @@ tldr: "**20+ merged PRs** to vLLM-Omni, the production inference engine for text
 tags: ["Inference", "TTS", "CUDA", "vLLM"]
 description: "20+ merged PRs to vLLM-Omni, the production inference engine for omni-modal models: streaming TTS, CUDA Graph kernels, torch.compile, voice cloning, and high-concurrency serving."
 images: ["/papers/vllm-omni/og.png"]
+tldr_points:
+  - "**Problem:** serving TTS at scale runs an autoregressive code-predictor **and** a waveform decoder per request, each with its own latency budget."
+  - "**What I do:** **20+ merged PRs** across the vLLM-Omni TTS stack, from GPU kernels up to the request scheduler."
+  - "**Result:** faster, streamable, production-stable omni-modal serving, all upstreamed to a widely used project."
+flow:
+  title: "The TTS serving path"
+  steps:
+    - label: "Text request"
+    - label: "Code Predictor"
+      sub: "autoregressive"
+    - label: "Code2Wav decoder"
+      sub: "CUDA Graph · Triton"
+      highlight: true
+    - label: "Streaming audio"
+      sub: "low time-to-first-audio"
 stats:
   - value: "20+"
     label: "merged PRs to vLLM-Omni"
@@ -15,17 +30,13 @@ stats:
     label: "& OmniVoice serving paths"
   - value: "prod"
     label: "high-concurrency, low-latency serving"
-problem: |
-  Serving omni-modal models at production scale is unlike pure-LLM serving: a text-to-speech request runs an autoregressive code-predictor **and** a waveform decoder (Code2Wav), each with its own batching and latency budget. Making that pipeline fast, streamable, and stable under real concurrent load is a hard systems problem.
-approach: |
-  I contribute across the [vLLM-Omni](https://github.com/vllm-project/vllm-omni) TTS serving stack, from GPU kernels up to the request scheduler, optimizing for time-to-first-audio and throughput at high concurrency while keeping the system stable under bursty load.
 achievements:
-  - "**Streaming & low-latency TTS** — real-time token-by-token output and dynamic time-to-first-audio tuning"
-  - "**GPU kernel optimization** — CUDA Graph capture, Triton kernel fusion, and `torch.compile` with static shapes"
-  - "**Voice cloning & speaker management** — a global speaker cache with LRU eviction and reference-audio upload"
-  - "**Prefix-cache hardening** — OOM guards and fixes for silent cache corruption under long-context load"
-impact: |
-  This work makes open, omni-modal TTS serving genuinely production-ready: faster, streamable, and stable at concurrency. It maps directly to the generative-audio serving I do day to day, and it is all upstreamed to a widely used open-source project.
+  - "**Streaming & low-latency TTS**: real-time token-by-token output and dynamic time-to-first-audio tuning"
+  - "**GPU kernel optimization**: CUDA Graph capture, Triton kernel fusion, and `torch.compile` with static shapes"
+  - "**Voice cloning & speaker management**: a global speaker cache with LRU eviction and reference-audio upload"
+  - "**Prefix-cache hardening**: OOM guards and fixes for silent cache corruption under long-context load"
+impact: "Makes open, omni-modal TTS serving genuinely production-ready: faster, streamable, and stable at concurrency. It maps directly to the generative-audio serving I do day to day, and it is all upstreamed."
+role: "**Active open-source contributor.** I work across the TTS serving stack, from GPU kernels up to the request scheduler, optimizing for time-to-first-audio and high-concurrency throughput."
 links:
   - name: github
     url: "https://github.com/vllm-project/vllm-omni"
