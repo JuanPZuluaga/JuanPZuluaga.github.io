@@ -47,7 +47,6 @@ achievements:
   - "**Cross-accent generalization** with a single XLS-R model trained on mixed European ATC data"
   - "Open models, recipes, and a **run-in-a-minute Colab**, adopted by follow-up work"
 impact: "Among the first studies to show how self-supervised pretraining transfers to a safety-critical, heavily domain-shifted setting. The released models became a practical baseline for ATC ASR research, and the recipe generalizes to other low-resource, noisy domains."
-role: "**First author**, PhD work at Idiap and EPFL. I designed the benchmark, ran the fine-tuning experiments across model sizes and corpora, and released the models, recipes, and Colab."
 links:
   - name: arxiv
     url: "https://arxiv.org/abs/2203.16822"

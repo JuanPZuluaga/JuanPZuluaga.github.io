@@ -54,7 +54,6 @@ achievements:
   - "A single **reproducible recipe** that extends across four languages"
   - "Open model on HuggingFace and full code, so results are immediately reusable"
 impact: "Gave the community a clean, reproducible accent-classification baseline and showed that self-supervised speech representations transfer strongly to paralinguistic tasks, not just transcription."
-role: "**First author**, PhD work. I designed the benchmark and recipe, ran the model comparison and multilingual extension, and released the accent-ID model on HuggingFace."
 links:
   - name: arxiv
     url: "https://arxiv.org/abs/2305.18283"

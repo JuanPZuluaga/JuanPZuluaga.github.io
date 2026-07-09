@@ -82,11 +82,6 @@
   </aside>
   {{- end }}
 
-  {{/* ---------- My role (one line) ---------- */}}
-  {{- with $p.role }}
-  <p class="cs-role"><span class="cs-role__k">my role</span> {{ . | markdownify }}</p>
-  {{- end }}
-
   {{/* ---------- Free-form body (optional) ---------- */}}
   {{- with .Content }}<div class="cs-prose cs-section">{{ . }}</div>{{ end }}
 
@@ -101,10 +96,9 @@
   </section>
   {{- end }}
 
-  {{/* ---------- CTA ---------- */}}
+  {{/* ---------- Back ---------- */}}
   <div class="cs-cta">
     <a href="{{ "work/" | relURL }}">← all work</a>
-    <span>Interested in working together? <a href="{{ "contact/" | relURL }}">get in touch →</a></span>
   </div>
 
 </article>

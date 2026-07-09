@@ -38,7 +38,6 @@ achievements:
   - "Transcripts, **speaker-role labels**, and surveillance-linked contextual metadata"
   - "Released in tiers (gold-standard test → full pool) and used as a benchmark across Europe"
 impact: "Turned a data-starved field into one where large pretrained models can be studied at realistic scale. ATCO2 is now a standard benchmark for ATC speech research and is available for research use through ELRA."
-role: "**Lead author and driving contributor** on the collection and pseudo-labeling pipeline, the annotation scheme, and the released benchmark splits. ATCO2 became the backbone of my PhD."
 links:
   - name: arxiv
     url: "https://arxiv.org/abs/2211.04054"

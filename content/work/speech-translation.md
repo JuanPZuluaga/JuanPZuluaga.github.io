@@ -39,7 +39,6 @@ achievements:
   - "Robust to **overlapping speech**, where cascaded pipelines break down"
   - "Published at **EMNLP 2023**; code released for reproducibility"
 impact: "Pushed speech translation toward realistic, conversational audio, the setting that matters for meetings, calls, and live interpretation, and showed that jointly modeling speaker structure and translation beats cascading them."
-role: "**First author** during my research internship at **AWS**. I designed and trained the end-to-end system, ran the evaluation on conversational speech, and released the code."
 links:
   - name: paper
     url: "https://aclanthology.org/2023.emnlp-main.493/"

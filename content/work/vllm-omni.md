@@ -36,7 +36,6 @@ achievements:
   - "**Voice cloning & speaker management**: a global speaker cache with LRU eviction and reference-audio upload"
   - "**Prefix-cache hardening**: OOM guards and fixes for silent cache corruption under long-context load"
 impact: "Makes open, omni-modal TTS serving genuinely production-ready: faster, streamable, and stable at concurrency. It maps directly to the generative-audio serving I do day to day, and it is all upstreamed."
-role: "**Active open-source contributor.** I work across the TTS serving stack, from GPU kernels up to the request scheduler, optimizing for time-to-first-audio and high-concurrency throughput."
 links:
   - name: github
     url: "https://github.com/vllm-project/vllm-omni"
