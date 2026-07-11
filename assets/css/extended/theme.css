@@ -1336,3 +1336,79 @@ hr {
   margin-right: var(--s-2);
 }
 .cs-role strong { color: var(--c-text); }
+
+/* ============================================================
+   Papers — single-page compact blocks
+   ============================================================ */
+.papers { margin-top: var(--s-5); }
+
+.paper {
+  padding: var(--s-7) 0;
+  border-top: 1px solid var(--c-border);
+  scroll-margin-top: calc(var(--nav-h) + var(--s-4));
+}
+.paper:first-child { border-top: none; padding-top: var(--s-4); }
+
+.paper__head {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--s-3);
+}
+.paper__year { font-family: var(--f-mono); font-size: 0.8125rem; color: var(--c-muted); }
+
+.paper__title {
+  font-family: var(--f-display);
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  line-height: 1.2;
+  margin: 0 0 var(--s-3) 0;
+}
+.paper__tldr {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--c-content);
+  margin: 0 0 var(--s-4) 0;
+}
+.paper__tldr strong { color: var(--c-accent); }
+
+/* Compact inline stat chips */
+.paper__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2) var(--s-5);
+  margin: var(--s-4) 0;
+  padding: var(--s-3) 0;
+  border-block: 1px solid var(--c-border);
+}
+.paper__stat { font-size: 0.9rem; color: var(--c-muted); }
+.paper__stat strong {
+  font-family: var(--f-display);
+  font-size: 1.15rem;
+  color: var(--c-accent);
+  margin-right: 6px;
+}
+.paper__stat p { display: inline; margin: 0; }
+
+.paper__takeaway {
+  font-size: 0.95rem;
+  color: var(--c-muted);
+  line-height: 1.6;
+  border-left: 2px solid color-mix(in srgb, var(--c-accent) 50%, var(--c-border));
+  padding-left: var(--s-4);
+  margin: var(--s-5) 0;
+}
+.paper__takeaway strong { color: var(--c-text); }
+
+.paper__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  align-items: center;
+  margin-top: var(--s-4);
+}
+
+/* the flow diagram + chart already themed; tighten margins inside a paper block */
+.paper .flow { margin: var(--s-5) 0; }
+.paper .chart { margin: var(--s-4) 0; }
+.paper .pub__bibtex { margin-top: var(--s-3); }

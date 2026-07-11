@@ -1,17 +1,15 @@
-{{- /* Top case studies from the Selected Work section, by weight */ -}}
-{{- $work := (where site.RegularPages "Section" "work").ByWeight -}}
+{{- /* Compact cards for the top papers, linking into the single /papers/ page */ -}}
 <div class="cs-grid cs-grid--home">
-  {{- range first 4 $work }}
-  {{- $p := .Params }}
-  <a class="cs-card" href="{{ .RelPermalink }}">
+  {{- range first 4 hugo.Data.papers }}
+  <a class="cs-card" href="{{ (printf "papers/#%s" .id) | relURL }}">
     <div class="cs-card__meta">
-      {{- with $p.venue }}<span class="badge">{{ . }}</span>{{ end }}
-      {{- with $p.year }}<span class="cs-card__year">{{ . }}</span>{{ end }}
-      {{- with $p.award }}<span class="pub__award">★ {{ . }}</span>{{ end }}
+      {{- with .venue }}<span class="badge">{{ . }}</span>{{ end }}
+      {{- with .year }}<span class="cs-card__year">{{ . }}</span>{{ end }}
+      {{- with .award }}<span class="pub__award">★ {{ . }}</span>{{ end }}
     </div>
-    <h3 class="cs-card__title">{{ .Title }}</h3>
-    {{- with $p.tldr }}<p class="cs-card__tldr">{{ . | markdownify }}</p>{{ end }}
-    {{- with $p.stats }}
+    <h3 class="cs-card__title">{{ .title }}</h3>
+    {{- with .tldr }}<p class="cs-card__tldr">{{ . | markdownify }}</p>{{ end }}
+    {{- with .stats }}
     <div class="cs-card__stat"><strong>{{ (index . 0).value }}</strong> {{ (index . 0).label | markdownify }}</div>
     {{- end }}
   </a>

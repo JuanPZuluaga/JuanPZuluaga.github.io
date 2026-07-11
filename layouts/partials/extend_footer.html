@@ -7,7 +7,7 @@
 document.addEventListener('click', function (e) {
   var cite = e.target.closest('.pub__cite');
   if (cite) {
-    var box = cite.closest('.pub').querySelector('.pub__bibtex');
+    var box = cite.closest('.pub, .paper').querySelector('.pub__bibtex');
     if (box) {
       box.hidden = !box.hidden;
       cite.setAttribute('aria-expanded', box.hidden ? 'false' : 'true');

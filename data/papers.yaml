@@ -1,0 +1,197 @@
+# =============================================================
+# Papers / selected work — single source for the one-page /papers/ view.
+# Ordered as they appear on the page (most recent / most prominent first).
+# =============================================================
+
+- id: vllm-omni
+  title: "vLLM-Omni: Production Serving for Omni-Modal Models"
+  venue: "Open source"
+  year: 2026
+  tldr: "**20+ merged PRs** to vLLM-Omni, the production inference engine for text, speech, audio, and vision, focused on streaming TTS, CUDA-graph kernels, and high-concurrency serving."
+  stats:
+    - value: "20+"
+      label: "merged PRs"
+    - value: "Qwen3-TTS"
+      label: "& OmniVoice paths"
+    - value: "prod"
+      label: "high-concurrency serving"
+  flow:
+    title: "The TTS serving path"
+    steps:
+      - label: "Text request"
+      - label: "Code Predictor"
+        sub: "autoregressive"
+      - label: "Code2Wav decoder"
+        sub: "CUDA Graph · Triton"
+        highlight: true
+      - label: "Streaming audio"
+        sub: "low TTFA"
+  takeaway: "Makes open, omni-modal TTS serving production-ready: faster, streamable, and stable at concurrency."
+  links:
+    - name: github
+      url: "https://github.com/vllm-project/vllm-omni"
+    - name: my commits
+      url: "https://github.com/vllm-project/vllm-omni/commits?author=JuanPZuluaga"
+
+- id: atco2-corpus
+  title: "ATCO2: The Largest Open Air Traffic Control Speech Corpus"
+  venue: "arXiv"
+  year: 2023
+  authors: "<strong>J. P. Zuluaga</strong>, K. Vesely, I. Szoke, P. Motlicek, M. Kocour, M. Rigault, K. Choukri, A. Prasad, S. Sarfjoo, I. Nigmatulina, J. Cernocky, D. Klakow."
+  arxiv: "https://arxiv.org/abs/2211.04054"
+  tldr: "A **5,000-hour** open corpus of real air traffic control communications, with transcripts, speaker-role labels, and contextual metadata. The largest open ATC dataset for speech recognition and understanding."
+  stats:
+    - value: "5,000 h"
+      label: "of live ATC audio"
+    - value: "4-year"
+      label: "EU project (SESAR)"
+    - value: "1st"
+      label: "open ATC corpus at this scale"
+  flow:
+    title: "The data pipeline"
+    steps:
+      - label: "Live VHF audio"
+        sub: "European airspace"
+      - label: "Auto-transcribe & filter"
+        sub: "pseudo-labeling"
+      - label: "Role labels + metadata"
+        sub: "callsigns, commands"
+      - label: "5,000 h corpus"
+        sub: "open release"
+        highlight: true
+  takeaway: "Turned a data-starved field into one where large pretrained models can be studied at realistic scale. Now a standard benchmark, available through ELRA."
+  links:
+    - name: arxiv
+      url: "https://arxiv.org/abs/2211.04054"
+    - name: code
+      url: "https://github.com/idiap/atco2-corpus"
+    - name: data
+      url: "https://www.atco2.org/data"
+
+- id: commonaccent
+  title: "CommonAccent: Accent Classification with Self-Supervised Models"
+  venue: "Interspeech"
+  year: 2023
+  award: "Best Student Paper nominee"
+  authors: "<strong>J. P. Zuluaga</strong>, S. Sarfjoo, A. Prasad, I. Nigmatulina, P. Motlicek, K. Ondrej, O. Ohneiser, H. Helmke."
+  arxiv: "https://arxiv.org/abs/2305.18283"
+  tldr: "A benchmark and open model for spoken-accent classification on Common Voice, reaching **95%+ accuracy** with self-supervised models."
+  stats:
+    - value: "95.1%"
+      label: "accent-ID accuracy (English)"
+    - value: "★"
+      label: "Best Student Paper nominee"
+    - value: "4"
+      label: "languages benchmarked"
+  flow:
+    title: "How it works"
+    steps:
+      - label: "Speech utterance"
+        sub: "Common Voice"
+      - label: "Self-supervised encoder"
+        sub: "wav2vec 2.0-XLSR"
+        highlight: true
+      - label: "Stat-pooling head"
+        sub: "accent classifier"
+      - label: "Accent label"
+        sub: "95%+ accuracy"
+  results:
+    title: "Accent-ID accuracy on English Common Voice (higher is better)"
+    unit: "%"
+    bars:
+      - label: "ECAPA-TDNN"
+        value: 79.0
+      - label: "wav2vec 2.0-XLSR"
+        value: 95.1
+        highlight: true
+      - label: "+ augmentation"
+        value: 97.1
+        highlight: true
+  takeaway: "Showed that self-supervised speech representations transfer strongly to paralinguistic tasks, not just transcription."
+  links:
+    - name: arxiv
+      url: "https://arxiv.org/abs/2305.18283"
+    - name: code
+      url: "https://github.com/JuanPZuluaga/accent-recog-slt2022"
+    - name: model
+      url: "https://huggingface.co/Jzuluaga/accent-id-commonaccent_ecapa"
+
+- id: speech-translation
+  title: "End-to-End Speaker-Turn-Aware Speech Translation"
+  venue: "EMNLP"
+  year: 2023
+  authors: "<strong>J. P. Zuluaga</strong>, Z. Huang, X. Niu, R. Paturi, S. Srinivasan, P. Mathur, B. Thompson, M. Federico."
+  paper: "https://aclanthology.org/2023.emnlp-main.493/"
+  arxiv: "https://arxiv.org/abs/2311.00697"
+  tldr: "The **first** end-to-end speech translation system that handles speaker turns and overlapping speech on a single channel. Built during my internship at **AWS**."
+  stats:
+    - value: "1st"
+      label: "single-channel, speaker-turn-aware E2E ST"
+    - value: "AWS"
+      label: "internship, EMNLP 2023"
+    - value: "open"
+      label: "code released"
+  flow:
+    title: "How it works"
+    steps:
+      - label: "Single-channel audio"
+        sub: "overlapping speakers"
+      - label: "End-to-end model"
+        sub: "joint turns + translation"
+        highlight: true
+      - label: "Per-speaker translation"
+        sub: "who said what"
+  takeaway: "Pushed speech translation toward realistic conversational audio, and showed that jointly modeling speaker structure and translation beats cascading them."
+  links:
+    - name: paper
+      url: "https://aclanthology.org/2023.emnlp-main.493/"
+    - name: arxiv
+      url: "https://arxiv.org/abs/2311.00697"
+    - name: code
+      url: "https://github.com/amazon-science/stac-speech-translation"
+
+- id: wav2vec2-atc
+  title: "Self-Supervised ASR for Air Traffic Control"
+  venue: "IEEE SLT"
+  year: 2022
+  authors: "<strong>J. P. Zuluaga</strong>, A. Prasad, I. Nigmatulina, S. Sarfjoo, P. Motlicek, M. Kleinert, H. Helmke, O. Ohneiser, Q. Zhan."
+  arxiv: "https://arxiv.org/abs/2203.16822"
+  tldr: "Fine-tuning self-supervised speech models (wav2vec 2.0 / XLS-R) for one of the hardest real-world ASR domains, air traffic control, cutting word error rate by **20–40%** over supervised baselines."
+  stats:
+    - value: "20–40%"
+      label: "relative WER reduction"
+    - value: "~6%"
+      label: "WER on ATCOSIM"
+    - value: "3"
+      label: "open models on HuggingFace"
+  flow:
+    title: "How it works"
+    steps:
+      - label: "Unlabeled speech"
+        sub: "thousands of hours"
+      - label: "wav2vec 2.0 / XLS-R"
+        sub: "self-supervised"
+      - label: "Fine-tune on ATC"
+        sub: "ATCOSIM · LDC · UWB"
+        highlight: true
+      - label: "Robust ATC ASR"
+        sub: "20–40% WER ↓"
+  results:
+    title: "Relative word error rate (baseline = 100, lower is better)"
+    bars:
+      - label: "Supervised baseline"
+        value: 100
+      - label: "wav2vec 2.0 fine-tuned"
+        value: 68
+        highlight: true
+    note: "Representative of the **20–40% relative WER reduction** across in-domain ATC test sets; the exact figure varies by corpus and model size."
+  takeaway: "Among the first studies to show how self-supervised pretraining transfers to a safety-critical, heavily domain-shifted setting."
+  links:
+    - name: arxiv
+      url: "https://arxiv.org/abs/2203.16822"
+    - name: code
+      url: "https://github.com/idiap/w2v2-air-traffic"
+    - name: models
+      url: "https://huggingface.co/Jzuluaga"
+    - name: colab
+      url: "https://colab.research.google.com/github/idiap/w2v2-air-traffic/blob/main/src/eval_xlsr_atc_model.ipynb"
