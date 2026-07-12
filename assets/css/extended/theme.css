@@ -1412,3 +1412,26 @@ hr {
 .paper .flow { margin: var(--s-5) 0; }
 .paper .chart { margin: var(--s-4) 0; }
 .paper .pub__bibtex { margin-top: var(--s-3); }
+
+/* Papers: jump-to nav row */
+.papernav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin: var(--s-5) 0 var(--s-4);
+}
+.papernav a {
+  font-family: var(--f-mono);
+  font-size: 0.78rem;
+  color: var(--c-muted);
+  padding: 4px 12px;
+  border: 1px solid var(--c-border);
+  border-radius: 999px;
+  border-bottom: 1px solid var(--c-border);
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+.papernav a:hover {
+  color: var(--c-accent);
+  border-color: color-mix(in srgb, var(--c-accent) 50%, var(--c-border));
+  background: color-mix(in srgb, var(--c-accent) 8%, transparent);
+}

@@ -4,6 +4,12 @@
 </header>
 {{- with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
 
+<nav class="papernav" aria-label="Jump to a paper">
+  {{- range hugo.Data.papers }}
+  <a href="#{{ .id }}">{{ .short | default .title }}</a>
+  {{- end }}
+</nav>
+
 <div class="papers">
 {{- range hugo.Data.papers }}
 {{- $citeable := and .authors (ne .venue "Open source") }}
