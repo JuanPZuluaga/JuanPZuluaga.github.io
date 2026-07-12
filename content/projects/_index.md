@@ -1,10 +1,10 @@
 ---
 title: "Projects"
-layout: "projects"
 url: "/projects/"
-description: "Open-source speech and NLP projects by Juan Pablo Zuluaga, including the ATCO2 Corpus, BERTraffic, HyperConformer, and contributions to SpeechBrain and vLLM-Omni."
-summary: "Open-source projects, datasets, and research artifacts."
+summary: "Systems, datasets, models, and open-source software I've built, at a glance."
+description: "Selected projects by Juan Pablo Zuluaga: production TTS & speech-LLM serving, vLLM-Omni, GRAFT zero-shot TTS, the ATCO2 corpus, SpeechBrain, CommonAccent, and air-traffic-control ASR."
+images: ["/projects/og.png"]
 ShowToc: false
 ---
 
-Open-source projects, datasets, and research artifacts I've built or co-authored. Most are available on [GitHub](https://github.com/JuanPZuluaga) or [HuggingFace](https://huggingface.co/Jzuluaga).
+The systems, datasets, models, and open-source software I'm most proud of, at a glance. Each links to its paper or code.

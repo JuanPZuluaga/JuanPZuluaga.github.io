@@ -4,15 +4,15 @@
 </header>
 {{- with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
 
-<nav class="papernav" aria-label="Jump to a paper">
-  {{- range hugo.Data.papers }}
+<nav class="papernav" aria-label="Jump to a project">
+  {{- range hugo.Data.projects }}
   <a href="#{{ .id }}">{{ .short | default .title }}</a>
   {{- end }}
 </nav>
 
 <div class="papers">
-{{- range hugo.Data.papers }}
-{{- $citeable := and .authors (ne .venue "Open source") }}
+{{- range hugo.Data.projects }}
+{{- $citeable := and .authors (ne .venue "Open source") (ne .venue "Agigo AG") }}
 <section id="{{ .id }}" class="paper">
   <div class="paper__head">
     {{- with .venue }}<span class="badge">{{ . }}</span>{{ end }}

@@ -1,7 +1,7 @@
-{{- /* Compact cards for the top papers, linking into the single /papers/ page */ -}}
+{{- /* Compact cards for the top projects, linking into the single /projects/ page */ -}}
 <div class="cs-grid cs-grid--home">
-  {{- range first 4 hugo.Data.papers }}
-  <a class="cs-card" href="{{ (printf "papers/#%s" .id) | relURL }}">
+  {{- range first 4 hugo.Data.projects }}
+  <a class="cs-card" href="{{ (printf "projects/#%s" .id) | relURL }}">
     <div class="cs-card__meta">
       {{- with .venue }}<span class="badge">{{ . }}</span>{{ end }}
       {{- with .year }}<span class="cs-card__year">{{ . }}</span>{{ end }}

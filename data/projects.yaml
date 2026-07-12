@@ -1,6 +1,7 @@
 # =============================================================
-# Papers / selected work — single source for the one-page /papers/ view.
-# Ordered as they appear on the page (most recent / most prominent first).
+# Projects — the things I've built (systems, datasets, models, software).
+# Single source for the one-page /projects/ view. Ordered as shown.
+# Each links to its paper where one exists.
 # =============================================================
 
 - id: vllm-omni
@@ -33,6 +34,71 @@
       url: "https://github.com/vllm-project/vllm-omni"
     - name: my commits
       url: "https://github.com/vllm-project/vllm-omni/commits?author=JuanPZuluaga"
+
+- id: graft
+  short: "GRAFT"
+  title: "GRAFT: Grafted Reference Audio for Fine-Grained Pronunciation in Zero-Shot TTS"
+  venue: "arXiv"
+  year: 2026
+  authors: "A. Asonitis, F. Verdini, A. Farhadipour, V. Avijeet, P.-E. Honnet, M. Razavi, <strong>J. P. Zuluaga</strong>."
+  arxiv: "https://arxiv.org/abs/2607.02633"
+  tldr: "Among the first zero-shot TTS systems to give **per-word pronunciation control**: graft a short spoken hint of a tricky word, a rare name, loanword, or technical term, and GRAFT speaks the whole sentence in a cloned voice with that exact pronunciation."
+  stats:
+    - value: "22–39%"
+      label: "lower target-word phoneme error rate"
+    - value: "#1"
+      label: "human eval on pronunciation accuracy"
+    - value: "6"
+      label: "languages (EN, FR, DE, ES, IT, …)"
+  flow:
+    title: "How it works"
+    steps:
+      - label: "Spoken hint"
+        sub: "short audio of the word"
+      - label: "Graft at word position"
+        sub: "speech-token anchoring"
+        highlight: true
+      - label: "Voice conversion"
+        sub: "hint voice ≠ target voice"
+      - label: "Cloned-voice speech"
+        sub: "correct pronunciation"
+  takeaway: "Fixes a core failure of zero-shot TTS, mispronouncing rare names, loanwords, and technical terms, by letting anyone specify pronunciation with a quick audio example instead of phonemes."
+  links:
+    - name: project page
+      url: "https://graft-tts.github.io/graft/"
+    - name: arxiv
+      url: "https://arxiv.org/abs/2607.02633"
+    - name: samples
+      url: "https://graft-tts.github.io/graft/"
+
+- id: serving-at-scale
+  short: "TTS @ Scale"
+  title: "Production TTS & Speech-LLM Serving at Scale"
+  venue: "Agigo AG"
+  year: 2025
+  tldr: "Building and deploying speech-and-audio LLMs and TTS at production scale: GPU-efficient multi-client inference, synthetic conversational data, and low-latency streaming."
+  stats:
+    - value: "50% MFU"
+      label: "training-efficiency target"
+    - value: "multi-client"
+      label: "concurrent production serving"
+    - value: "streaming"
+      label: "low-latency TTS"
+  flow:
+    title: "Production serving"
+    steps:
+      - label: "Speech-LLM + TTS models"
+      - label: "GPU-efficient batching"
+        sub: "CUDA graphs · torch.compile"
+        highlight: true
+      - label: "Multi-client scheduler"
+        sub: "high concurrency"
+      - label: "Streaming audio"
+        sub: "low latency"
+  takeaway: "Turns research-grade speech models into reliable, low-latency products serving many clients concurrently, the core of my work at Agigo."
+  links:
+    - name: agigo
+      url: "https://agigo.ai"
 
 - id: atco2-corpus
   short: "ATCO2"
@@ -69,6 +135,39 @@
       url: "https://github.com/idiap/atco2-corpus"
     - name: data
       url: "https://www.atco2.org/data"
+
+- id: speechbrain
+  short: "SpeechBrain"
+  title: "SpeechBrain 1.0: Open-Source Conversational AI Toolkit"
+  venue: "JMLR"
+  year: 2024
+  authors: "M. Ravanelli, T. Parcollet, A. Moumen, S. de Langen, C. Subakan, P. Plantinga, Y. Liao, S. Cornell, <strong>J. P. Zuluaga</strong>, et al."
+  paper: "https://jmlr.org/papers/v25/24-0991.html"
+  tldr: "Co-authored the **1.0** release of SpeechBrain, the PyTorch toolkit for speech and conversational AI, used by dozens of research groups and startups."
+  stats:
+    - value: "1.0"
+      label: "stable release (JMLR 2024)"
+    - value: "ASR·TTS·SV"
+      label: "unified reproducible recipes"
+    - value: "OSS"
+      label: "used across academia & industry"
+  flow:
+    title: "My contributions"
+    steps:
+      - label: "ATC ASR recipes"
+        sub: "wav2vec2 · XLS-R"
+      - label: "HyperConformer"
+        sub: "efficient encoder"
+      - label: "CommonAccent"
+        sub: "accent ID benchmark"
+      - label: "into SpeechBrain 1.0"
+        highlight: true
+  takeaway: "Unifies ASR, TTS, speaker recognition, and dialogue into one PyTorch toolkit with reproducible recipes, lowering the barrier to speech research."
+  links:
+    - name: github
+      url: "https://github.com/speechbrain/speechbrain"
+    - name: paper
+      url: "https://jmlr.org/papers/v25/24-0991.html"
 
 - id: commonaccent
   short: "CommonAccent"
@@ -119,6 +218,44 @@
     - name: model
       url: "https://huggingface.co/Jzuluaga/accent-id-commonaccent_ecapa"
 
+- id: wav2vec2-atc
+  short: "ATC ASR"
+  title: "Self-Supervised ASR for Air Traffic Control"
+  venue: "IEEE SLT"
+  year: 2022
+  authors: "<strong>J. P. Zuluaga</strong>, A. Prasad, I. Nigmatulina, S. Sarfjoo, P. Motlicek, M. Kleinert, H. Helmke, O. Ohneiser, Q. Zhan."
+  arxiv: "https://arxiv.org/abs/2203.16822"
+  tldr: "Fine-tuning self-supervised speech models (wav2vec 2.0 / XLS-R) for one of the hardest real-world ASR domains, air traffic control, cutting word error rate by **20–40%** over supervised baselines."
+  stats:
+    - value: "20–40%"
+      label: "relative WER reduction"
+    - value: "~6%"
+      label: "WER on ATCOSIM"
+    - value: "3"
+      label: "open models on HuggingFace"
+  flow:
+    title: "How it works"
+    steps:
+      - label: "Unlabeled speech"
+        sub: "thousands of hours"
+      - label: "wav2vec 2.0 / XLS-R"
+        sub: "self-supervised"
+      - label: "Fine-tune on ATC"
+        sub: "ATCOSIM · LDC · UWB"
+        highlight: true
+      - label: "Robust ATC ASR"
+        sub: "20–40% WER ↓"
+  takeaway: "Among the first studies to show how self-supervised pretraining transfers to a safety-critical, heavily domain-shifted setting. The released models are a practical baseline for ATC ASR."
+  links:
+    - name: arxiv
+      url: "https://arxiv.org/abs/2203.16822"
+    - name: code
+      url: "https://github.com/idiap/w2v2-air-traffic"
+    - name: models
+      url: "https://huggingface.co/Jzuluaga"
+    - name: colab
+      url: "https://colab.research.google.com/github/idiap/w2v2-air-traffic/blob/main/src/eval_xlsr_atc_model.ipynb"
+
 - id: speech-translation
   short: "Speech Translation"
   title: "End-to-End Speaker-Turn-Aware Speech Translation"
@@ -153,50 +290,3 @@
       url: "https://arxiv.org/abs/2311.00697"
     - name: code
       url: "https://github.com/amazon-science/stac-speech-translation"
-
-- id: wav2vec2-atc
-  short: "ATC ASR"
-  title: "Self-Supervised ASR for Air Traffic Control"
-  venue: "IEEE SLT"
-  year: 2022
-  authors: "<strong>J. P. Zuluaga</strong>, A. Prasad, I. Nigmatulina, S. Sarfjoo, P. Motlicek, M. Kleinert, H. Helmke, O. Ohneiser, Q. Zhan."
-  arxiv: "https://arxiv.org/abs/2203.16822"
-  tldr: "Fine-tuning self-supervised speech models (wav2vec 2.0 / XLS-R) for one of the hardest real-world ASR domains, air traffic control, cutting word error rate by **20–40%** over supervised baselines."
-  stats:
-    - value: "20–40%"
-      label: "relative WER reduction"
-    - value: "~6%"
-      label: "WER on ATCOSIM"
-    - value: "3"
-      label: "open models on HuggingFace"
-  flow:
-    title: "How it works"
-    steps:
-      - label: "Unlabeled speech"
-        sub: "thousands of hours"
-      - label: "wav2vec 2.0 / XLS-R"
-        sub: "self-supervised"
-      - label: "Fine-tune on ATC"
-        sub: "ATCOSIM · LDC · UWB"
-        highlight: true
-      - label: "Robust ATC ASR"
-        sub: "20–40% WER ↓"
-  results:
-    title: "Relative word error rate (baseline = 100, lower is better)"
-    bars:
-      - label: "Supervised baseline"
-        value: 100
-      - label: "wav2vec 2.0 fine-tuned"
-        value: 68
-        highlight: true
-    note: "Representative of the **20–40% relative WER reduction** across in-domain ATC test sets; the exact figure varies by corpus and model size."
-  takeaway: "Among the first studies to show how self-supervised pretraining transfers to a safety-critical, heavily domain-shifted setting."
-  links:
-    - name: arxiv
-      url: "https://arxiv.org/abs/2203.16822"
-    - name: code
-      url: "https://github.com/idiap/w2v2-air-traffic"
-    - name: models
-      url: "https://huggingface.co/Jzuluaga"
-    - name: colab
-      url: "https://colab.research.google.com/github/idiap/w2v2-air-traffic/blob/main/src/eval_xlsr_atc_model.ipynb"
