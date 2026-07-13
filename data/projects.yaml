@@ -4,37 +4,6 @@
 # Each links to its paper where one exists.
 # =============================================================
 
-- id: vllm-omni
-  short: "vLLM-Omni"
-  title: "vLLM-Omni: Production Serving for Omni-Modal Models"
-  venue: "Open source"
-  year: 2026
-  tldr: "**20+ merged PRs** to vLLM-Omni, the production inference engine for text, speech, audio, and vision, focused on streaming TTS, CUDA-graph kernels, and high-concurrency serving."
-  stats:
-    - value: "20+"
-      label: "merged PRs"
-    - value: "Qwen3-TTS"
-      label: "& OmniVoice paths"
-    - value: "prod"
-      label: "high-concurrency serving"
-  flow:
-    title: "The TTS serving path"
-    steps:
-      - label: "Text request"
-      - label: "Code Predictor"
-        sub: "autoregressive"
-      - label: "Code2Wav decoder"
-        sub: "CUDA Graph · Triton"
-        highlight: true
-      - label: "Streaming audio"
-        sub: "low TTFA"
-  takeaway: "Makes open, omni-modal TTS serving production-ready: faster, streamable, and stable at concurrency."
-  links:
-    - name: github
-      url: "https://github.com/vllm-project/vllm-omni"
-    - name: my commits
-      url: "https://github.com/vllm-project/vllm-omni/commits?author=JuanPZuluaga"
-
 - id: graft
   short: "GRAFT"
   title: "GRAFT: Grafted Reference Audio for Fine-Grained Pronunciation in Zero-Shot TTS"
@@ -70,6 +39,37 @@
       url: "https://arxiv.org/abs/2607.02633"
     - name: samples
       url: "https://graft-tts.github.io/graft/"
+
+- id: vllm-omni
+  short: "vLLM-Omni"
+  title: "vLLM-Omni: Production Serving for Omni-Modal Models"
+  venue: "Open source"
+  year: 2026
+  tldr: "**20+ merged PRs** to vLLM-Omni, the production inference engine for text, speech, audio, and vision, focused on streaming TTS, CUDA-graph kernels, and high-concurrency serving."
+  stats:
+    - value: "20+"
+      label: "merged PRs"
+    - value: "Qwen3-TTS"
+      label: "& OmniVoice paths"
+    - value: "prod"
+      label: "high-concurrency serving"
+  flow:
+    title: "The TTS serving path"
+    steps:
+      - label: "Text request"
+      - label: "Code Predictor"
+        sub: "autoregressive"
+      - label: "Code2Wav decoder"
+        sub: "CUDA Graph · Triton"
+        highlight: true
+      - label: "Streaming audio"
+        sub: "low TTFA"
+  takeaway: "Makes open, omni-modal TTS serving production-ready: faster, streamable, and stable at concurrency."
+  links:
+    - name: github
+      url: "https://github.com/vllm-project/vllm-omni"
+    - name: my commits
+      url: "https://github.com/vllm-project/vllm-omni/commits?author=JuanPZuluaga"
 
 - id: serving-at-scale
   short: "TTS @ Scale"
