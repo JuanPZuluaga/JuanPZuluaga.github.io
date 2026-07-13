@@ -9,6 +9,7 @@
 {{- $tw := split (urlize .title) "-" -}}
 {{- $key := printf "%s%v" (index $tw 0) .year -}}
 {{- if ge (len $tw) 2 }}{{ $key = printf "%s%s%v" (index $tw 0) (index $tw 1) .year }}{{ end -}}
+{{- $key = replaceRE "[^a-zA-Z0-9]" "" $key -}}
 {{- $url := or .paper .arxiv .pdf "" -}}
 {{- $type := "inproceedings" -}}{{- $cfield := "booktitle" -}}
 {{- if eq .venue "arXiv" -}}{{- $type = "misc" -}}{{- $cfield = "" -}}

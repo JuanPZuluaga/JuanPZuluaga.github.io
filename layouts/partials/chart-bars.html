@@ -1,0 +1,22 @@
+{{- /* Horizontal bar chart from a results dict:
+       { title, unit, note, bars: [ {label, value, highlight} ] }
+       Pure CSS bars so it themes automatically in light/dark. */ -}}
+{{- $unit := .unit | default "" -}}
+{{- $max := 0.0 -}}
+{{- range .bars }}{{ if gt (float .value) $max }}{{ $max = (float .value) }}{{ end }}{{ end -}}
+<figure class="chart">
+  {{- with .title }}<figcaption class="chart__title">{{ . }}</figcaption>{{ end }}
+  <div class="chart__bars">
+    {{- range .bars }}
+    {{- $w := 0.0 }}{{ if gt $max 0.0 }}{{ $w = (mul (div (float .value) $max) 100) }}{{ end }}
+    <div class="chart__row">
+      <div class="chart__label">{{ .label }}</div>
+      <div class="chart__track">
+        <div class="chart__fill{{ if .highlight }} chart__fill--hl{{ end }}" style="width:{{ printf "%.1f" $w }}%"></div>
+      </div>
+      <div class="chart__val{{ if .highlight }} chart__val--hl{{ end }}">{{ .value }}{{ $unit }}</div>
+    </div>
+    {{- end }}
+  </div>
+  {{- with .note }}<div class="chart__note">{{ . | markdownify }}</div>{{ end }}
+</figure>

@@ -97,15 +97,15 @@ disableKinds = ["taxonomy", "term"]
 
 [menu]
   [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects/"
+    weight = 5
+  [[menu.main]]
     identifier = "publications"
     name = "publications"
     url = "/publications/"
     weight = 10
-  [[menu.main]]
-    identifier = "projects"
-    name = "projects"
-    url = "/projects/"
-    weight = 20
   [[menu.main]]
     identifier = "cv"
     name = "cv"

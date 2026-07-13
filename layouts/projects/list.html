@@ -1,0 +1,50 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+{{- with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+
+<nav class="papernav" aria-label="Jump to a project">
+  {{- range hugo.Data.projects }}
+  <a href="#{{ .id }}">{{ .short | default .title }}</a>
+  {{- end }}
+</nav>
+
+<div class="papers">
+{{- range hugo.Data.projects }}
+{{- $citeable := and .authors (ne .venue "Open source") (ne .venue "Agigo AG") }}
+<section id="{{ .id }}" class="paper">
+  <div class="paper__head">
+    {{- with .venue }}<span class="badge">{{ . }}</span>{{ end }}
+    {{- with .year }}<span class="paper__year">{{ . }}</span>{{ end }}
+    {{- with .award }}<span class="pub__award">★ {{ . }}</span>{{ end }}
+  </div>
+
+  <h2 class="paper__title">{{ .title }}</h2>
+  {{- with .tldr }}<p class="paper__tldr">{{ . | markdownify }}</p>{{ end }}
+
+  {{- with .stats }}
+  <div class="paper__stats">
+    {{- range . }}<span class="paper__stat"><strong>{{ .value }}</strong> {{ .label | markdownify }}</span>{{ end }}
+  </div>
+  {{- end }}
+
+  {{- with .flow }}{{ partial "flow-diagram.html" . }}{{ end }}
+  {{- with .results }}{{ partial "chart-bars.html" . }}{{ end }}
+
+  {{- with .takeaway }}<p class="paper__takeaway">{{ . | markdownify }}</p>{{ end }}
+
+  <div class="paper__links">
+    {{- range .links }}<a href="{{ .url }}" target="_blank" rel="noopener" class="cs-link">{{ .name }}</a>{{ end }}
+    {{- if $citeable }}<button type="button" class="pub__cite" aria-expanded="false">cite</button>{{ end }}
+  </div>
+  {{- if $citeable }}
+  <div class="pub__bibtex" hidden>
+    <button type="button" class="pub__copy">copy</button>
+    <pre><code>{{ partial "bibtex.html" (dict "title" .title "authors" .authors "year" .year "venue" .venue "paper" (.paper | default "") "arxiv" (.arxiv | default "")) }}</code></pre>
+  </div>
+  {{- end }}
+</section>
+{{- end }}
+</div>
+{{- end }}
