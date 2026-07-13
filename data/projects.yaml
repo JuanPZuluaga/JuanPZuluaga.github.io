@@ -112,7 +112,7 @@
     - value: "5,000 h"
       label: "of live ATC audio"
     - value: "4-year"
-      label: "EU project (SESAR)"
+      label: "EU project (SESAR JU · Horizon 2020)"
     - value: "1st"
       label: "open ATC corpus at this scale"
   flow:

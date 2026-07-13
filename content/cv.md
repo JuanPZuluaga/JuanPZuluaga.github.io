@@ -65,7 +65,7 @@ layout: "single"
 <div>
 <h3 class="cv-item__title">Research Engineer · Idiap Research Institute</h3>
 <p class="cv-item__place">Martigny, Switzerland</p>
-<p class="cv-item__body">ATCO2 project (EU Horizon 2020). Automatic speech recognition and contextual understanding for air traffic control.</p>
+<p class="cv-item__body">ATCO2 project (SESAR JU · EU Horizon 2020). Automatic speech recognition and contextual understanding for air traffic control.</p>
 </div>
 </div>
 
