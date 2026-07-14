@@ -18,7 +18,7 @@
     - value: "#1"
       label: "human eval on pronunciation accuracy"
     - value: "6"
-      label: "languages (EN, FR, DE, ES, IT, …)"
+      label: "languages, incl. EN, FR, DE, ES, IT"
   flow:
     title: "How it works"
     steps:

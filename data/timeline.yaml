@@ -63,7 +63,7 @@
   location: "Martigny, Switzerland"
   start: "2019"
   end: "2020"
-  description: "ATCO2 project (EU Horizon 2020). Automatic speech recognition and contextual understanding for air traffic control communications."
+  description: "ATCO2 project (SESAR JU · EU Horizon 2020). Automatic speech recognition and contextual understanding for air traffic control communications."
 
 - id: eu4m-msc
   type: education
